@@ -13,7 +13,7 @@ const roleConfig = {
 };
 
 const layerDefs = [
-  ['coverage', '10m Reach', '#ffffff', null, 'ZIP centroids within 10 modeled rapid minutes.'],
+  ['coverage', '15m Reach', '#ffffff', null, 'ZIP centroids within 15 modeled rapid minutes.'],
   ['outages', 'Power Outages', '#a1a1aa', null, 'County peaks of reported customer grid outages.'],
   ['flood', 'Flooding Calls', '#e4e4e7', 'Flood/drainage reports', 'Density of recorded flood and drainage calls.'],
   ['tree', 'Fallen Trees', '#d4d4d8', 'Tree removal reports', 'Density of fallen tree obstructions.'],
@@ -58,12 +58,12 @@ function error(e) {
 function params() {
   return new URLSearchParams({
     storm: state.storm,
-    ambulances: $('#ambulance').value,
-    dispatch: $('#dispatch').value,
-    cooling: $('#cooling').value,
-    community: $('#community').value,
-    slowdown: $('#slowdown').value,
-    closed: $('#closed').value
+    ambulances: $('#ambulance')?.value || 2,
+    dispatch: $('#dispatch')?.value || 2,
+    cooling: $('#cooling')?.value || 3,
+    community: $('#community')?.value || 3,
+    slowdown: 2, // Fixed 2x hurricane flood delay as requested
+    closed: $('#closed') ? $('#closed').value : 'None'
   });
 }
 
@@ -106,16 +106,28 @@ function initControls() {
     renderLayer();
   });
 
+  // Numeric input steppers (unlimited capacity)
   ['ambulance', 'dispatch', 'cooling', 'community'].forEach(id => {
     const input = $('#' + id);
+    if (!input) return;
     input.addEventListener('input', e => {
-      $('#' + id + '-value').textContent = e.target.value;
+      let val = parseInt(e.target.value) || 1;
+      if (val < 1) val = 1;
+      e.target.value = val;
     });
   });
 
-  $('#slowdown').oninput = e => {
-    $('#slowdown-value').textContent = Number(e.target.value).toFixed(1) + '×';
-  };
+  $$('.btn-step').forEach(btn => {
+    btn.onclick = () => {
+      const id = btn.dataset.step;
+      const input = $('#' + id);
+      if (!input) return;
+      let val = (parseInt(input.value) || 1) + parseInt(btn.dataset.dir);
+      if (val < 1) val = 1;
+      input.value = val;
+      input.dispatchEvent(new Event('input'));
+    };
+  });
 
   $('#calculate').onclick = () => loadScenario(false);
   $('#storm').onchange = () => {
@@ -131,8 +143,36 @@ function initControls() {
   };
 
   $('#hospitals').onchange = renderMarkers;
+  if ($('#show-candidates')) $('#show-candidates').onchange = renderMarkers;
+
+  // Print Staging Directive modal controls
+  if ($('#print-plan')) $('#print-plan').onclick = showPrintDirective;
+  if ($('#close-print')) $('#close-print').onclick = () => $('#print-modal').close();
+  if ($('#do-print')) $('#do-print').onclick = () => window.print();
+  if ($('#print-modal')) $('#print-modal').onclick = e => { if (e.target === $('#print-modal')) $('#print-modal').close(); };
+
+  // Outer Houston Sector Camera Navigation
+  const sectorPresets = {
+    all: { center: [-95.42, 29.80], zoom: 9.3 },
+    west: { center: [-95.73, 29.80], zoom: 11.2 }, // Katy, Addicks, Cinco Ranch
+    north: { center: [-95.45, 30.14], zoom: 11.2 }, // The Woodlands, Conroe, Spring
+    southwest: { center: [-95.63, 29.60], zoom: 11.2 }, // Sugar Land, Missouri City, Fort Bend
+    south: { center: [-95.26, 29.56], zoom: 11.0 }, // Pearland, Clear Lake, NASA
+    east: { center: [-95.14, 29.74], zoom: 11.0 }, // Baytown, Pasadena, Ship Channel
+    northwest: { center: [-95.65, 29.96], zoom: 11.0 }, // Cypress, Tomball
+    core: { center: [-95.38, 29.75], zoom: 12.0 } // Central Urban Core
+  };
+
+  if ($('#sector-select')) {
+    $('#sector-select').onchange = () => {
+      const s = sectorPresets[$('#sector-select').value] || sectorPresets.all;
+      if (state.gl) state.map.flyTo({ center: s.center, zoom: s.zoom, duration: 1200 });
+      else state.map.setView([s.center[1], s.center[0]], Math.floor(s.zoom));
+    };
+  }
 
   $('#region').onclick = () => {
+    if ($('#sector-select')) $('#sector-select').value = 'all';
     if (state.gl) state.map.fitBounds([[-96.02, 29.4], [-94.9, 30.25]], { padding: 40, pitch: 0, bearing: 0 });
     else state.map.fitBounds([[29.4, -96.02], [30.25, -94.9]]);
   };
@@ -243,7 +283,7 @@ function updateKPIs() {
 
   let popCovered = 0;
   state.plan.rows.forEach(r => {
-    if (r.ambulance_minutes != null && r.ambulance_minutes <= 10) {
+    if (r.ambulance_minutes != null && r.ambulance_minutes <= 15) {
       const a = state.boot.areas.find(x => x.zip === r.zip);
       if (a && a.population) popCovered += a.population;
     }
@@ -269,8 +309,23 @@ async function initMap() {
       attributionControl: false,
       style: {
         version: 8,
-        sources: {},
-        layers: [{ id: 'background', type: 'background', paint: { 'background-color': '#000000' } }]
+        sources: {
+          'carto-dark': {
+            type: 'raster',
+            tiles: [
+              'https://a.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=cb1_4t2x_1_c071ca1b5e6c8dc1ff85a97b',
+              'https://b.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=cb1_4t2x_1_c071ca1b5e6c8dc1ff85a97b',
+              'https://c.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=cb1_4t2x_1_c071ca1b5e6c8dc1ff85a97b',
+              'https://d.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=cb1_4t2x_1_c071ca1b5e6c8dc1ff85a97b'
+            ],
+            tileSize: 256,
+            attribution: '© OpenStreetMap contributors, © CARTO'
+          }
+        },
+        layers: [
+          { id: 'background', type: 'background', paint: { 'background-color': '#09090b' } },
+          { id: 'carto-dark-tiles', type: 'raster', source: 'carto-dark', minzoom: 0, maxzoom: 19 }
+        ]
       }
     });
 
@@ -283,10 +338,10 @@ async function initMap() {
     const m = state.map;
     const empty = { type: 'FeatureCollection', features: [] };
 
-    // County boundaries (Monochrome)
+    // County boundaries (Overlaid cleanly on Carto basemap)
     m.addSource('counties', { type: 'geojson', data: empty });
-    m.addLayer({ id: 'county-fill', type: 'fill', source: 'counties', paint: { 'fill-color': '#050505', 'fill-opacity': 0.95 } });
-    m.addLayer({ id: 'county-line', type: 'line', source: 'counties', paint: { 'line-color': '#27272a', 'line-width': 1.5 } });
+    m.addLayer({ id: 'county-fill', type: 'fill', source: 'counties', paint: { 'fill-color': '#050505', 'fill-opacity': 0.0 } });
+    m.addLayer({ id: 'county-line', type: 'line', source: 'counties', paint: { 'line-color': '#71717a', 'line-width': 1.5, 'line-opacity': 0.6 } });
 
     // Load full Greater Houston road network
     try {
@@ -366,9 +421,14 @@ async function initMap() {
     m.on('mouseenter', 'areas', () => m.getCanvas().style.cursor = 'pointer');
     m.on('mouseleave', 'areas', () => m.getCanvas().style.cursor = '');
   } else {
-    // 2D Leaflet Fallback (Monochrome)
+    // 2D Leaflet Fallback (Monochrome Carto basemap with Key)
     state.gl = false;
     state.map = L.map('map', { zoomControl: true }).setView([29.80, -95.42], 9);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=cb1_4t2x_1_c071ca1b5e6c8dc1ff85a97b', {
+      maxZoom: 19,
+      subdomains: 'abcd',
+      attribution: '© OpenStreetMap contributors, © CARTO'
+    }).addTo(state.map);
     try {
       const roads = await fetch('/mapdata/roads.geojson').then(r => r.json());
       L.geoJSON(roads, {
@@ -386,7 +446,7 @@ async function initMap() {
 function areaFeatures() {
   return pointFC(state.boot.areas, a => {
     const p = state.plan ? state.plan.rows.find(r => r.zip === a.zip) : null;
-    const covered = p && p.ambulance_minutes != null && p.ambulance_minutes <= 10;
+    const covered = p && p.ambulance_minutes != null && p.ambulance_minutes <= 15;
     return {
       type: 'Feature',
       geometry: { type: 'Point', coordinates: [a.lon, a.lat] },
@@ -410,8 +470,9 @@ async function renderLayer() {
     m.setPaintProperty('county-fill', 'fill-color', state.layer === 'outages' ?
       ['case', ['any', ['get', 'flagged'], ['!', ['get', 'available']]], '#27272a',
       ['interpolate', ['linear'], ['get', 'intensity'], 0, '#09090b', 0.5, '#52525b', 1, '#ffffff']] :
-      '#050505'
+      'transparent'
     );
+    m.setPaintProperty('county-fill', 'fill-opacity', state.layer === 'outages' ? 0.75 : 0.0);
     m.getSource('reports').setData({ type: 'FeatureCollection', features: reports });
     m.getSource('areas').setData(areaFeatures());
     m.setPaintProperty('areas', 'circle-color', state.layer === 'coverage' ?
@@ -425,10 +486,10 @@ async function renderLayer() {
     }
     state.countyLayer = L.geoJSON(state.data.counties, {
       style: f => ({
-        color: '#27272a',
+        color: '#71717a',
         weight: 1.5,
         fillColor: state.layer === 'outages' ? (f.properties.flagged || !f.properties.available ? '#27272a' : `hsl(0 0% ${20 + f.properties.intensity * 60}%)`) : '#050505',
-        fillOpacity: 0.9
+        fillOpacity: state.layer === 'outages' ? 0.75 : 0.0
       })
     }).addTo(state.map);
 
@@ -447,7 +508,7 @@ async function renderLayer() {
     }).addTo(state.map);
   }
 
-  $('#map-status').textContent = state.layer === 'coverage' ? 'White = ≤10 min rapid response target · Charcoal = Outside target' :
+  $('#map-status').textContent = state.layer === 'coverage' ? 'White = ≤15 min rapid response target · Charcoal = Outside target' :
     state.layer === 'outages' ? `${state.data.history.length} counties · White = Peak grid outages` :
     `${fmt(reports.length)} 311 hurricane distress reports`;
 }
@@ -474,10 +535,52 @@ function renderMarkers() {
     addSiteMarker(s.lon, s.lat, label, name, roles);
   }
 
+  // Show candidate staging sites across outskirts and distant areas
+  if ($('#show-candidates')?.checked && state.boot?.sites) {
+    state.boot.sites.forEach(s => {
+      if (combined.has(s.name)) return;
+      addCandidateMarker(s.lon, s.lat, s.eligible ? '⌖' : '⚠️', s.name, !s.eligible);
+    });
+  }
+
   if ($('#hospitals').checked) {
     state.boot.hospitals.forEach(h => {
       addHospitalMarker(h.longitude, h.latitude, '🏥', h.name);
     });
+  }
+}
+
+function addCandidateMarker(lon, lat, iconText, name, isDisqualified) {
+  const shortName = name
+    .replace(' Multi-Service Center', ' MSC')
+    .replace(' Community Center', ' CC')
+    .replace(' Health and Multi-Service Center', ' MSC');
+
+  const el = document.createElement('button');
+  el.className = `site-marker ${isDisqualified ? 'marker-disqualified' : 'marker-candidate'}`;
+  el.innerHTML = `
+    <div class="marker-badge">
+      <span class="marker-icon">${iconText}</span>
+      <span class="marker-label">${safe(shortName)}${isDisqualified ? ' (Zone AE)' : ' (Outskirts)'}</span>
+    </div>
+    <div class="marker-pin-stem"></div>
+  `;
+  el.title = `${name}\n${isDisqualified ? 'Disqualified (FEMA Zone AE 100-Year Flood Risk)' : 'Potential Staging / Build Location for Outskirts'}\nClick to inspect AI placement evaluation`;
+
+  el.onclick = e => {
+    e.stopPropagation();
+    inspectSite(name, 'ambulance');
+  };
+
+  if (state.gl) {
+    const marker = new maplibregl.Marker({ element: el, anchor: 'bottom' }).setLngLat([lon, lat]).addTo(state.map);
+    state.markers.push(marker);
+  } else {
+    const marker = L.marker([lat, lon], {
+      icon: L.divIcon({ className: '', html: el.outerHTML, iconSize: [120, 36], iconAnchor: [60, 36] })
+    }).addTo(state.map);
+    marker.on('click', () => inspectSite(name, 'ambulance'));
+    state.markers.push(marker);
   }
 }
 
@@ -656,7 +759,7 @@ function selectZip(zip, fly) {
     ${state.plan.roles.map(r => `
       <div class="fact-row">
         <span>${safe(r.name)}</span>
-        <b class="${p[r.id + '_minutes'] <= 10 ? 'within' : 'outside'}">${fmt(p[r.id + '_minutes'], 1)}m</b>
+        <b class="${p[r.id + '_minutes'] <= 15 ? 'within' : 'outside'}">${fmt(p[r.id + '_minutes'], 1)}m</b>
       </div>
     `).join('')}
   `;
@@ -678,20 +781,20 @@ async function renderAnalytics() {
 
   if (tab === 'placements') {
     content.innerHTML = `
-      <div class="table-note">Complete disaster staging matrix. Times reflect drive minutes under ${$('#slowdown').value}× road slowdown.</div>
+      <div class="table-note">Complete disaster staging matrix. Times reflect drive minutes under 2.0× hurricane road slowdown (15-minute response target).</div>
       ${table(
         ['ZIP Centroid', 'Ambulance Site', 'EMS (min)', 'Incident Outpost', 'Rescue (min)', 'Cooling Hub', 'Cooling (min)', 'Community Hub', 'Relief (min)'],
         state.plan.rows.map(r => `
           <tr data-zip="${r.zip}">
             <td><strong>${r.zip}</strong></td>
             <td>${safe(r.ambulance_site || 'Unassigned')}</td>
-            <td class="${r.ambulance_minutes <= 10 ? 'within' : 'outside'}">${fmt(r.ambulance_minutes, 1)}</td>
+            <td class="${r.ambulance_minutes <= 15 ? 'within' : 'outside'}">${fmt(r.ambulance_minutes, 1)}</td>
             <td>${safe(r.dispatch_site || 'Unassigned')}</td>
-            <td class="${r.dispatch_minutes <= 10 ? 'within' : 'outside'}">${fmt(r.dispatch_minutes, 1)}</td>
+            <td class="${r.dispatch_minutes <= 15 ? 'within' : 'outside'}">${fmt(r.dispatch_minutes, 1)}</td>
             <td>${safe(r.cooling_site || 'Unassigned')}</td>
-            <td class="${r.cooling_minutes <= 10 ? 'within' : 'outside'}">${fmt(r.cooling_minutes, 1)}</td>
+            <td class="${r.cooling_minutes <= 15 ? 'within' : 'outside'}">${fmt(r.cooling_minutes, 1)}</td>
             <td>${safe(r.community_site || 'Unassigned')}</td>
-            <td class="${r.community_minutes <= 10 ? 'within' : 'outside'}">${fmt(r.community_minutes, 1)}</td>
+            <td class="${r.community_minutes <= 15 ? 'within' : 'outside'}">${fmt(r.community_minutes, 1)}</td>
           </tr>
         `)
       )}
@@ -837,6 +940,136 @@ function renderModel() {
       $('#train-status').textContent = 'Training failed.';
     }
   };
+}
+
+function showPrintDirective() {
+  if (!state.plan || !state.boot) return;
+  const modal = $('#print-modal');
+  const body = $('#print-body');
+
+  const ambRole = state.plan.roles.find(r => r.id === 'ambulance');
+  const dispRole = state.plan.roles.find(r => r.id === 'dispatch');
+  const coolRole = state.plan.roles.find(r => r.id === 'cooling');
+  const commRole = state.plan.roles.find(r => r.id === 'community');
+
+  let popCovered = 0;
+  let dmeCovered = 0;
+  state.plan.rows.forEach(r => {
+    if (r.ambulance_minutes != null && r.ambulance_minutes <= 15) {
+      const a = state.boot.areas.find(x => x.zip === r.zip);
+      if (a) {
+        if (a.population) popCovered += a.population;
+        if (a.medical) dmeCovered += a.medical;
+      }
+    }
+  });
+
+  const selectedSiteRows = [];
+  const assignedBySite = new Map();
+  state.plan.rows.forEach(r => {
+    ['ambulance', 'dispatch', 'cooling', 'community'].forEach(roleId => {
+      const sName = r[roleId + '_site'];
+      if (!sName) return;
+      if (!assignedBySite.has(sName)) assignedBySite.set(sName, { zips: 0, pop: 0, dme: 0, maxDrive: 0 });
+      const stats = assignedBySite.get(sName);
+      stats.zips++;
+      const a = state.boot.areas.find(x => x.zip === r.zip);
+      if (a) {
+        stats.pop += a.population || 0;
+        stats.dme += a.medical || 0;
+      }
+      const dr = r[roleId + '_minutes'] || 0;
+      if (dr > stats.maxDrive) stats.maxDrive = dr;
+    });
+  });
+
+  state.boot.sites.filter(s => s.eligible).forEach(s => {
+    const rolesActive = [];
+    if (ambRole?.sites.includes(s.name)) rolesActive.push('🚑 Ambulance');
+    if (dispRole?.sites.includes(s.name)) rolesActive.push('🚨 Emergency Outpost');
+    if (coolRole?.sites.includes(s.name)) rolesActive.push('❄️ Cooling Hub');
+    if (commRole?.sites.includes(s.name)) rolesActive.push('🏠 Community Hub');
+
+    const stats = assignedBySite.get(s.name) || { zips: 0, pop: 0, dme: 0, maxDrive: 0 };
+    if (rolesActive.length > 0) {
+      selectedSiteRows.push(`
+        <tr>
+          <td><strong>${safe(s.name)}</strong><br><span style="font-size:10px;color:var(--text-dim)">${safe(s.address)}</span></td>
+          <td>${rolesActive.join(', ')}</td>
+          <td><span class="status-badge" style="background:#27272a;color:#fff;padding:2px 6px;border-radius:4px;font-size:10px">Zone X (Dry Ground)</span></td>
+          <td>${fmt(stats.zips)} ZIPs</td>
+          <td>${fmt(stats.pop)}</td>
+          <td>${fmt(stats.maxDrive, 1)}m</td>
+        </tr>
+      `);
+    }
+  });
+
+  const candidateOutskirtsRows = state.boot.sites.map(s => `
+    <tr>
+      <td><strong>${safe(s.name)}</strong></td>
+      <td>${safe(s.address)}</td>
+      <td>${s.eligible ? '<span style="color:#ffffff">🛡️ Zone X (Eligible)</span>' : '<span style="color:#a1a1aa">⚠️ Zone AE (100-Yr Floodway)</span>'}</td>
+      <td>${s.eligible ? 'Available Outskirts Staging / Build Zone' : 'Disqualified (Surface Flood Ingress Risk)'}</td>
+    </tr>
+  `).join('');
+
+  body.innerHTML = `
+    <div class="print-section">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px">
+        <div>
+          <h2 style="font-size:16px;color:#fff;margin:0 0 4px 0">INCIDENT DISASTER STAGING DIRECTIVE</h2>
+          <div style="font-size:11px;color:var(--text-dim)">Scenario: Hurricane ${state.storm} · Slowdown: 2.0× Flood Delay · Target: 15-Minute Response Window</div>
+        </div>
+        <div style="text-align:right;font-size:11px;color:var(--text-dim)">
+          Generated: ${new Date().toLocaleDateString()}<br>
+          UHAI AI Optimization Model
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:12px 0;background:#141416;padding:12px;border-radius:6px;border:1px solid #27272a">
+        <div><small style="color:var(--text-dim);font-size:10px">AMBULANCES</small><div style="font-size:18px;font-weight:700;color:#fff">${$('#ambulance')?.value || 2} Predicted</div></div>
+        <div><small style="color:var(--text-dim);font-size:10px">EMERGENCY BUILDINGS</small><div style="font-size:18px;font-weight:700;color:#fff">${$('#dispatch')?.value || 2} Predicted</div></div>
+        <div><small style="color:var(--text-dim);font-size:10px">COMMUNITY HUBS</small><div style="font-size:18px;font-weight:700;color:#fff">${$('#community')?.value || 3} Predicted</div></div>
+        <div><small style="color:var(--text-dim);font-size:10px">COOLING &amp; POWER HUBS</small><div style="font-size:18px;font-weight:700;color:#fff">${$('#cooling')?.value || 3} Predicted</div></div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px;background:#18181b;padding:10px;border-radius:6px">
+        <div><small style="color:var(--text-dim);font-size:10px">15-MIN EMS REACH</small><div style="font-size:14px;font-weight:700;color:#fff">${$('#kpi-coverage').textContent} of Demand</div></div>
+        <div><small style="color:var(--text-dim);font-size:10px">POPULATION REACHED</small><div style="font-size:14px;font-weight:700;color:#fff">${fmt(popCovered)} Residents</div></div>
+        <div><small style="color:var(--text-dim);font-size:10px">MEDICARE DME PATIENTS</small><div style="font-size:14px;font-weight:700;color:#fff">${fmt(dmeCovered)} Fragile Patients</div></div>
+      </div>
+    </div>
+
+    <div class="print-section">
+      <h3>1. Primary Predicted Resource Staging Locations (Active Plan)</h3>
+      <div style="font-size:11px;color:var(--text-dim);margin-bottom:8px">These locations optimize survival rates under simulated 2.0× bayou and arterial flooding delays.</div>
+      ${table(
+        ['Facility / Location', 'Assigned Roles', 'FEMA Elevation', 'Assigned Coverage', 'Residents Served', 'Max Drive (min)'],
+        selectedSiteRows
+      )}
+    </div>
+
+    <div class="print-section">
+      <h3>2. Complete Regional Outskirts &amp; Distant Staging Capacity</h3>
+      <div style="font-size:11px;color:var(--text-dim);margin-bottom:8px">Candidate staging and build zones evaluated by AI across Greater Houston outskirts and suburban perimeter.</div>
+      ${table(
+        ['Candidate Facility / Staging Zone', 'Full Address', 'FEMA Flood Zone Elevation', 'AI Evaluation &amp; Recommendation'],
+        candidateOutskirtsRows.split('</tr>').filter(Boolean).map(x => x + '</tr>')
+      )}
+    </div>
+
+    <div class="print-section">
+      <h3>3. Operational Standby &amp; Tactical Instructions</h3>
+      <ul style="font-size:11px;line-height:1.6;margin:0;padding-left:18px;color:#d4d4d8">
+        <li><strong>FEMA Flood Zone AE Exclusion:</strong> Kashmere Multi-Service Center and Alief Center must NOT be used for vehicle staging or resident shelters due to 100-year flood plain submergence.</li>
+        <li><strong>15-Minute Response Corridor Target:</strong> Units staged at outer anchors (Radack CC in West Houston/Katy, Sunnyside in South Houston, Acres Homes in Northwest) provide dry highway access via I-10, Beltway 8, and US-290 without crossing flooded bayous.</li>
+        <li><strong>DME Medical Vulnerability Priority:</strong> HHS Medicare power-dependent patients are targeted first with auxiliary generators and rapid paramedic dispatch.</li>
+      </ul>
+    </div>
+  `;
+
+  modal.showModal();
 }
 
 // Start portal

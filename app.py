@@ -53,7 +53,7 @@ def options(q):
  storm=get('storm','Beryl')
  if storm not in engine.STORMS:raise ValueError('Choose one of the supplied storm windows.')
  counts={k:int(get(k,d)) for k,d in [('ambulances',2),('dispatch',2),('cooling',3),('community',3)]}
- if any(not 1<=v<=5 for v in counts.values()):raise ValueError('Choose one to five sites for each role.')
+ if any(v<1 for v in counts.values()):raise ValueError('Choose at least one site for each role.')
  slowdown=float(get('slowdown',1))
  if not 1<=slowdown<=2:raise ValueError('Slowdown must be between one and two.')
  closed=get('closed','None')

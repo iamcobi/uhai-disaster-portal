@@ -147,8 +147,8 @@ def build_site_explanation(site_name, role_name, role_id, is_selected, plan_tabl
     drive_col = f"{role_name} drive (min)"
     drives = assigned_df[drive_col].dropna()
     avg_minutes = round(float(drives.mean()), 1) if len(drives) else 0.0
-    within_10m = int((drives <= 10.0).sum())
-    pct_within_10m = round(100.0 * within_10m / assigned_count, 1) if assigned_count else 0.0
+    within_15m = int((drives <= 15.0).sum())
+    pct_within_15m = round(100.0 * within_15m / assigned_count, 1) if assigned_count else 0.0
 
     is_flood_excluded = "DISQUALIFIED" in intel["summary"]
     flood_zone = "AE (100-Year High Risk)" if is_flood_excluded else "X (Minimal Risk)"
@@ -156,10 +156,10 @@ def build_site_explanation(site_name, role_name, role_id, is_selected, plan_tabl
     # Tactical waiting explanation
     if role_id == "ambulance":
         tactical_text = intel["ambulance_waiting"]
-        role_specific_goal = "Position ambulances on elevated, non-submerged lots within 10 minutes of medically fragile, electricity-dependent populations."
+        role_specific_goal = "Position ambulances on elevated, non-submerged lots within 15 minutes of medically fragile, electricity-dependent populations."
         decision_factors = [
             {"factor": "FEMA Flood Safety & Elevation", "weight": 35, "status": "Pass (Zone X)" if not is_flood_excluded else "FAIL (Zone AE 100-Yr Floodway)", "desc": "Requires placement on dry ground outside the 100-year flood zone to prevent vehicles from drowning."},
-            {"factor": "10-Min Emergency Drive Isochrone", "weight": 30, "status": f"{pct_within_10m}% within 10 min", "desc": "Maximizes rapid paramedic reach under simulated road slowdown conditions."},
+            {"factor": "15-Min Emergency Drive Isochrone", "weight": 30, "status": f"{pct_within_15m}% within 15 min", "desc": "Maximizes rapid paramedic reach under simulated road slowdown conditions."},
             {"factor": "High-Risk Medical DME Beneficiaries", "weight": 20, "status": f"{total_dme:,} DME patients covered", "desc": "Targets neighborhoods with high concentrations of oxygen, ventilator, and dialysis patients."},
             {"factor": "Arterial Highway Redundancy", "weight": 15, "status": "High Redundancy", "desc": intel["arterials"]}
         ]
@@ -196,7 +196,7 @@ def build_site_explanation(site_name, role_name, role_id, is_selected, plan_tabl
         runner_up = "Why not remote municipal yards? Remote yards had double the dispatch travel time to high-density electrical hazard clusters."
 
     why_chosen_text = (
-        f"Selected as an optimal {role_name} location because it provides the highest weighted coverage ({pct_within_10m}% of assigned areas reachable in ≤ 10 mins) "
+        f"Selected as an optimal {role_name} location because it provides the highest weighted coverage ({pct_within_15m}% of assigned areas reachable in ≤ 15 mins) "
         f"for {total_pop:,} residents and {total_dme:,} high-risk medical patients, while sitting on elevated ground in FEMA Flood Zone {flood_zone}."
     ) if is_selected else (
         f"Evaluated as a candidate for {role_name}. {'Excluded from final selection due to severe flood risk (FEMA Zone AE 100-year flood plain).' if is_flood_excluded else f'Outperformed in this scenario by selected sites with shorter transit times ({avg_minutes} min vs < 7.0 min) or higher vulnerable population density.'}"
@@ -221,7 +221,8 @@ def build_site_explanation(site_name, role_name, role_id, is_selected, plan_tabl
             "population_covered": total_pop,
             "dme_patients_covered": total_dme,
             "average_response_minutes": avg_minutes,
-            "pct_within_10min": pct_within_10m,
+            "pct_within_10min": pct_within_15m,
+            "pct_within_15min": pct_within_15m,
             "flood_reports": total_flood_reports,
             "tree_reports": total_tree_reports,
             "electrical_reports": total_electrical_reports

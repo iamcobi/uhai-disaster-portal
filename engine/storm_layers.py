@@ -105,9 +105,8 @@ def choose_resources(storm='Beryl',ambulances=2,dispatch=2,cooling=3,community=3
     table=a[['population_2020','Power_Dependent_Devices_DME','representative_county_fips','County peak reported customers out','Tree removal report count (nearest-point grouping)','Storm debris report count (nearest-point grouping)','Electrical hazard report count (nearest-point grouping)','Flood/drainage report count (nearest-point grouping)']].copy();choices={};summary=[]
     for role,w in weights.items():
         matrix=outbound if role in ['Ambulance staging','Repair dispatch'] else inbound
-        if float(w.sum())<=0:
-            choices[role]=[];summary.append({'Role':role,'Selected candidates':'No matched demand data','10-min coverage of role weight (%)':np.nan});continue
-        ids,score=core.optimize(matrix,w.to_numpy(float),int(counts[role]));names=[available[i] for i in ids];choices[role]=names;m=matrix[ids];near=m.min(axis=0)
+        b = min(int(counts[role]), len(available))
+        ids,score=core.optimize(matrix,w.to_numpy(float),b,target=15);names=[available[i] for i in ids];choices[role]=names;m=matrix[ids];near=m.min(axis=0)
         table[role+' site']=[names[i] for i in m.argmin(axis=0)];table[role+' drive (min)']=near
         summary.append({'Role':role,'Selected candidates':', '.join(names),'10-min coverage of role weight (%)':100*score[0]/w.sum()})
     table.index.name='Planning ZIP point'

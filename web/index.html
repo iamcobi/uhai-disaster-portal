@@ -46,6 +46,7 @@
         <option value="Derecho">May Derecho · Flash Grid Strike</option>
       </select>
       <button id="sources" class="btn-ghost">Technical Guide ↗</button>
+      <button id="print-plan" class="btn-ghost" title="Print Disaster Placement Directive &amp; Outskirts Map">🖨️ Print Directive</button>
       <a id="export" href="/api/export" class="btn-primary">Export ↗</a>
     </div>
   </header>
@@ -62,74 +63,87 @@
       <aside class="control-dock">
         <div class="dock-header">
           <div class="dock-title-row">
-            <span class="dock-title">Hurricane Staging Targets</span>
+            <span class="dock-title">Predict Placement Locations</span>
             <span id="dates" class="dock-dates"></span>
           </div>
         </div>
 
         <div class="dock-scroll">
-          <!-- MINIMAL ALLOCATION CONTROLS -->
+          <!-- NUMERIC ALLOCATION CONTROLS (UNLIMITED CAPACITY) -->
           <div class="dock-section">
             <div class="role-row">
               <div class="role-meta">
                 <span class="role-name">🚑 Keep Ambulances</span>
-                <span id="ambulance-value" class="count-pill">2</span>
+                <div class="stepper-wrap">
+                  <button type="button" class="btn-step" data-step="ambulance" data-dir="-1" title="Decrease">−</button>
+                  <input id="ambulance" type="number" min="1" value="2" class="num-input-stepper" aria-label="Ambulances to Predict">
+                  <button type="button" class="btn-step" data-step="ambulance" data-dir="1" title="Increase">+</button>
+                </div>
               </div>
-              <input id="ambulance" type="range" min="1" max="5" value="2" class="slider-role slider-ambulance" aria-label="Ambulances to Stage">
             </div>
 
             <div class="role-row">
               <div class="role-meta">
                 <span class="role-name">🚨 Emergency Response Buildings</span>
-                <span id="dispatch-value" class="count-pill">2</span>
+                <div class="stepper-wrap">
+                  <button type="button" class="btn-step" data-step="dispatch" data-dir="-1" title="Decrease">−</button>
+                  <input id="dispatch" type="number" min="1" value="2" class="num-input-stepper" aria-label="Emergency Buildings to Predict">
+                  <button type="button" class="btn-step" data-step="dispatch" data-dir="1" title="Increase">+</button>
+                </div>
               </div>
-              <input id="dispatch" type="range" min="1" max="5" value="2" class="slider-role slider-dispatch" aria-label="Emergency Buildings">
             </div>
 
             <div class="role-row">
               <div class="role-meta">
                 <span class="role-name">🏠 Community Relief Hubs</span>
-                <span id="community-value" class="count-pill">3</span>
+                <div class="stepper-wrap">
+                  <button type="button" class="btn-step" data-step="community" data-dir="-1" title="Decrease">−</button>
+                  <input id="community" type="number" min="1" value="3" class="num-input-stepper" aria-label="Community Hubs to Predict">
+                  <button type="button" class="btn-step" data-step="community" data-dir="1" title="Increase">+</button>
+                </div>
               </div>
-              <input id="community" type="range" min="1" max="5" value="3" class="slider-role slider-community" aria-label="Community Hubs">
             </div>
 
             <div class="role-row">
               <div class="role-meta">
                 <span class="role-name">❄️ Cooling &amp; Power Hubs</span>
-                <span id="cooling-value" class="count-pill">3</span>
+                <div class="stepper-wrap">
+                  <button type="button" class="btn-step" data-step="cooling" data-dir="-1" title="Decrease">−</button>
+                  <input id="cooling" type="number" min="1" value="3" class="num-input-stepper" aria-label="Cooling Hubs to Predict">
+                  <button type="button" class="btn-step" data-step="cooling" data-dir="1" title="Increase">+</button>
+                </div>
               </div>
-              <input id="cooling" type="range" min="1" max="5" value="3" class="slider-role slider-cooling" aria-label="Cooling Hubs">
             </div>
           </div>
 
-          <!-- MINIMAL STRESS & SIMULATION -->
+          <!-- HURRICANE FLOOD TRANSIT CONDITION -->
           <div class="dock-section">
-            <div class="role-row">
-              <div class="role-meta">
-                <span class="role-name">Road Slowdown</span>
-                <output id="slowdown-value" class="count-pill highlight">1.0×</output>
-              </div>
-              <input id="slowdown" type="range" min="1" max="2" step="0.1" value="1" class="slider-stress">
+            <div style="font-size:10px;color:var(--text-sub);line-height:1.4">
+              <strong style="color:#ffffff">🌊 Active Hurricane Delay: 2.0× Slowdown</strong><br>
+              Response target: <span style="color:#ffffff;font-weight:700">15 Minutes</span> under flooded roads.
             </div>
 
-            <div class="field-compact">
-              <label for="closed" class="label-sub">Simulate Flooded Site:</label>
+            <div class="field-compact" style="margin-top:6px">
+              <label for="closed" class="label-sub">Simulate Submerged Site:</label>
               <select id="closed" class="select-clean">
-                <option value="None">All 12 eligible sites active</option>
+                <option value="None">All 12 eligible staging sites active</option>
               </select>
             </div>
           </div>
 
           <!-- PRIMARY ACTION -->
           <button id="calculate" class="btn-optimize">
-            <span>⚡ Find Best Emergency Sites</span>
+            <span>⚡ Predict Best Places to Place Resources</span>
           </button>
 
           <!-- OVERLAYS CHIPS -->
           <div class="dock-section">
             <div class="layer-chips-row" id="layer-list">
               <!-- Dynamically rendered -->
+            </div>
+            <div class="switch-compact">
+              <label for="show-candidates">Outskirts Potential Staging Sites</label>
+              <input id="show-candidates" type="checkbox" checked>
             </div>
             <div class="switch-compact">
               <label for="hospitals">Emergency Hospital Anchors</label>
@@ -154,11 +168,21 @@
         <!-- FLOATING TOP KPI RIBBON (MINIMAL) -->
         <div class="kpi-ribbon">
           <div class="kpi-pill"><span class="kpi-icon">🚑</span> <strong id="kpi-ambulances">2</strong> <small>Bases</small></div>
-          <div class="kpi-pill"><span class="kpi-icon">⏱️</span> <strong id="kpi-coverage">--%</strong> <small>10-Min Reach</small></div>
+          <div class="kpi-pill"><span class="kpi-icon">⏱️</span> <strong id="kpi-coverage">--%</strong> <small>15-Min Reach</small></div>
           <div class="kpi-pill"><span class="kpi-icon">🛡️</span> <strong id="kpi-flood-safe">100%</strong> <small>Zone X Safe</small></div>
           <div class="kpi-pill"><span class="kpi-icon">👥</span> <strong id="kpi-pop">--</strong> <small>Pop. Covered</small></div>
           <div class="kpi-actions">
-            <button id="region" class="btn-kpi-tool" title="Reset Camera to Houston Region">Reset View ↺</button>
+            <select id="sector-select" class="select-clean" style="padding:5px 8px;font-size:11px" title="Focus Outer Houston Suburbs &amp; Counties">
+              <option value="all">🌐 Greater Houston (All 9 Counties)</option>
+              <option value="west">🌾 West Houston &amp; Katy</option>
+              <option value="north">🌲 North Houston &amp; The Woodlands</option>
+              <option value="southwest">🌴 Sugar Land &amp; Fort Bend</option>
+              <option value="south">⚓ Pearland &amp; Clear Lake / Bay</option>
+              <option value="east">🚢 East Houston, Pasadena &amp; Baytown</option>
+              <option value="northwest">🚜 Cypress &amp; Tomball Corridor</option>
+              <option value="core">🏙️ Central Urban Core</option>
+            </select>
+            <button id="region" class="btn-kpi-tool" title="Reset Camera to Greater Houston">Reset View ↺</button>
           </div>
         </div>
 
@@ -287,6 +311,21 @@
       <button id="close-docs" class="btn-close-min" aria-label="Close dialog">✕</button>
     </div>
     <div id="docs-text" class="dialog-body"></div>
+  </dialog>
+
+  <!-- INCIDENT ACTION PLAN / PRINTABLE BRIEFING DIALOG -->
+  <dialog id="print-modal" class="styled-dialog print-directive-dialog">
+    <div class="dialog-head">
+      <div>
+        <div style="font-size:10px;letter-spacing:0.08em;color:#a1a1aa;text-transform:uppercase;font-weight:700">Incident Directive · Resource Staging Plan</div>
+        <h2 id="print-modal-title" style="margin:2px 0 0 0;font-size:16px;color:#ffffff">Emergency Staging &amp; Outskirts Allocation Directive</h2>
+      </div>
+      <div style="display:flex;gap:8px">
+        <button id="do-print" class="btn-primary" style="padding:4px 12px;font-size:11px">🖨️ Print Directive</button>
+        <button id="close-print" class="btn-close-min" aria-label="Close dialog">✕</button>
+      </div>
+    </div>
+    <div id="print-body" class="dialog-body"></div>
   </dialog>
 </body>
 </html>

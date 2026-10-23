@@ -319,6 +319,63 @@ body {
   border-color: #ffffff;
 }
 
+/* NUMERIC STEPPERS ("ALLOW ME TO PUT THE AMOUNT") */
+.stepper-wrap {
+  display: inline-flex;
+  align-items: center;
+  background: #18181b;
+  border: 1px solid var(--border-light);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.btn-step {
+  background: #18181b;
+  border: none;
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s;
+  user-select: none;
+}
+.btn-step:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.btn-step:active {
+  background: #d4d4d8;
+}
+
+.num-input-stepper {
+  width: 34px;
+  height: 24px;
+  background: #09090b;
+  border: none;
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  outline: none;
+  padding: 0;
+  -moz-appearance: textfield;
+}
+.num-input-stepper::-webkit-inner-spin-button,
+.num-input-stepper::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.num-input-stepper:focus {
+  background: #18181b;
+}
+
 /* MONOCHROME SLIDERS */
 input[type=range] {
   -webkit-appearance: none;
@@ -1066,4 +1123,90 @@ dialog::backdrop {
   font-size: 12px;
   line-height: 1.6;
   color: #d4d4d8;
+}
+
+/* CANDIDATE & OUTSKIRTS MARKER BADGES */
+.site-marker.marker-candidate .marker-badge {
+  background: rgba(20, 20, 23, 0.92);
+  border: 1px dashed #71717a;
+  color: #e4e4e7;
+  font-size: 10px;
+}
+.site-marker.marker-candidate .marker-pin-stem {
+  background: #71717a;
+}
+.site-marker.marker-candidate:hover .marker-badge {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.site-marker.marker-disqualified .marker-badge {
+  background: rgba(28, 25, 23, 0.92);
+  border: 1px solid #71717a;
+  color: #a1a1aa;
+  font-size: 10px;
+}
+.site-marker.marker-disqualified .marker-pin-stem {
+  background: #71717a;
+}
+
+/* PRINT DIRECTIVE MODAL & PRINT STYLES */
+.print-directive-dialog {
+  max-width: 840px;
+  width: 95%;
+}
+.print-directive-dialog .dialog-body {
+  max-height: 75vh;
+  overflow-y: auto;
+  font-size: 12px;
+  color: #d4d4d8;
+  padding: 18px;
+}
+.print-section {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #27272a;
+}
+.print-section:last-child {
+  border-bottom: none;
+}
+.print-section h3 {
+  font-size: 13px;
+  color: #ffffff;
+  margin: 0 0 8px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .app-header, .control-dock, .kpi-ribbon, .map-workspace, .xai-drawer-minimal, .app-footer, dialog::backdrop {
+    display: none !important;
+  }
+  dialog#print-modal {
+    position: static !important;
+    display: block !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 0 !important;
+  }
+  dialog#print-modal .dialog-head button {
+    display: none !important;
+  }
+  dialog#print-modal * {
+    color: #000000 !important;
+    border-color: #cccccc !important;
+    background: transparent !important;
+  }
+  dialog#print-modal table th {
+    background: #f4f4f5 !important;
+    font-weight: bold !important;
+  }
 }
