@@ -332,9 +332,12 @@ async function initMap() {
     });
 
     state.map.addControl(new maplibregl.NavigationControl({ showCompass: true }), 'bottom-right');
-    await new Promise((resolve, reject) => {
-      state.map.once('load', resolve);
-      state.map.once('error', e => reject(Error('Map load error: ' + e.error.message)));
+    await new Promise((resolve) => {
+      if (state.map.loaded()) resolve();
+      else {
+        state.map.once('load', resolve);
+        setTimeout(resolve, 1500);
+      }
     });
 
     const m = state.map;
@@ -468,6 +471,7 @@ async function renderLayer() {
 
   if (state.gl) {
     const m = state.map;
+    if (!m || !m.getSource || !m.getSource('counties') || !m.getSource('reports') || !m.getSource('areas')) return;
     m.getSource('counties').setData(state.data.counties);
     m.setPaintProperty('county-fill', 'fill-color', state.layer === 'outages' ?
       ['case', ['any', ['get', 'flagged'], ['!', ['get', 'available']]], '#27272a',
