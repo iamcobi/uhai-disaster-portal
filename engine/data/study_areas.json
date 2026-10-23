@@ -1,0 +1,1339 @@
+{
+  "region": "Houston-area study rectangle, not the Harris County boundary",
+  "bounds": {
+    "latitude": [
+      29.4,
+      30.4
+    ],
+    "longitude": [
+      -96.1,
+      -94.8
+    ]
+  },
+  "source": "2020 Census TIGERweb ZCTA layer 84",
+  "rows": [
+    {
+      "zipCode": "77002",
+      "latitude": 29.7568447,
+      "longitude": -95.3656519,
+      "population_2020": 19844,
+      "housing_units_2020": 8412
+    },
+    {
+      "zipCode": "77003",
+      "latitude": 29.7506236,
+      "longitude": -95.3458125,
+      "population_2020": 11874,
+      "housing_units_2020": 6566
+    },
+    {
+      "zipCode": "77004",
+      "latitude": 29.7242717,
+      "longitude": -95.3642421,
+      "population_2020": 37005,
+      "housing_units_2020": 18560
+    },
+    {
+      "zipCode": "77005",
+      "latitude": 29.7184351,
+      "longitude": -95.4235554,
+      "population_2020": 28241,
+      "housing_units_2020": 10968
+    },
+    {
+      "zipCode": "77006",
+      "latitude": 29.7408613,
+      "longitude": -95.3913032,
+      "population_2020": 24129,
+      "housing_units_2020": 15964
+    },
+    {
+      "zipCode": "77007",
+      "latitude": 29.7715794,
+      "longitude": -95.4089297,
+      "population_2020": 42908,
+      "housing_units_2020": 25558
+    },
+    {
+      "zipCode": "77008",
+      "latitude": 29.7982489,
+      "longitude": -95.4169332,
+      "population_2020": 36631,
+      "housing_units_2020": 19486
+    },
+    {
+      "zipCode": "77009",
+      "latitude": 29.7953437,
+      "longitude": -95.3675896,
+      "population_2020": 36425,
+      "housing_units_2020": 16916
+    },
+    {
+      "zipCode": "77010",
+      "latitude": 29.753615,
+      "longitude": -95.3597369,
+      "population_2020": 883,
+      "housing_units_2020": 723
+    },
+    {
+      "zipCode": "77011",
+      "latitude": 29.742988,
+      "longitude": -95.3071145,
+      "population_2020": 16841,
+      "housing_units_2020": 6958
+    },
+    {
+      "zipCode": "77012",
+      "latitude": 29.7185253,
+      "longitude": -95.274137,
+      "population_2020": 18397,
+      "housing_units_2020": 6927
+    },
+    {
+      "zipCode": "77013",
+      "latitude": 29.7952684,
+      "longitude": -95.2339771,
+      "population_2020": 16815,
+      "housing_units_2020": 6353
+    },
+    {
+      "zipCode": "77014",
+      "latitude": 29.985844,
+      "longitude": -95.465176,
+      "population_2020": 35161,
+      "housing_units_2020": 12654
+    },
+    {
+      "zipCode": "77015",
+      "latitude": 29.7648252,
+      "longitude": -95.1714159,
+      "population_2020": 57106,
+      "housing_units_2020": 19528
+    },
+    {
+      "zipCode": "77016",
+      "latitude": 29.8624474,
+      "longitude": -95.297733,
+      "population_2020": 29966,
+      "housing_units_2020": 11033
+    },
+    {
+      "zipCode": "77017",
+      "latitude": 29.691984,
+      "longitude": -95.2502317,
+      "population_2020": 31659,
+      "housing_units_2020": 11098
+    },
+    {
+      "zipCode": "77018",
+      "latitude": 29.8274036,
+      "longitude": -95.4261014,
+      "population_2020": 27870,
+      "housing_units_2020": 12560
+    },
+    {
+      "zipCode": "77019",
+      "latitude": 29.7533436,
+      "longitude": -95.412855,
+      "population_2020": 24136,
+      "housing_units_2020": 14198
+    },
+    {
+      "zipCode": "77020",
+      "latitude": 29.7682971,
+      "longitude": -95.3089712,
+      "population_2020": 24846,
+      "housing_units_2020": 9707
+    },
+    {
+      "zipCode": "77021",
+      "latitude": 29.6984301,
+      "longitude": -95.3568996,
+      "population_2020": 28055,
+      "housing_units_2020": 12609
+    },
+    {
+      "zipCode": "77022",
+      "latitude": 29.8315897,
+      "longitude": -95.3795535,
+      "population_2020": 28748,
+      "housing_units_2020": 11018
+    },
+    {
+      "zipCode": "77023",
+      "latitude": 29.721825,
+      "longitude": -95.3182748,
+      "population_2020": 26780,
+      "housing_units_2020": 11238
+    },
+    {
+      "zipCode": "77024",
+      "latitude": 29.7671477,
+      "longitude": -95.5056272,
+      "population_2020": 39565,
+      "housing_units_2020": 18702
+    },
+    {
+      "zipCode": "77025",
+      "latitude": 29.6857064,
+      "longitude": -95.4347635,
+      "population_2020": 28510,
+      "housing_units_2020": 15366
+    },
+    {
+      "zipCode": "77026",
+      "latitude": 29.8001873,
+      "longitude": -95.3288878,
+      "population_2020": 23405,
+      "housing_units_2020": 9634
+    },
+    {
+      "zipCode": "77027",
+      "latitude": 29.7393144,
+      "longitude": -95.4464243,
+      "population_2020": 18987,
+      "housing_units_2020": 12617
+    },
+    {
+      "zipCode": "77028",
+      "latitude": 29.8251215,
+      "longitude": -95.2863595,
+      "population_2020": 18701,
+      "housing_units_2020": 6860
+    },
+    {
+      "zipCode": "77029",
+      "latitude": 29.7593652,
+      "longitude": -95.2566265,
+      "population_2020": 17044,
+      "housing_units_2020": 6270
+    },
+    {
+      "zipCode": "77030",
+      "latitude": 29.7055572,
+      "longitude": -95.401754,
+      "population_2020": 13221,
+      "housing_units_2020": 7981
+    },
+    {
+      "zipCode": "77031",
+      "latitude": 29.652205,
+      "longitude": -95.5462295,
+      "population_2020": 15678,
+      "housing_units_2020": 6416
+    },
+    {
+      "zipCode": "77032",
+      "latitude": 29.9858736,
+      "longitude": -95.3457951,
+      "population_2020": 13497,
+      "housing_units_2020": 4638
+    },
+    {
+      "zipCode": "77033",
+      "latitude": 29.6683081,
+      "longitude": -95.3385741,
+      "population_2020": 28369,
+      "housing_units_2020": 10246
+    },
+    {
+      "zipCode": "77034",
+      "latitude": 29.6146993,
+      "longitude": -95.1931805,
+      "population_2020": 38186,
+      "housing_units_2020": 14355
+    },
+    {
+      "zipCode": "77035",
+      "latitude": 29.655689,
+      "longitude": -95.4712631,
+      "population_2020": 37417,
+      "housing_units_2020": 15351
+    },
+    {
+      "zipCode": "77036",
+      "latitude": 29.6990484,
+      "longitude": -95.5365072,
+      "population_2020": 75870,
+      "housing_units_2020": 30733
+    },
+    {
+      "zipCode": "77037",
+      "latitude": 29.8913735,
+      "longitude": -95.3905611,
+      "population_2020": 19569,
+      "housing_units_2020": 5663
+    },
+    {
+      "zipCode": "77038",
+      "latitude": 29.919329,
+      "longitude": -95.4412004,
+      "population_2020": 30483,
+      "housing_units_2020": 9199
+    },
+    {
+      "zipCode": "77039",
+      "latitude": 29.908394,
+      "longitude": -95.3497947,
+      "population_2020": 28740,
+      "housing_units_2020": 8770
+    },
+    {
+      "zipCode": "77040",
+      "latitude": 29.8765458,
+      "longitude": -95.5322436,
+      "population_2020": 49524,
+      "housing_units_2020": 18954
+    },
+    {
+      "zipCode": "77041",
+      "latitude": 29.8577807,
+      "longitude": -95.5857186,
+      "population_2020": 35958,
+      "housing_units_2020": 12321
+    },
+    {
+      "zipCode": "77042",
+      "latitude": 29.7406051,
+      "longitude": -95.5602565,
+      "population_2020": 41177,
+      "housing_units_2020": 21770
+    },
+    {
+      "zipCode": "77043",
+      "latitude": 29.8109299,
+      "longitude": -95.5846394,
+      "population_2020": 26281,
+      "housing_units_2020": 11200
+    },
+    {
+      "zipCode": "77044",
+      "latitude": 29.9063122,
+      "longitude": -95.1805606,
+      "population_2020": 55665,
+      "housing_units_2020": 17761
+    },
+    {
+      "zipCode": "77045",
+      "latitude": 29.6473393,
+      "longitude": -95.4314349,
+      "population_2020": 32411,
+      "housing_units_2020": 10563
+    },
+    {
+      "zipCode": "77046",
+      "latitude": 29.7344275,
+      "longitude": -95.4330986,
+      "population_2020": 1742,
+      "housing_units_2020": 1418
+    },
+    {
+      "zipCode": "77047",
+      "latitude": 29.6106498,
+      "longitude": -95.3868633,
+      "population_2020": 32088,
+      "housing_units_2020": 11501
+    },
+    {
+      "zipCode": "77048",
+      "latitude": 29.6232281,
+      "longitude": -95.327644,
+      "population_2020": 20536,
+      "housing_units_2020": 7705
+    },
+    {
+      "zipCode": "77049",
+      "latitude": 29.8329284,
+      "longitude": -95.1490398,
+      "population_2020": 38788,
+      "housing_units_2020": 12583
+    },
+    {
+      "zipCode": "77050",
+      "latitude": 29.9028869,
+      "longitude": -95.2692958,
+      "population_2020": 5004,
+      "housing_units_2020": 1572
+    },
+    {
+      "zipCode": "77051",
+      "latitude": 29.6561134,
+      "longitude": -95.3786961,
+      "population_2020": 18323,
+      "housing_units_2020": 7599
+    },
+    {
+      "zipCode": "77053",
+      "latitude": 29.5856808,
+      "longitude": -95.4612668,
+      "population_2020": 30350,
+      "housing_units_2020": 9295
+    },
+    {
+      "zipCode": "77054",
+      "latitude": 29.6802499,
+      "longitude": -95.4049131,
+      "population_2020": 24419,
+      "housing_units_2020": 16585
+    },
+    {
+      "zipCode": "77055",
+      "latitude": 29.7968972,
+      "longitude": -95.4927096,
+      "population_2020": 42766,
+      "housing_units_2020": 17414
+    },
+    {
+      "zipCode": "77056",
+      "latitude": 29.748202,
+      "longitude": -95.4689478,
+      "population_2020": 24115,
+      "housing_units_2020": 15790
+    },
+    {
+      "zipCode": "77057",
+      "latitude": 29.7440679,
+      "longitude": -95.4892098,
+      "population_2020": 43669,
+      "housing_units_2020": 24913
+    },
+    {
+      "zipCode": "77058",
+      "latitude": 29.5615791,
+      "longitude": -95.099626,
+      "population_2020": 19442,
+      "housing_units_2020": 11047
+    },
+    {
+      "zipCode": "77059",
+      "latitude": 29.6135284,
+      "longitude": -95.1186666,
+      "population_2020": 18568,
+      "housing_units_2020": 6664
+    },
+    {
+      "zipCode": "77060",
+      "latitude": 29.935512,
+      "longitude": -95.3976242,
+      "population_2020": 42707,
+      "housing_units_2020": 16072
+    },
+    {
+      "zipCode": "77061",
+      "latitude": 29.6471554,
+      "longitude": -95.2762041,
+      "population_2020": 23398,
+      "housing_units_2020": 9462
+    },
+    {
+      "zipCode": "77062",
+      "latitude": 29.5757811,
+      "longitude": -95.1343339,
+      "population_2020": 25095,
+      "housing_units_2020": 9872
+    },
+    {
+      "zipCode": "77063",
+      "latitude": 29.735679,
+      "longitude": -95.521587,
+      "population_2020": 38298,
+      "housing_units_2020": 20706
+    },
+    {
+      "zipCode": "77064",
+      "latitude": 29.9241864,
+      "longitude": -95.5416913,
+      "population_2020": 48243,
+      "housing_units_2020": 17237
+    },
+    {
+      "zipCode": "77065",
+      "latitude": 29.9264701,
+      "longitude": -95.6038012,
+      "population_2020": 37144,
+      "housing_units_2020": 15770
+    },
+    {
+      "zipCode": "77066",
+      "latitude": 29.9572241,
+      "longitude": -95.5033187,
+      "population_2020": 34443,
+      "housing_units_2020": 10962
+    },
+    {
+      "zipCode": "77067",
+      "latitude": 29.9526294,
+      "longitude": -95.4466086,
+      "population_2020": 31729,
+      "housing_units_2020": 10783
+    },
+    {
+      "zipCode": "77068",
+      "latitude": 30.0070628,
+      "longitude": -95.4883618,
+      "population_2020": 11764,
+      "housing_units_2020": 4651
+    },
+    {
+      "zipCode": "77069",
+      "latitude": 29.987811,
+      "longitude": -95.523217,
+      "population_2020": 19299,
+      "housing_units_2020": 9172
+    },
+    {
+      "zipCode": "77070",
+      "latitude": 29.9794555,
+      "longitude": -95.5733166,
+      "population_2020": 52943,
+      "housing_units_2020": 22431
+    },
+    {
+      "zipCode": "77071",
+      "latitude": 29.6517846,
+      "longitude": -95.5199294,
+      "population_2020": 26949,
+      "housing_units_2020": 10726
+    },
+    {
+      "zipCode": "77072",
+      "latitude": 29.7004407,
+      "longitude": -95.5850228,
+      "population_2020": 56271,
+      "housing_units_2020": 19027
+    },
+    {
+      "zipCode": "77073",
+      "latitude": 30.0001475,
+      "longitude": -95.4000695,
+      "population_2020": 46071,
+      "housing_units_2020": 14832
+    },
+    {
+      "zipCode": "77074",
+      "latitude": 29.6879469,
+      "longitude": -95.5157251,
+      "population_2020": 40199,
+      "housing_units_2020": 15018
+    },
+    {
+      "zipCode": "77075",
+      "latitude": 29.6214659,
+      "longitude": -95.2689677,
+      "population_2020": 38873,
+      "housing_units_2020": 12555
+    },
+    {
+      "zipCode": "77076",
+      "latitude": 29.8600206,
+      "longitude": -95.3821837,
+      "population_2020": 32349,
+      "housing_units_2020": 10414
+    },
+    {
+      "zipCode": "77077",
+      "latitude": 29.7536332,
+      "longitude": -95.6420037,
+      "population_2020": 61302,
+      "housing_units_2020": 29979
+    },
+    {
+      "zipCode": "77078",
+      "latitude": 29.8540566,
+      "longitude": -95.2448132,
+      "population_2020": 14855,
+      "housing_units_2020": 4999
+    },
+    {
+      "zipCode": "77079",
+      "latitude": 29.777978,
+      "longitude": -95.6031017,
+      "population_2020": 36404,
+      "housing_units_2020": 16124
+    },
+    {
+      "zipCode": "77080",
+      "latitude": 29.8183504,
+      "longitude": -95.5224394,
+      "population_2020": 45428,
+      "housing_units_2020": 17797
+    },
+    {
+      "zipCode": "77081",
+      "latitude": 29.7128292,
+      "longitude": -95.4785161,
+      "population_2020": 48293,
+      "housing_units_2020": 21033
+    },
+    {
+      "zipCode": "77082",
+      "latitude": 29.7244903,
+      "longitude": -95.6400024,
+      "population_2020": 57493,
+      "housing_units_2020": 24852
+    },
+    {
+      "zipCode": "77083",
+      "latitude": 29.6939909,
+      "longitude": -95.6478299,
+      "population_2020": 73763,
+      "housing_units_2020": 22910
+    },
+    {
+      "zipCode": "77084",
+      "latitude": 29.8274859,
+      "longitude": -95.6599197,
+      "population_2020": 109808,
+      "housing_units_2020": 39314
+    },
+    {
+      "zipCode": "77085",
+      "latitude": 29.620509,
+      "longitude": -95.485333,
+      "population_2020": 17785,
+      "housing_units_2020": 5596
+    },
+    {
+      "zipCode": "77086",
+      "latitude": 29.9190347,
+      "longitude": -95.4916065,
+      "population_2020": 29366,
+      "housing_units_2020": 9160
+    },
+    {
+      "zipCode": "77087",
+      "latitude": 29.686519,
+      "longitude": -95.3039167,
+      "population_2020": 34654,
+      "housing_units_2020": 11794
+    },
+    {
+      "zipCode": "77088",
+      "latitude": 29.8814866,
+      "longitude": -95.4526195,
+      "population_2020": 54320,
+      "housing_units_2020": 18460
+    },
+    {
+      "zipCode": "77089",
+      "latitude": 29.5869587,
+      "longitude": -95.2256006,
+      "population_2020": 56994,
+      "housing_units_2020": 19582
+    },
+    {
+      "zipCode": "77090",
+      "latitude": 30.0094269,
+      "longitude": -95.4396026,
+      "population_2020": 42285,
+      "housing_units_2020": 18672
+    },
+    {
+      "zipCode": "77091",
+      "latitude": 29.8530673,
+      "longitude": -95.435966,
+      "population_2020": 28020,
+      "housing_units_2020": 11439
+    },
+    {
+      "zipCode": "77092",
+      "latitude": 29.831681,
+      "longitude": -95.4749047,
+      "population_2020": 34903,
+      "housing_units_2020": 15024
+    },
+    {
+      "zipCode": "77093",
+      "latitude": 29.863156,
+      "longitude": -95.3419265,
+      "population_2020": 47736,
+      "housing_units_2020": 14617
+    },
+    {
+      "zipCode": "77094",
+      "latitude": 29.7709175,
+      "longitude": -95.6986767,
+      "population_2020": 11150,
+      "housing_units_2020": 4138
+    },
+    {
+      "zipCode": "77095",
+      "latitude": 29.9100493,
+      "longitude": -95.65884,
+      "population_2020": 71206,
+      "housing_units_2020": 25936
+    },
+    {
+      "zipCode": "77096",
+      "latitude": 29.6753391,
+      "longitude": -95.479372,
+      "population_2020": 34510,
+      "housing_units_2020": 15671
+    },
+    {
+      "zipCode": "77098",
+      "latitude": 29.7348128,
+      "longitude": -95.4160984,
+      "population_2020": 15717,
+      "housing_units_2020": 10125
+    },
+    {
+      "zipCode": "77099",
+      "latitude": 29.6708695,
+      "longitude": -95.5859899,
+      "population_2020": 49849,
+      "housing_units_2020": 17774
+    },
+    {
+      "zipCode": "77204",
+      "latitude": 29.720884,
+      "longitude": -95.343537,
+      "population_2020": 4280,
+      "housing_units_2020": 60
+    },
+    {
+      "zipCode": "77301",
+      "latitude": 30.3098525,
+      "longitude": -95.4312798,
+      "population_2020": 35923,
+      "housing_units_2020": 12171
+    },
+    {
+      "zipCode": "77302",
+      "latitude": 30.2221194,
+      "longitude": -95.3449342,
+      "population_2020": 19384,
+      "housing_units_2020": 6896
+    },
+    {
+      "zipCode": "77303",
+      "latitude": 30.3779524,
+      "longitude": -95.3771402,
+      "population_2020": 20974,
+      "housing_units_2020": 7564
+    },
+    {
+      "zipCode": "77304",
+      "latitude": 30.3296052,
+      "longitude": -95.5116556,
+      "population_2020": 35969,
+      "housing_units_2020": 15990
+    },
+    {
+      "zipCode": "77306",
+      "latitude": 30.2858402,
+      "longitude": -95.3123974,
+      "population_2020": 15127,
+      "housing_units_2020": 5172
+    },
+    {
+      "zipCode": "77316",
+      "latitude": 30.306163,
+      "longitude": -95.6863903,
+      "population_2020": 30598,
+      "housing_units_2020": 11520
+    },
+    {
+      "zipCode": "77327",
+      "latitude": 30.3479915,
+      "longitude": -94.930738,
+      "population_2020": 32269,
+      "housing_units_2020": 11519
+    },
+    {
+      "zipCode": "77336",
+      "latitude": 30.0695761,
+      "longitude": -95.1066989,
+      "population_2020": 14881,
+      "housing_units_2020": 5428
+    },
+    {
+      "zipCode": "77338",
+      "latitude": 30.014356,
+      "longitude": -95.2829953,
+      "population_2020": 45031,
+      "housing_units_2020": 16580
+    },
+    {
+      "zipCode": "77339",
+      "latitude": 30.0467773,
+      "longitude": -95.2210224,
+      "population_2020": 43076,
+      "housing_units_2020": 18732
+    },
+    {
+      "zipCode": "77345",
+      "latitude": 30.0531052,
+      "longitude": -95.1579431,
+      "population_2020": 27258,
+      "housing_units_2020": 9882
+    },
+    {
+      "zipCode": "77346",
+      "latitude": 29.9919945,
+      "longitude": -95.1772683,
+      "population_2020": 71119,
+      "housing_units_2020": 24703
+    },
+    {
+      "zipCode": "77354",
+      "latitude": 30.2078526,
+      "longitude": -95.6429714,
+      "population_2020": 40625,
+      "housing_units_2020": 14810
+    },
+    {
+      "zipCode": "77355",
+      "latitude": 30.1562571,
+      "longitude": -95.74926,
+      "population_2020": 29300,
+      "housing_units_2020": 10428
+    },
+    {
+      "zipCode": "77357",
+      "latitude": 30.1568817,
+      "longitude": -95.1811208,
+      "population_2020": 30339,
+      "housing_units_2020": 10893
+    },
+    {
+      "zipCode": "77362",
+      "latitude": 30.1565894,
+      "longitude": -95.6714649,
+      "population_2020": 7007,
+      "housing_units_2020": 2497
+    },
+    {
+      "zipCode": "77363",
+      "latitude": 30.3162407,
+      "longitude": -95.8498025,
+      "population_2020": 3820,
+      "housing_units_2020": 1688
+    },
+    {
+      "zipCode": "77365",
+      "latitude": 30.1134802,
+      "longitude": -95.274545,
+      "population_2020": 42086,
+      "housing_units_2020": 14465
+    },
+    {
+      "zipCode": "77372",
+      "latitude": 30.2676996,
+      "longitude": -95.2010085,
+      "population_2020": 13306,
+      "housing_units_2020": 4747
+    },
+    {
+      "zipCode": "77373",
+      "latitude": 30.0621687,
+      "longitude": -95.3839657,
+      "population_2020": 63413,
+      "housing_units_2020": 22491
+    },
+    {
+      "zipCode": "77375",
+      "latitude": 30.0946655,
+      "longitude": -95.5861868,
+      "population_2020": 65365,
+      "housing_units_2020": 23662
+    },
+    {
+      "zipCode": "77377",
+      "latitude": 30.0598629,
+      "longitude": -95.6722066,
+      "population_2020": 39711,
+      "housing_units_2020": 13813
+    },
+    {
+      "zipCode": "77379",
+      "latitude": 30.0394566,
+      "longitude": -95.5343829,
+      "population_2020": 84704,
+      "housing_units_2020": 30005
+    },
+    {
+      "zipCode": "77380",
+      "latitude": 30.1369719,
+      "longitude": -95.4683604,
+      "population_2020": 27651,
+      "housing_units_2020": 13828
+    },
+    {
+      "zipCode": "77381",
+      "latitude": 30.1771261,
+      "longitude": -95.5024891,
+      "population_2020": 35191,
+      "housing_units_2020": 14236
+    },
+    {
+      "zipCode": "77382",
+      "latitude": 30.1951366,
+      "longitude": -95.5479169,
+      "population_2020": 37755,
+      "housing_units_2020": 13587
+    },
+    {
+      "zipCode": "77384",
+      "latitude": 30.2338462,
+      "longitude": -95.49577,
+      "population_2020": 23952,
+      "housing_units_2020": 10855
+    },
+    {
+      "zipCode": "77385",
+      "latitude": 30.1866824,
+      "longitude": -95.4290054,
+      "population_2020": 27801,
+      "housing_units_2020": 9783
+    },
+    {
+      "zipCode": "77386",
+      "latitude": 30.100262,
+      "longitude": -95.3564881,
+      "population_2020": 66058,
+      "housing_units_2020": 22264
+    },
+    {
+      "zipCode": "77388",
+      "latitude": 30.0619324,
+      "longitude": -95.4658766,
+      "population_2020": 51483,
+      "housing_units_2020": 19476
+    },
+    {
+      "zipCode": "77389",
+      "latitude": 30.1234693,
+      "longitude": -95.5170643,
+      "population_2020": 41534,
+      "housing_units_2020": 14815
+    },
+    {
+      "zipCode": "77396",
+      "latitude": 29.943359,
+      "longitude": -95.262498,
+      "population_2020": 61058,
+      "housing_units_2020": 20149
+    },
+    {
+      "zipCode": "77401",
+      "latitude": 29.704019,
+      "longitude": -95.4609047,
+      "population_2020": 17219,
+      "housing_units_2020": 6331
+    },
+    {
+      "zipCode": "77406",
+      "latitude": 29.6460903,
+      "longitude": -95.794526,
+      "population_2020": 58703,
+      "housing_units_2020": 20030
+    },
+    {
+      "zipCode": "77407",
+      "latitude": 29.6700035,
+      "longitude": -95.7080888,
+      "population_2020": 74657,
+      "housing_units_2020": 23308
+    },
+    {
+      "zipCode": "77417",
+      "latitude": 29.4609557,
+      "longitude": -95.9560068,
+      "population_2020": 2154,
+      "housing_units_2020": 769
+    },
+    {
+      "zipCode": "77423",
+      "latitude": 29.8331423,
+      "longitude": -95.9869189,
+      "population_2020": 16152,
+      "housing_units_2020": 5532
+    },
+    {
+      "zipCode": "77429",
+      "latitude": 29.9957583,
+      "longitude": -95.6650878,
+      "population_2020": 94176,
+      "housing_units_2020": 32104
+    },
+    {
+      "zipCode": "77433",
+      "latitude": 29.9453009,
+      "longitude": -95.7413687,
+      "population_2020": 106663,
+      "housing_units_2020": 34046
+    },
+    {
+      "zipCode": "77441",
+      "latitude": 29.6974281,
+      "longitude": -95.9095594,
+      "population_2020": 23111,
+      "housing_units_2020": 7581
+    },
+    {
+      "zipCode": "77445",
+      "latitude": 30.0972185,
+      "longitude": -96.0642462,
+      "population_2020": 14160,
+      "housing_units_2020": 5858
+    },
+    {
+      "zipCode": "77446",
+      "latitude": 30.0871173,
+      "longitude": -95.9895576,
+      "population_2020": 6236,
+      "housing_units_2020": 640
+    },
+    {
+      "zipCode": "77447",
+      "latitude": 30.0552817,
+      "longitude": -95.8247831,
+      "population_2020": 20805,
+      "housing_units_2020": 7176
+    },
+    {
+      "zipCode": "77448",
+      "latitude": 29.4164474,
+      "longitude": -96.0854178,
+      "population_2020": 459,
+      "housing_units_2020": 176
+    },
+    {
+      "zipCode": "77449",
+      "latitude": 29.8376112,
+      "longitude": -95.7337397,
+      "population_2020": 128180,
+      "housing_units_2020": 40123
+    },
+    {
+      "zipCode": "77450",
+      "latitude": 29.7481689,
+      "longitude": -95.7361541,
+      "population_2020": 72977,
+      "housing_units_2020": 26223
+    },
+    {
+      "zipCode": "77451",
+      "latitude": 29.4632162,
+      "longitude": -96.0253916,
+      "population_2020": 495,
+      "housing_units_2020": 225
+    },
+    {
+      "zipCode": "77459",
+      "latitude": 29.5263929,
+      "longitude": -95.5337988,
+      "population_2020": 79731,
+      "housing_units_2020": 27472
+    },
+    {
+      "zipCode": "77464",
+      "latitude": 29.6209324,
+      "longitude": -95.939254,
+      "population_2020": 501,
+      "housing_units_2020": 206
+    },
+    {
+      "zipCode": "77466",
+      "latitude": 29.792687,
+      "longitude": -96.0122154,
+      "population_2020": 627,
+      "housing_units_2020": 204
+    },
+    {
+      "zipCode": "77469",
+      "latitude": 29.491375,
+      "longitude": -95.702129,
+      "population_2020": 57925,
+      "housing_units_2020": 20489
+    },
+    {
+      "zipCode": "77471",
+      "latitude": 29.5485199,
+      "longitude": -95.8620396,
+      "population_2020": 42284,
+      "housing_units_2020": 15295
+    },
+    {
+      "zipCode": "77476",
+      "latitude": 29.6766029,
+      "longitude": -95.9733933,
+      "population_2020": 601,
+      "housing_units_2020": 242
+    },
+    {
+      "zipCode": "77477",
+      "latitude": 29.6242744,
+      "longitude": -95.5680082,
+      "population_2020": 35520,
+      "housing_units_2020": 14350
+    },
+    {
+      "zipCode": "77478",
+      "latitude": 29.6175227,
+      "longitude": -95.60829,
+      "population_2020": 24536,
+      "housing_units_2020": 10009
+    },
+    {
+      "zipCode": "77479",
+      "latitude": 29.5650396,
+      "longitude": -95.6350587,
+      "population_2020": 93180,
+      "housing_units_2020": 31235
+    },
+    {
+      "zipCode": "77481",
+      "latitude": 29.4714845,
+      "longitude": -95.5708427,
+      "population_2020": 132,
+      "housing_units_2020": 54
+    },
+    {
+      "zipCode": "77484",
+      "latitude": 30.0856302,
+      "longitude": -95.9271901,
+      "population_2020": 13449,
+      "housing_units_2020": 5195
+    },
+    {
+      "zipCode": "77485",
+      "latitude": 29.6406558,
+      "longitude": -96.0630301,
+      "population_2020": 3657,
+      "housing_units_2020": 1608
+    },
+    {
+      "zipCode": "77489",
+      "latitude": 29.6004979,
+      "longitude": -95.5155369,
+      "population_2020": 37257,
+      "housing_units_2020": 12871
+    },
+    {
+      "zipCode": "77493",
+      "latitude": 29.8532173,
+      "longitude": -95.831457,
+      "population_2020": 51774,
+      "housing_units_2020": 17398
+    },
+    {
+      "zipCode": "77494",
+      "latitude": 29.744657,
+      "longitude": -95.8155361,
+      "population_2020": 130872,
+      "housing_units_2020": 42612
+    },
+    {
+      "zipCode": "77498",
+      "latitude": 29.6409811,
+      "longitude": -95.6558192,
+      "population_2020": 51472,
+      "housing_units_2020": 17187
+    },
+    {
+      "zipCode": "77502",
+      "latitude": 29.6798536,
+      "longitude": -95.1995906,
+      "population_2020": 37495,
+      "housing_units_2020": 12159
+    },
+    {
+      "zipCode": "77503",
+      "latitude": 29.6905957,
+      "longitude": -95.157031,
+      "population_2020": 24956,
+      "housing_units_2020": 8859
+    },
+    {
+      "zipCode": "77504",
+      "latitude": 29.6479156,
+      "longitude": -95.1897803,
+      "population_2020": 25728,
+      "housing_units_2020": 10577
+    },
+    {
+      "zipCode": "77505",
+      "latitude": 29.6483375,
+      "longitude": -95.1414988,
+      "population_2020": 23584,
+      "housing_units_2020": 9234
+    },
+    {
+      "zipCode": "77506",
+      "latitude": 29.7183868,
+      "longitude": -95.1911261,
+      "population_2020": 34431,
+      "housing_units_2020": 12085
+    },
+    {
+      "zipCode": "77507",
+      "latitude": 29.6243709,
+      "longitude": -95.0634646,
+      "population_2020": 770,
+      "housing_units_2020": 534
+    },
+    {
+      "zipCode": "77518",
+      "latitude": 29.5051825,
+      "longitude": -94.986711,
+      "population_2020": 9689,
+      "housing_units_2020": 3881
+    },
+    {
+      "zipCode": "77520",
+      "latitude": 29.7367157,
+      "longitude": -95.0008472,
+      "population_2020": 38587,
+      "housing_units_2020": 14963
+    },
+    {
+      "zipCode": "77521",
+      "latitude": 29.8118713,
+      "longitude": -94.9627399,
+      "population_2020": 65058,
+      "housing_units_2020": 24318
+    },
+    {
+      "zipCode": "77523",
+      "latitude": 29.7663032,
+      "longitude": -94.8657594,
+      "population_2020": 27638,
+      "housing_units_2020": 9682
+    },
+    {
+      "zipCode": "77530",
+      "latitude": 29.7893557,
+      "longitude": -95.1139874,
+      "population_2020": 35319,
+      "housing_units_2020": 11318
+    },
+    {
+      "zipCode": "77532",
+      "latitude": 29.932894,
+      "longitude": -95.057219,
+      "population_2020": 34679,
+      "housing_units_2020": 12556
+    },
+    {
+      "zipCode": "77535",
+      "latitude": 30.0548442,
+      "longitude": -94.9223165,
+      "population_2020": 36494,
+      "housing_units_2020": 12170
+    },
+    {
+      "zipCode": "77536",
+      "latitude": 29.691659,
+      "longitude": -95.1165308,
+      "population_2020": 33693,
+      "housing_units_2020": 12329
+    },
+    {
+      "zipCode": "77539",
+      "latitude": 29.4529973,
+      "longitude": -95.0284698,
+      "population_2020": 48183,
+      "housing_units_2020": 19186
+    },
+    {
+      "zipCode": "77545",
+      "latitude": 29.5373228,
+      "longitude": -95.4730425,
+      "population_2020": 26563,
+      "housing_units_2020": 8226
+    },
+    {
+      "zipCode": "77546",
+      "latitude": 29.5111324,
+      "longitude": -95.1930083,
+      "population_2020": 54670,
+      "housing_units_2020": 19857
+    },
+    {
+      "zipCode": "77547",
+      "latitude": 29.7401228,
+      "longitude": -95.2391142,
+      "population_2020": 9627,
+      "housing_units_2020": 2970
+    },
+    {
+      "zipCode": "77562",
+      "latitude": 29.8297609,
+      "longitude": -95.0549396,
+      "population_2020": 11861,
+      "housing_units_2020": 4658
+    },
+    {
+      "zipCode": "77565",
+      "latitude": 29.5380485,
+      "longitude": -95.0329833,
+      "population_2020": 6966,
+      "housing_units_2020": 3612
+    },
+    {
+      "zipCode": "77571",
+      "latitude": 29.6884555,
+      "longitude": -95.0573799,
+      "population_2020": 37018,
+      "housing_units_2020": 14275
+    },
+    {
+      "zipCode": "77573",
+      "latitude": 29.5037848,
+      "longitude": -95.0873004,
+      "population_2020": 95256,
+      "housing_units_2020": 35691
+    },
+    {
+      "zipCode": "77578",
+      "latitude": 29.4854223,
+      "longitude": -95.3623217,
+      "population_2020": 25228,
+      "housing_units_2020": 8862
+    },
+    {
+      "zipCode": "77580",
+      "latitude": 29.85752,
+      "longitude": -94.8741315,
+      "population_2020": 99,
+      "housing_units_2020": 23
+    },
+    {
+      "zipCode": "77581",
+      "latitude": 29.5615973,
+      "longitude": -95.2797591,
+      "population_2020": 49198,
+      "housing_units_2020": 18294
+    },
+    {
+      "zipCode": "77584",
+      "latitude": 29.5450414,
+      "longitude": -95.3506921,
+      "population_2020": 93062,
+      "housing_units_2020": 32927
+    },
+    {
+      "zipCode": "77586",
+      "latitude": 29.5818574,
+      "longitude": -95.0387067,
+      "population_2020": 23503,
+      "housing_units_2020": 10640
+    },
+    {
+      "zipCode": "77587",
+      "latitude": 29.6610243,
+      "longitude": -95.2283607,
+      "population_2020": 16179,
+      "housing_units_2020": 5323
+    },
+    {
+      "zipCode": "77598",
+      "latitude": 29.5394197,
+      "longitude": -95.1349929,
+      "population_2020": 25620,
+      "housing_units_2020": 12805
+    }
+  ]
+}

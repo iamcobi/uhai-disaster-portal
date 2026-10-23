@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-23",
+  "python": "3.12.10",
+  "integration_checks": 10,
+  "integration_result": "PASS",
+  "browser_checks": [
+    "Dashboard renders at narrow and wide viewport sizes",
+    "MapLibre WebGL initialization",
+    "Historical storm/layer changes",
+    "Resource sliders and closed-site recalculation",
+    "People and supplies table with unknown matches",
+    "Local model retraining completes",
+    "Downtown 3D buildings render",
+    "Damage-description search filters source rows",
+    "Presentation guide opens correctly"
+  ],
+  "known_limits": [
+    "No validated future outage, tree-fall or injury prediction model",
+    "Cached downtown road download timed out; county outlines and actual building/report geometry are bundled",
+    "Existing hospitals are two examples, not a full hospital inventory",
+    "Utility snapshot can be stale; timestamps are shown"
+  ],
+  "launcher_checks": [
+    "START_PORTAL.cmd launches the installed app",
+    "STOP_PORTAL.cmd stops the matching local app",
+    "Loopback health confirms the app is running after restart"
+  ]
+}

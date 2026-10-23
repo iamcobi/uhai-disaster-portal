@@ -1,0 +1,270 @@
+{
+  "rows": [
+    {
+      "zipCode": "77079",
+      "registration_records": 6510,
+      "members_in_flood_damage_records_sum": 7721,
+      "baseline_estimate": 4650.659328775188,
+      "model_estimate": 2556.07419290393
+    },
+    {
+      "zipCode": "77020",
+      "registration_records": 3557,
+      "members_in_flood_damage_records_sum": 1842,
+      "baseline_estimate": 2541.0745364751683,
+      "model_estimate": 1843.6787835358039
+    },
+    {
+      "zipCode": "77085",
+      "registration_records": 1519,
+      "members_in_flood_damage_records_sum": 235,
+      "baseline_estimate": 1085.1538433808773,
+      "model_estimate": 636.321740197763
+    },
+    {
+      "zipCode": "77084",
+      "registration_records": 12843,
+      "members_in_flood_damage_records_sum": 11264,
+      "baseline_estimate": 9174.872159671237,
+      "model_estimate": 5543.196969226757
+    },
+    {
+      "zipCode": "77547",
+      "registration_records": 856,
+      "members_in_flood_damage_records_sum": 635,
+      "baseline_estimate": 611.5152665793489,
+      "model_estimate": 1114.8832328845112
+    },
+    {
+      "zipCode": "77033",
+      "registration_records": 6339,
+      "members_in_flood_damage_records_sum": 2697,
+      "baseline_estimate": 4528.499152858052,
+      "model_estimate": 5745.728294665517
+    },
+    {
+      "zipCode": "77081",
+      "registration_records": 1947,
+      "members_in_flood_damage_records_sum": 348,
+      "baseline_estimate": 1390.9114766705518,
+      "model_estimate": 606.510084863619
+    },
+    {
+      "zipCode": "77067",
+      "registration_records": 3807,
+      "members_in_flood_damage_records_sum": 392,
+      "baseline_estimate": 2719.6712848920342,
+      "model_estimate": 2032.9857363818248
+    },
+    {
+      "zipCode": "77058",
+      "registration_records": 1611,
+      "members_in_flood_damage_records_sum": 473,
+      "baseline_estimate": 1150.8774467982842,
+      "model_estimate": 1110.358456395767
+    },
+    {
+      "zipCode": "77088",
+      "registration_records": 7496,
+      "members_in_flood_damage_records_sum": 3739,
+      "baseline_estimate": 5355.044904531308,
+      "model_estimate": 5287.0470817791365
+    },
+    {
+      "zipCode": "77047",
+      "registration_records": 5148,
+      "members_in_flood_damage_records_sum": 1488,
+      "baseline_estimate": 3677.6642434001033,
+      "model_estimate": 3225.7353464801567
+    },
+    {
+      "zipCode": "77014",
+      "registration_records": 4319,
+      "members_in_flood_damage_records_sum": 312,
+      "baseline_estimate": 3085.437425649776,
+      "model_estimate": 2753.4171507042456
+    },
+    {
+      "zipCode": "77038",
+      "registration_records": 2572,
+      "members_in_flood_damage_records_sum": 1875,
+      "baseline_estimate": 1837.4033477127166,
+      "model_estimate": 1176.3526847452038
+    },
+    {
+      "zipCode": "77011",
+      "registration_records": 1206,
+      "members_in_flood_damage_records_sum": 542,
+      "baseline_estimate": 861.5507143629612,
+      "model_estimate": 511.91945588419367
+    },
+    {
+      "zipCode": "77021",
+      "registration_records": 5989,
+      "members_in_flood_damage_records_sum": 1720,
+      "baseline_estimate": 4278.46370507444,
+      "model_estimate": 4604.650817673004
+    },
+    {
+      "zipCode": "77523",
+      "registration_records": 80,
+      "members_in_flood_damage_records_sum": 32,
+      "baseline_estimate": 57.150959493397096,
+      "model_estimate": 52.36705718845481
+    },
+    {
+      "zipCode": "77401",
+      "registration_records": 2265,
+      "members_in_flood_damage_records_sum": 4442,
+      "baseline_estimate": 1618.0865406568053,
+      "model_estimate": 720.271063786641
+    },
+    {
+      "zipCode": "77581",
+      "registration_records": 197,
+      "members_in_flood_damage_records_sum": 200,
+      "baseline_estimate": 140.73423775249034,
+      "model_estimate": 99.35087048372726
+    },
+    {
+      "zipCode": "77059",
+      "registration_records": 550,
+      "members_in_flood_damage_records_sum": 287,
+      "baseline_estimate": 392.91284651710504,
+      "model_estimate": 383.5478489833388
+    },
+    {
+      "zipCode": "77506",
+      "registration_records": 3773,
+      "members_in_flood_damage_records_sum": 4240,
+      "baseline_estimate": 2695.3821271073407,
+      "model_estimate": 4637.396633161072
+    },
+    {
+      "zipCode": "77031",
+      "registration_records": 1527,
+      "members_in_flood_damage_records_sum": 319,
+      "baseline_estimate": 1090.868939330217,
+      "model_estimate": 531.6793173970083
+    },
+    {
+      "zipCode": "77087",
+      "registration_records": 3284,
+      "members_in_flood_damage_records_sum": 1505,
+      "baseline_estimate": 2346.046887203951,
+      "model_estimate": 1965.0251075185993
+    },
+    {
+      "zipCode": "77028",
+      "registration_records": 6083,
+      "members_in_flood_damage_records_sum": 7494,
+      "baseline_estimate": 4345.616082479181,
+      "model_estimate": 4612.694223054466
+    },
+    {
+      "zipCode": "77505",
+      "registration_records": 1801,
+      "members_in_flood_damage_records_sum": 1819,
+      "baseline_estimate": 1286.6109755951022,
+      "model_estimate": 1266.7775858289847
+    },
+    {
+      "zipCode": "77484",
+      "registration_records": 81,
+      "members_in_flood_damage_records_sum": 26,
+      "baseline_estimate": 57.86534648706456,
+      "model_estimate": 59.748738814639836
+    },
+    {
+      "zipCode": "77546",
+      "registration_records": 3148,
+      "members_in_flood_damage_records_sum": 4303,
+      "baseline_estimate": 2248.890256065176,
+      "model_estimate": 4053.504113633703
+    },
+    {
+      "zipCode": "77388",
+      "registration_records": 2438,
+      "members_in_flood_damage_records_sum": 1311,
+      "baseline_estimate": 1741.6754905612765,
+      "model_estimate": 1374.251957277058
+    },
+    {
+      "zipCode": "77070",
+      "registration_records": 4603,
+      "members_in_flood_damage_records_sum": 4063,
+      "baseline_estimate": 3288.3233318513353,
+      "model_estimate": 3207.55590723726
+    },
+    {
+      "zipCode": "77336",
+      "registration_records": 1448,
+      "members_in_flood_damage_records_sum": 1748,
+      "baseline_estimate": 1034.4323668304876,
+      "model_estimate": 1323.5396095560375
+    },
+    {
+      "zipCode": "77032",
+      "registration_records": 2648,
+      "members_in_flood_damage_records_sum": 2680,
+      "baseline_estimate": 1891.6967592314438,
+      "model_estimate": 2455.3636536963268
+    },
+    {
+      "zipCode": "77024",
+      "registration_records": 2931,
+      "members_in_flood_damage_records_sum": 3413,
+      "baseline_estimate": 2093.8682784393363,
+      "model_estimate": 1173.9111266431032
+    },
+    {
+      "zipCode": "77017",
+      "registration_records": 3041,
+      "members_in_flood_damage_records_sum": 2272,
+      "baseline_estimate": 2172.450847742757,
+      "model_estimate": 3640.6100707017386
+    },
+    {
+      "zipCode": "77489",
+      "registration_records": 101,
+      "members_in_flood_damage_records_sum": 3,
+      "baseline_estimate": 72.15308636041384,
+      "model_estimate": 39.71399957877463
+    },
+    {
+      "zipCode": "77013",
+      "registration_records": 3524,
+      "members_in_flood_damage_records_sum": 4900,
+      "baseline_estimate": 2517.499765684142,
+      "model_estimate": 4725.734469909362
+    },
+    {
+      "zipCode": "77494",
+      "registration_records": 541,
+      "members_in_flood_damage_records_sum": 45,
+      "baseline_estimate": 386.4833635740979,
+      "model_estimate": 229.11010959547627
+    },
+    {
+      "zipCode": "77054",
+      "registration_records": 2726,
+      "members_in_flood_damage_records_sum": 122,
+      "baseline_estimate": 1947.418944737506,
+      "model_estimate": 1890.5946049167562
+    },
+    {
+      "zipCode": "77069",
+      "registration_records": 1561,
+      "members_in_flood_damage_records_sum": 645,
+      "baseline_estimate": 1115.1580971149108,
+      "model_estimate": 922.3699363548451
+    },
+    {
+      "zipCode": "77029",
+      "registration_records": 2924,
+      "members_in_flood_damage_records_sum": 2564,
+      "baseline_estimate": 2088.867569483664,
+      "model_estimate": 2021.1456052127803
+    }
+  ]
+}

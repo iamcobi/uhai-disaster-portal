@@ -1,0 +1,4034 @@
+{
+  "rows": [
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_73",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Chambers",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Dept of Highways",
+      "flood_cause": null,
+      "latitude": 29.81,
+      "longitude": -94.83,
+      "narrative": "Texas Department of Transportation reported downed trees and powerlines near County road 565 and County road 1409.",
+      "mention_tags": [
+        "Tree mentions",
+        "Power/pole mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_76",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Local Official",
+      "flood_cause": null,
+      "latitude": 29.51,
+      "longitude": -95.09,
+      "narrative": "League city officials reported numerous downed power lines and large trees across the city.",
+      "mention_tags": [
+        "Tree mentions",
+        "Power/pole mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_7",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TORNADO",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Emergency Mngr",
+      "flood_cause": null,
+      "latitude": 29.13,
+      "longitude": -95.07,
+      "narrative": "Report of house damage and power lines down due to tornado. Rating unknown and time estimated on radar.",
+      "mention_tags": [
+        "Power/pole mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_19",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: STORM SURGE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Park/Forest Srvc",
+      "flood_cause": null,
+      "latitude": 29.2,
+      "longitude": -94.97,
+      "narrative": "Texas Parks and Wildlife reported inundated structures in Galveston Island State park.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_39",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Fort Bend",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Park/Forest Srvc",
+      "flood_cause": null,
+      "latitude": 29.37,
+      "longitude": -95.63,
+      "narrative": "Texas Parks and Wildlife reported large trees down in Brazos Bend State Park.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_43",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Trained Spotter",
+      "flood_cause": null,
+      "latitude": 29.47,
+      "longitude": -95.06,
+      "narrative": "Trained storm spotter reported power poles down near Timber Drive and Green Lee Lane.",
+      "mention_tags": [
+        "Flood/water",
+        "Power/pole mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_44",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.79,
+      "longitude": -95.59,
+      "narrative": "Large tree down near the intersection of Wickchester Ln and Kirkwood Rd.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_48",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Other Federal",
+      "flood_cause": null,
+      "latitude": 29.5,
+      "longitude": -95.09,
+      "narrative": "NASA employee reported trees down in the Oaks of Clear Creek subdivision.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_49",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Trained Spotter",
+      "flood_cause": null,
+      "latitude": 29.49,
+      "longitude": -95.1,
+      "narrative": "Storm Spotter reported that two power poles fell on the entrance to the UPS Customer Service center. These power lines are 13.2kV neighborhood lines.",
+      "mention_tags": [
+        "Power/pole mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_53",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Fort Bend",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Law Enforcement",
+      "flood_cause": null,
+      "latitude": 29.68,
+      "longitude": -96.0,
+      "narrative": "Constable reported that a tree fell on a car in Simonton.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_57",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Other Federal",
+      "flood_cause": null,
+      "latitude": 29.57,
+      "longitude": -95.02,
+      "narrative": "Johnson Space Center employee reported a large tree down near Meyer Avenue.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_58",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.68,
+      "longitude": -95.5,
+      "narrative": "Broadcast media reported downed street signs and large tree limbs snapped in the Maplewood neighborhood.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_61",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Law Enforcement",
+      "flood_cause": null,
+      "latitude": 30.02,
+      "longitude": -95.17,
+      "narrative": "*** 1 FATAL *** Harris county sheriff reported that a tree fell on a house at 20900 Heather Grove Court. One fatality has been confirmed.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_64",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Law Enforcement",
+      "flood_cause": null,
+      "latitude": 29.44,
+      "longitude": -94.66,
+      "narrative": "*** 1 FATAL *** Local Sheriff reported one fatality on Bolivar Peninsula. Power outages from Hurricane Beryl caused the breathing machine of the victim to fail.",
+      "mention_tags": [
+        "Power/pole mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_65",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Newspaper",
+      "flood_cause": null,
+      "latitude": 29.75,
+      "longitude": -95.39,
+      "narrative": "Reporter shared photos of downed trees and debris in Montrose.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_66",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.83,
+      "longitude": -95.45,
+      "narrative": "Broadcast media shared a video of several snapped trees and damaged homes in the Garden Oaks area.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_67",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Emergency Mngr",
+      "flood_cause": null,
+      "latitude": 29.83,
+      "longitude": -95.42,
+      "narrative": "San Jacinto College Emergency manager reported multiple trees down in Oak Forest.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_68",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Public",
+      "flood_cause": null,
+      "latitude": 30.04,
+      "longitude": -95.47,
+      "narrative": "A member of the public reported that large tree fell on an apartment complex in Cypresswood.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_78",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.49,
+      "longitude": -95.08,
+      "narrative": "National Weather Service employee reported power lines down along State Highway 3_ south of League City Parkway.",
+      "mention_tags": [
+        "Power/pole mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_82",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Wharton",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.33,
+      "longitude": -96.12,
+      "narrative": "News media posted a video on social media showing downed powerlines_ toppled signs and a blown over semi truck along the highway near Wharton.",
+      "mention_tags": [
+        "Power/pole mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_86",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.54,
+      "longitude": -95.18,
+      "narrative": "National Weather Service employee reported large Trees down in Quillback park.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_87",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Fire Dept/Rescue",
+      "flood_cause": null,
+      "latitude": 30.07,
+      "longitude": -95.41,
+      "narrative": "Spring Fire Department reported widespread downed trees_ power lines_ and serious accidents ongoing across Spring.",
+      "mention_tags": [
+        "Power/pole mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_89",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Law Enforcement",
+      "flood_cause": null,
+      "latitude": 30.02,
+      "longitude": -95.46,
+      "narrative": "*** 1 FATAL *** Harris county constable precinct 4 reported that a tree fell on a home at 17400 Rustic Canyon Trail. Law enforcement confirmed 1 fatality at the scene.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_94",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Law Enforcement",
+      "flood_cause": null,
+      "latitude": 29.77,
+      "longitude": -95.36,
+      "narrative": "Harris county sheriff reported downed trees along North San Jacinto street.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_98",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.27,
+      "longitude": -94.82,
+      "narrative": "Broadcast Media shared a video on social media showing building damage to the San Luis Resort.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_103",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.67,
+      "longitude": -95.49,
+      "narrative": "Broadcast media reported large tree limbs snapped and blocking the Hillcroft Avenue.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_104",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Public",
+      "flood_cause": null,
+      "latitude": 29.31,
+      "longitude": -94.77,
+      "narrative": "A member of the public shared photos of building damage along Church street.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_108",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Montgomery",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Emergency Mngr",
+      "flood_cause": null,
+      "latitude": 30.13,
+      "longitude": -95.21,
+      "narrative": "*** 1 FATAL *** Victim was struck by a falling tree while on the road.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_109",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Montgomery",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Public",
+      "flood_cause": null,
+      "latitude": 30.21,
+      "longitude": -95.76,
+      "narrative": "*** 2 FATAL *** Two victims were struck by a falling tree while in a tent in the woods.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_11",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Brazoria",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.04,
+      "longitude": -95.65,
+      "narrative": "Mesonet station UR260 2.8 E Sweeny (UPR).",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_18",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: STORM SURGE",
+      "county_or_zone": "Brazoria",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Storm Chaser",
+      "flood_cause": null,
+      "latitude": 29.05,
+      "longitude": -95.16,
+      "narrative": "Storm Chaser reported a large buoy washed ashore from intense storm surge near Bluewater Highway. A fence gate sustained damage from this storm surge driven buoy.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_20",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 29.27,
+      "longitude": -94.87,
+      "narrative": "ASOS station KGLS Galveston.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_22",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Brazoria",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.15,
+      "longitude": -95.3,
+      "narrative": "Mesonet station BZRT2 Brazoria Nwr.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_23",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "GMZ335",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.08,
+      "longitude": -95.12,
+      "narrative": "Mesonet station LUIT2 11 SW Jamaica Beach.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_24",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Brazoria",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 29.52,
+      "longitude": -95.25,
+      "narrative": "ASOS station KLVJ Pearland.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_25",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Brazoria",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 29.12,
+      "longitude": -95.47,
+      "narrative": "ASOS station KLBX Brazoria County Airport.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_26",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Fort Bend",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.46,
+      "longitude": -95.47,
+      "narrative": "Mesonet station GW4317 ROSHARON.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_27",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: AWOS",
+      "flood_cause": null,
+      "latitude": 29.6,
+      "longitude": -95.17,
+      "narrative": "AWOS station KEFD 4 SSW Pasadena.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_29",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Dept of Highways",
+      "flood_cause": null,
+      "latitude": 29.31,
+      "longitude": -94.91,
+      "narrative": "Drive Texas reported low water crosses were flooded along Interstate highway 45 between Bayou Vista and the Causeway.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_30",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Dept of Highways",
+      "flood_cause": null,
+      "latitude": 29.33,
+      "longitude": -94.93,
+      "narrative": "Drive Texas reported that State Highway 6 towards Interstate 45 was impassable due to High water on the roadway. State Highway 146 was also inundated with high water.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_31",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Fort Bend",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Law Enforcement",
+      "flood_cause": null,
+      "latitude": 29.55,
+      "longitude": -95.79,
+      "narrative": "Officers in high water vehicles have been dispatched to a water rescue on Avenue N.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_33",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.56,
+      "longitude": -95.07,
+      "narrative": "Mesonet station XCLP Clear Lake Park.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_34",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.49,
+      "longitude": -95.11,
+      "narrative": "Metal light post down on vehicle in parking lot near the intersections of I-45 and HWY-96.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_35",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Chambers",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.72,
+      "longitude": -94.94,
+      "narrative": "Mesonet station CBHT2 1710 Cedar Bayou At Sh 99.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_36",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 30.0,
+      "longitude": -95.37,
+      "narrative": "ASOS station KIAH Houston Intnl.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_37",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.37,
+      "longitude": -94.95,
+      "narrative": "Mesonet station XTEX Texas City.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_38",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Colorado",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.44,
+      "longitude": -96.44,
+      "narrative": "Mesonet station TWB09 12.4 SW Eagle Lake (TWDB).",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_40",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Brazoria",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Dept of Highways",
+      "flood_cause": null,
+      "latitude": 29.42,
+      "longitude": -95.23,
+      "narrative": "Drive Texas reported water over the roadways on State Highway 35 near Alvin.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_41",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.47,
+      "longitude": -94.62,
+      "narrative": "Mesonet station XCRB Crab Lake.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_42",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 30.07,
+      "longitude": -95.55,
+      "narrative": "ASOS station KDWH Houston Dw Hooks.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_45",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "GMZ355",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Buoy",
+      "flood_cause": null,
+      "latitude": 29.36,
+      "longitude": -94.72,
+      "narrative": "Buoy station GNJT2 Galveston Bay Entrance_ North Jetty_ T.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_47",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "GMZ355",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.23,
+      "longitude": -94.41,
+      "narrative": "Mesonet station 42035 28 E Galveston.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_52",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Colorado",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.67,
+      "longitude": -96.27,
+      "narrative": "National Wildlife Refuge mesonet site measured a 72 mph wind gust.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_54",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.73,
+      "longitude": -95.4,
+      "narrative": "Parts of US-59 flooded near Dunlavy Street.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_55",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.78,
+      "longitude": -95.27,
+      "narrative": "Parts of I-10 in the Houston area are flooded.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_56",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.91,
+      "longitude": -95.79,
+      "narrative": "Mesonet station JOPT2 2185 John Paul Landing.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_59",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 29.64,
+      "longitude": -95.28,
+      "narrative": "Hobby ASOS station measured a 76 MPH wind gust.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_60",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Waller",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: AWOS",
+      "flood_cause": null,
+      "latitude": 29.8,
+      "longitude": -95.9,
+      "narrative": "AWOS station KTME Houston Exec.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_62",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "GMZ335",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.48,
+      "longitude": -94.92,
+      "narrative": "Mesonet station EPTT2 Eagle Point_ TX.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_63",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.54,
+      "longitude": -95.1,
+      "narrative": "Mesonet station AT862 Webster.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_69",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Dept of Highways",
+      "flood_cause": null,
+      "latitude": 29.94,
+      "longitude": -95.39,
+      "narrative": "Drive Texas reported flooding over Texas Beltway 8 between Interstate 45 and Interstate 69.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_71",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "GMZ335",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.68,
+      "longitude": -94.98,
+      "narrative": "Mesonet station MGPT2 Morgans Point_ TX.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_72",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 29.63,
+      "longitude": -95.28,
+      "narrative": "ASOS station KHOU Houston Hobby.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_74",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "GMZ335",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.54,
+      "longitude": -94.91,
+      "narrative": "Mesonet station XGAL Galveston Bay.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_75",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Galveston",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.42,
+      "longitude": -94.89,
+      "narrative": "Mesonet station XLEV Levee.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_79",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Brazos",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 30.54,
+      "longitude": -96.3,
+      "narrative": "Broadcast media shared photos of damage to Wellborn Grocery store.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_80",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.78,
+      "longitude": -95.37,
+      "narrative": "*** 1 FATAL *** Victim drowned after vehicle submerged in floodwaters near Houston Avenue and I-45.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_81",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.78,
+      "longitude": -95.37,
+      "narrative": "*** 1 FATAL *** Corrects previous flood report from 1 NE Houston. Victim drowned after vehicle submerged in floodwaters near Houston Avenue and I-45.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_83",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Chambers",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 29.67,
+      "longitude": -94.44,
+      "narrative": "Mesonet station HILT2 Anahuac.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_84",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Brazos",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 30.58,
+      "longitude": -96.37,
+      "narrative": "ASOS station KCLL Easterwood Field Airport.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_85",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 30.0,
+      "longitude": -95.37,
+      "narrative": "ASOS station KIAH Houston Intnl.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_88",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Dept of Highways",
+      "flood_cause": null,
+      "latitude": 29.68,
+      "longitude": -95.38,
+      "narrative": "Houston Transtar cameras captured a high water rescue in progress along State Highways 288 at interstate 610.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_90",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Brazoria",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.58,
+      "longitude": -95.39,
+      "narrative": "Broadcast Media reported damage to local school in Pearland.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_91",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Montgomery",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 30.17,
+      "longitude": -95.44,
+      "narrative": "Mesonet station CW2840 Houston.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_95",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Washington",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 30.32,
+      "longitude": -96.2,
+      "narrative": "Mesonet station TWB81 Sanda.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_96",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Liberty",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Dept of Highways",
+      "flood_cause": null,
+      "latitude": 30.15,
+      "longitude": -94.89,
+      "narrative": "Drive Texas reported water over the roadways at County road 1008.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_97",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Storm Chaser",
+      "flood_cause": null,
+      "latitude": 29.74,
+      "longitude": -95.35,
+      "narrative": "Storm chaser reported flooding on I-45 near Scott street. A Motorist was stranded in the floodwaters.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_99",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Montgomery",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 30.35,
+      "longitude": -95.42,
+      "narrative": "ASOS station KCXO Conroe.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_100",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Liberty",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Dept of Highways",
+      "flood_cause": null,
+      "latitude": 30.3,
+      "longitude": -95.08,
+      "narrative": "Drive Texas reported water_ dirt and debris over County road 1010.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_101",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: TROPICAL CYCLONE",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.68,
+      "longitude": -95.37,
+      "narrative": "Broadcast Media shared a video on social media showing extensive damage east of Interstate 610 and State Highway 288. The video shows a massive pile of sheet metal along a fence at the South Loop East.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_102",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.72,
+      "longitude": -95.31,
+      "narrative": "Retired NWS Employee reported homes flooded in the Lawndale neighborhood near Brays Bayou.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_105",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Grimes",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: AWOS",
+      "flood_cause": null,
+      "latitude": 30.37,
+      "longitude": -96.11,
+      "narrative": "AWOS station K60R 2 SW Navasota.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_106",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Walker",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: ASOS",
+      "flood_cause": null,
+      "latitude": 30.75,
+      "longitude": -95.58,
+      "narrative": "ASOS station KUTS Huntsville.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_107",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Liberty",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 30.11,
+      "longitude": -94.93,
+      "narrative": "Mesonet station KNFT2 Dayton.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_110",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Public",
+      "flood_cause": null,
+      "latitude": 29.79,
+      "longitude": -95.37,
+      "narrative": "*** 1 FATAL *** A 77 year old man driving on the N Main St bridge over Little White Oak Bayou hit a curb and tried to cross high water and then the vehicle became submerged. Man was taken to an area hospital where he was pronounced dead.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_111",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Dept of Highways",
+      "flood_cause": null,
+      "latitude": 29.68,
+      "longitude": -95.38,
+      "narrative": "Drive Texas reports that flooding is still ongoing along State Highway 288 between Holmes Road and Highway 90 Alternative. Water is over the roadways and the main lanes are closed.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_112",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLASH FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Law Enforcement",
+      "flood_cause": null,
+      "latitude": 29.93,
+      "longitude": -95.3,
+      "narrative": "Harris County Sheriff shared a video showing extensive inundation along Interstate 59 and Aldine Bender Rd. In the video_ there was a vehicle trapped in the floodwaters.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_113",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "San Jacinto",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Mesonet",
+      "flood_cause": null,
+      "latitude": 30.63,
+      "longitude": -95.1,
+      "narrative": "Mesonet station EW9198 Coldspring.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_117",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: NON-TSTM WND GST",
+      "county_or_zone": "Polk",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Public",
+      "flood_cause": null,
+      "latitude": 30.79,
+      "longitude": -95.09,
+      "narrative": "From weather station on FM3186. Associated with Hurricane Beryl.",
+      "mention_tags": [],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Beryl",
+      "event_id": "NWS_HGX_LSR_118",
+      "date": "2024-07-08",
+      "event_type": "NWS local report: FLOOD",
+      "county_or_zone": "Harris",
+      "geography_type": "Local report point",
+      "source": "NWS HGX via Iowa Environmental Mesonet; reporter category: Law Enforcement",
+      "flood_cause": null,
+      "latitude": 29.82,
+      "longitude": -95.1,
+      "narrative": "Harris county sheriff reported 18700 Wallisville Road was flooded.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://mesonet.agron.iastate.edu/cgi-bin/request/gis/lsr.py?wfo=HGX&sts=2024-07-08T00%3A00%3A00Z&ets=2024-07-10T00%3A00%3A00Z&fmt=csv"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188421,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Trained Spotter",
+      "flood_cause": null,
+      "latitude": 30.06,
+      "longitude": -95.86,
+      "narrative": "Roof damage was reported near Kermier Rd and Pine Tree Lane as the derecho moved through the area.",
+      "mention_tags": [
+        "Tree mentions",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188421"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188417,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 29.72,
+      "longitude": -95.0,
+      "narrative": "Numerous trees and power lines were downed across Baytown by strong thunderstorm winds.",
+      "mention_tags": [
+        "Tree mentions",
+        "Power/pole mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188417"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167871,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "AUSTIN",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.97,
+      "longitude": -96.24,
+      "narrative": "Trees were downed and metal roofs were blown off.",
+      "mention_tags": [
+        "Tree mentions",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167871"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188426,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Amateur Radio",
+      "flood_cause": null,
+      "latitude": 29.78,
+      "longitude": -95.22,
+      "narrative": "Widespread tree damage was reported across the Jacinto City area.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188426"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188095,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "C",
+      "source": "Fire Department/Rescue",
+      "flood_cause": null,
+      "latitude": 29.8,
+      "longitude": -94.85,
+      "narrative": "Strong winds from the derecho damaged the roof of Chambers County EMS. Time was estimated based on radar data.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188095"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188087,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Trained Spotter",
+      "flood_cause": null,
+      "latitude": 29.77,
+      "longitude": -95.31,
+      "narrative": "Widespread tree damage was reported in the Denver Harbor area as the derecho moved through.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188087"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167872,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 29.89,
+      "longitude": -95.57,
+      "narrative": "Multiple trees were downed.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167872"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188086,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "WALLER",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 30.06,
+      "longitude": -96.03,
+      "narrative": "Social media reports indicated widespread tree damage from the derecho in the Prairie View area.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188086"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188416,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.76,
+      "longitude": -95.37,
+      "narrative": "Numerous skyscraper windows across downtown Houston were blown out by strong thunderstorm winds as the derecho moved through the area.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188416"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188414,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Fire Department/Rescue",
+      "flood_cause": null,
+      "latitude": 29.9,
+      "longitude": -95.76,
+      "narrative": "Large transmission lines were downed by strong thunderstorm winds as the derecho moved through the area.",
+      "mention_tags": [
+        "Power/pole mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188414"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188082,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "WALLER",
+      "geography_type": "C",
+      "source": "Storm Chaser",
+      "flood_cause": null,
+      "latitude": 29.94,
+      "longitude": -95.95,
+      "narrative": "The roof of a newly build home was damaged by strong winds from the derecho.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188082"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188074,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 29.79,
+      "longitude": -95.82,
+      "narrative": "Trained spotters reported trees downed in Katy by strong thunderstorm winds as a derecho moved through the area. Damage dollar totals include all of Harris County and City of Houston for this event.",
+      "mention_tags": [
+        "Flood/water",
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188074"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167803,
+      "date": "2024-05-16",
+      "event_type": "Tornado",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "NWS Storm Survey",
+      "flood_cause": null,
+      "latitude": 29.9232,
+      "longitude": -95.7019,
+      "narrative": "This tornado touched down near the intersection of Tuckerton and Greenhouse Roads then tracked southeastward through Highlands subdivision.  Numerous single family homes had roof damage and broken windows.  The damage path was well defined. Additional damage was found across Lone Star College Campus and CyFair ISD facility.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167803"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188081,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "WALLER",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 30.09,
+      "longitude": -95.98,
+      "narrative": "Trees were downed by strong winds in the Prairie View area as the derecho moved through. Damage totals include other wind damage across the county.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188081"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167802,
+      "date": "2024-05-16",
+      "event_type": "Tornado",
+      "county_or_zone": "WALLER",
+      "geography_type": "C",
+      "source": "NWS Storm Survey",
+      "flood_cause": null,
+      "latitude": 29.989,
+      "longitude": -95.9947,
+      "narrative": "A large metal barn was destroyed.  Trailers were rolled.  Metal debris was strewn 1000 yards to the southeast. Trees were felled in multiple directions ranging from south to northwest.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167802"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188420,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Amateur Radio",
+      "flood_cause": null,
+      "latitude": 29.86,
+      "longitude": -95.36,
+      "narrative": "Large trees were downed across Interstate 45.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188420"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170622,
+      "date": "2024-05-28",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.56,
+      "longitude": -95.13,
+      "narrative": "Golf ball sized hail damaged cars and roofs.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170622"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170624,
+      "date": "2024-05-28",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.58,
+      "longitude": -95.12,
+      "narrative": "There was golf ball sized hail and some tree limb damage in Clear Lake.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170624"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170650,
+      "date": "2024-05-28",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Trained Spotter",
+      "flood_cause": null,
+      "latitude": 29.97,
+      "longitude": -95.12,
+      "narrative": "Large trees were downed in the Indian Shores neighborhood near Lake Houston.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170650"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170652,
+      "date": "2024-05-28",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.56,
+      "longitude": -95.13,
+      "narrative": "Several trees were downed.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170652"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170651,
+      "date": "2024-05-28",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.76,
+      "longitude": -95.36,
+      "narrative": "There was scattered window damage to several skyscrapers in downtown Houston.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170651"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170623,
+      "date": "2024-05-28",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.5407,
+      "longitude": -95.1745,
+      "narrative": "There was quarter sized hail in the Friendswood area and there were also several trees downed in the area of Tall Ships Lane.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170623"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170633,
+      "date": "2024-05-28",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 30.22,
+      "longitude": -95.56,
+      "narrative": "A home under construction collapsed due to strong thunderstorm winds. One worker that was inside was trapped and killed.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170633"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170653,
+      "date": "2024-05-28",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.48,
+      "longitude": -95.1,
+      "narrative": "Shingles were blown off and one-inch tree limbs were broken.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170653"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1171029,
+      "date": "2024-06-05",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "LIBERTY",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 30.0489,
+      "longitude": -94.8906,
+      "narrative": "Trees were downed on North Main Street.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1171029"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167865,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "ASOS",
+      "flood_cause": null,
+      "latitude": 29.63,
+      "longitude": -95.28,
+      "narrative": "Wind gust occurred at KHOU.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167865"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167867,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 29.72,
+      "longitude": -94.94,
+      "narrative": "Wind gust occurred at mesonet station CBHT2 1710 Cedar Bayou at SH 99.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167867"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167868,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 29.68,
+      "longitude": -95.01,
+      "narrative": "Wind gust occurred at mesonet station 9221D Morgan's Point.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167868"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167862,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "ASOS",
+      "flood_cause": null,
+      "latitude": 30.0,
+      "longitude": -95.37,
+      "narrative": "Wind gust occurred at KIAH.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167862"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167866,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 29.76,
+      "longitude": -95.08,
+      "narrative": "Wind gust occurred at mesonet station SCPT2 2200 Houston Ship Channel at Jua.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167866"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1192624,
+      "date": "2024-05-16",
+      "event_type": "Tornado",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.9274,
+      "longitude": -95.7444,
+      "narrative": "Damage path constructed for photos and videos from residents and broadcast media. Rated high end EF1 based on severe damage to 3 houses on NW side of track.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1192624"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167860,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "WALLER",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 30.11,
+      "longitude": -96.08,
+      "narrative": "Wind gust occurred at mesonet station 030HC 4650 near Highway 6 and SH 290.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167860"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167861,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 29.95,
+      "longitude": -95.74,
+      "narrative": "Wind gust occurred at mesonet station CW9236 Cypress.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167861"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167863,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 29.71,
+      "longitude": -95.12,
+      "narrative": "Wind gust occurred at mesonet station PTKT2 650 Patricks Bayou at E 8th Street.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167863"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1167864,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "AWOS",
+      "flood_cause": null,
+      "latitude": 29.72,
+      "longitude": -95.4,
+      "narrative": "Wind gust occurred at KMCJ Houston University.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1167864"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188064,
+      "date": "2024-05-16",
+      "event_type": "Flash Flood",
+      "county_or_zone": "LIBERTY",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain",
+      "latitude": 30.33,
+      "longitude": -95.1,
+      "narrative": "Portions of US-59 / Interstate 69 near Cleveland were impassable due to flash flooding.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188064"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188425,
+      "date": "2024-05-16",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.81,
+      "longitude": -95.39,
+      "narrative": "Nine total fatalities occurred due to the derecho across the City of Houston. One was from a fire from a lightning strike which is entered separately.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188425"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188491,
+      "date": "2024-05-16",
+      "event_type": "Lightning",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.9529,
+      "longitude": -95.6585,
+      "narrative": "Lighting fire destroyed a mobile home. One fatality resulted.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188491"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170606,
+      "date": "2024-05-25",
+      "event_type": "Rip Current",
+      "county_or_zone": "GALVESTON ISLAND",
+      "geography_type": "Z",
+      "source": "Lifeguard",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "A 26 year old male from Leesville, LA drowned in a rip current near 24th Street. In addition, lifeguards rescued at least a dozen other people throughout the day that were rip current/surf related.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170606"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170616,
+      "date": "2024-05-28",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.96,
+      "longitude": -95.53,
+      "narrative": "Ping pong ball sized hail was reported.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170616"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170619,
+      "date": "2024-05-28",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.73,
+      "longitude": -95.32,
+      "narrative": "Quarter sized hail was observed.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170619"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170620,
+      "date": "2024-05-28",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Trained Spotter",
+      "flood_cause": null,
+      "latitude": 29.58,
+      "longitude": -95.16,
+      "narrative": "Quarter sized hail was observed near the intersection of Highway 3 and Clear Lake City Blvd.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170620"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170621,
+      "date": "2024-05-28",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.54,
+      "longitude": -95.12,
+      "narrative": "Quarter sized hail was observed in the Medical Center area of Clear Lake.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170621"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170625,
+      "date": "2024-05-28",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.55,
+      "longitude": -95.1,
+      "narrative": "Quarter sized hail was observed.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170625"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170634,
+      "date": "2024-05-28",
+      "event_type": "Lightning",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 30.16,
+      "longitude": -95.44,
+      "narrative": "One person was struck by lightning.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170634"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170641,
+      "date": "2024-05-28",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "ASOS",
+      "flood_cause": null,
+      "latitude": 29.99,
+      "longitude": -95.34,
+      "narrative": "Wind gust occurred at KIAH.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170641"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170642,
+      "date": "2024-05-28",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "ASOS",
+      "flood_cause": null,
+      "latitude": 29.6459,
+      "longitude": -95.277,
+      "narrative": "Wind gust occurred at KHOU.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170642"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170643,
+      "date": "2024-05-28",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "ASOS",
+      "flood_cause": null,
+      "latitude": 29.52,
+      "longitude": -95.24,
+      "narrative": "Wind gust occurred at KLVJ.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170643"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170618,
+      "date": "2024-05-28",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.6842,
+      "longitude": -95.2735,
+      "narrative": "Golf ball sized hail was observed.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170618"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170644,
+      "date": "2024-05-28",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "ASOS",
+      "flood_cause": null,
+      "latitude": 29.26,
+      "longitude": -94.86,
+      "narrative": "Wind gust occurred at KGLS.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170644"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170607,
+      "date": "2024-05-29",
+      "event_type": "Hail",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.84,
+      "longitude": -95.48,
+      "narrative": "Half dollar to ping pong sized hail was observed near Highway 290.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170607"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170655,
+      "date": "2024-05-30",
+      "event_type": "Hail",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 30.44,
+      "longitude": -95.63,
+      "narrative": "Quarter sized hail was observed.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170655"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170656,
+      "date": "2024-05-30",
+      "event_type": "Hail",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Fire Department/Rescue",
+      "flood_cause": null,
+      "latitude": 30.39,
+      "longitude": -95.7,
+      "narrative": "Quarter sized hail was observed.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170656"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170658,
+      "date": "2024-05-30",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.93,
+      "longitude": -95.16,
+      "narrative": "Wind gust occurred at the Lakeside Terrace Drive Tempest Weather Station.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170658"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1188474,
+      "date": "2024-05-30",
+      "event_type": "Flash Flood",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Fire Department/Rescue",
+      "flood_cause": "Heavy Rain",
+      "latitude": 30.41,
+      "longitude": -95.69,
+      "narrative": "Flash flooding was reported along Atkins Creek on the northeast side of the city of Montgomery. Several motorists were stranded in high water along FM 1097. A few homes in the Terra Vista neighborhood also took on some water. Time was estimated by radar.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1188474"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170588,
+      "date": "2024-05-31",
+      "event_type": "Hail",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Trained Spotter",
+      "flood_cause": null,
+      "latitude": 29.46,
+      "longitude": -95.09,
+      "narrative": "Hen egg size hail was observed.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170588"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170591,
+      "date": "2024-05-31",
+      "event_type": "Hail",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Trained Spotter",
+      "flood_cause": null,
+      "latitude": 29.5,
+      "longitude": -95.09,
+      "narrative": "Golf ball sized hail was observed in the League City area.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170591"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170592,
+      "date": "2024-05-31",
+      "event_type": "Hail",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Trained Spotter",
+      "flood_cause": null,
+      "latitude": 29.44,
+      "longitude": -95.1,
+      "narrative": "Half dollar to hen egg sized hail was observed.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170592"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170603,
+      "date": "2024-05-31",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 30.2718,
+      "longitude": -95.444,
+      "narrative": "Wind gust occurred at the Doolan Drive Tempest Weather System site.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170603"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170589,
+      "date": "2024-05-31",
+      "event_type": "Hail",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.4419,
+      "longitude": -95.0924,
+      "narrative": "Quarter sized hail was observed at the intersection of FM 646 and FM 517. Report came from a Spaceflight Meteorology Group (SMG) meteorologist.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170589"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170594,
+      "date": "2024-05-31",
+      "event_type": "Hail",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.4719,
+      "longitude": -95.0828,
+      "narrative": "Hail up to baseball sized was collected around the WFO HGX office.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170594"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1194999,
+      "date": "2024-06-01",
+      "event_type": "Funnel Cloud",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 29.08,
+      "longitude": -95.36,
+      "narrative": "A funnel cloud was sighted near the intersection of CR 223 and CR 523.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1194999"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170553,
+      "date": "2024-06-01",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "LIBERTY",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 30.0405,
+      "longitude": -94.8817,
+      "narrative": "Wind gust occurred at the South Winfree St. Tempest Weather Station.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170553"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1170549,
+      "date": "2024-06-04",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "ASOS",
+      "flood_cause": null,
+      "latitude": 29.11,
+      "longitude": -95.46,
+      "narrative": "The wind gust was occurred at KLBX.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1170549"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1171027,
+      "date": "2024-06-05",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 29.2778,
+      "longitude": -94.8466,
+      "narrative": "Wind gust occurred at the Avenue N Tempest Weather System site.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1171027"
+    },
+    {
+      "storm": "Derecho",
+      "event_id": 1171028,
+      "date": "2024-06-05",
+      "event_type": "Thunderstorm Wind",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Mesonet",
+      "flood_cause": null,
+      "latitude": 29.2778,
+      "longitude": -94.8466,
+      "narrative": "Wind gust occurred at the Avenue N Tempest Weather System site.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=1171028"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720470,
+      "date": "2017-08-25",
+      "event_type": "Tornado",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "NWS Storm Survey",
+      "flood_cause": null,
+      "latitude": 29.2987,
+      "longitude": -95.3045,
+      "narrative": "A tornado touched down just west of Liverpool. It took down 4 power poles on highway 35 along with several trees near the Gulf Coast Speedway. The tornado then traveled across generally open field before damaging some barns and outbuildings as well as trees on County Road 511.",
+      "mention_tags": [
+        "Tree mentions",
+        "Building/roof mentions",
+        "Power/pole mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720470"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720463,
+      "date": "2017-08-25",
+      "event_type": "Tornado",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "NWS Storm Survey",
+      "flood_cause": null,
+      "latitude": 29.1464,
+      "longitude": -95.5448,
+      "narrative": "A high-end EF-0 tornado touched down east of West Columbia damaging numerous trees... roofs...and outbuildings in a neighborhood off of highway 35. A barn and several outbuildings were also destroyed on the east side of the Brazos River. Damage described by property owner. Property was flooded.",
+      "mention_tags": [
+        "Flood/water",
+        "Tree mentions",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720463"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720477,
+      "date": "2017-08-25",
+      "event_type": "Tornado",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 29.4873,
+      "longitude": -95.517,
+      "narrative": "Tornado tracked across Sienna Plantation subdivision downing trees and damaging roofs on about 25 homes. Vieux Carre Ct and Steve Ct were hardest hit.",
+      "mention_tags": [
+        "Tree mentions",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720477"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720471,
+      "date": "2017-08-25",
+      "event_type": "Tornado",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "NWS Storm Survey",
+      "flood_cause": null,
+      "latitude": 29.4475,
+      "longitude": -95.4599,
+      "narrative": "An EF-1 tornado touched down southeast of Juliff and tracked from Brazoria into Fort Bend County. Damage occurred to some roofs Several trees there were either snapped or downed. Damage path crossed county line from Brazoria to Fort Bend County. This entry is for the Fort Bend County segment.",
+      "mention_tags": [
+        "Tree mentions",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720471"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 767027,
+      "date": "2017-08-25",
+      "event_type": "Tornado",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "NWS Storm Survey",
+      "flood_cause": null,
+      "latitude": 29.4379,
+      "longitude": -95.45,
+      "narrative": "An EF-1 tornado touched down southeast of Juliff and tracked from Brazoria into Fort Bend County. Damage occurred to some roofs Several trees there were either snapped or downed. Damage path crossed county line from Brazoria to Fort Bend County. This entry is for the Brazoria County segment.",
+      "mention_tags": [
+        "Tree mentions",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=767027"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720680,
+      "date": "2017-08-26",
+      "event_type": "Tornado",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Storm Chaser",
+      "flood_cause": null,
+      "latitude": 29.907,
+      "longitude": -95.6872,
+      "narrative": "Trees downed and roof damage near Berry Center and Lone Oak Subdivision.",
+      "mention_tags": [
+        "Tree mentions",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720680"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720674,
+      "date": "2017-08-26",
+      "event_type": "Tornado",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.9243,
+      "longitude": -95.1516,
+      "narrative": "Report of tornado touchdown resulting in damage to trees, fences and roofs in Lakeshore and Summerwood subdivisions. Tornado initially sighted by the public over southern portions of Lake Houston.",
+      "mention_tags": [
+        "Tree mentions",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720674"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720709,
+      "date": "2017-08-27",
+      "event_type": "Tornado",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 29.5106,
+      "longitude": -95.0057,
+      "narrative": "Trees down, minor roof damage in Bacliff. Fences down.",
+      "mention_tags": [
+        "Tree mentions",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720709"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720460,
+      "date": "2017-08-25",
+      "event_type": "Tornado",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "NWS Storm Survey",
+      "flood_cause": null,
+      "latitude": 28.9811,
+      "longitude": -95.483,
+      "narrative": "Very brief tornado touched down near HWY 36 with numerous trees snapped or downed. Barn also damaged.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720460"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720466,
+      "date": "2017-08-25",
+      "event_type": "Tornado",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "NWS Storm Survey",
+      "flood_cause": null,
+      "latitude": 29.2216,
+      "longitude": -95.3505,
+      "narrative": "The tornado began in Danbury and damaged a barn along with several trees off of County Road 207. The tornado then crossed Hwy 35 and moved over an open field. The tornado then snapped and/or downed several trees along County Rd 45 before lifting at the Crocodile Encounter on County Rd 48.",
+      "mention_tags": [
+        "Tree mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720466"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720672,
+      "date": "2017-08-26",
+      "event_type": "Tornado",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.7,
+      "longitude": -95.76,
+      "narrative": "Roof damage to a home near Westpark Tollway and Grand Parkway.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720672"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 767338,
+      "date": "2017-08-26",
+      "event_type": "Tornado",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 29.776,
+      "longitude": -95.844,
+      "narrative": "Tornado touched down near Trailer World RV and Boat Storage facility then crossed Interstate 10. It did minor damage to Bucees car wash area then ripped large air conditioning units off top of Pepperl Fuchs buiding. Finally in damaged awnings near Builders First building. Tornado crossed from Fort Bend into Waller County. This entry documents Fort Bend County segment.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=767338"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720873,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Social Media",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.7216,
+      "longitude": -95.2927,
+      "narrative": "There were numerous water rescues, with people being stranded within their attics and roofs, in south Houston and surrounding communities. Flash flood waters, from sheet flooding and bayous/creeks coming out of banks, completely inundated hundreds to thousands of homes and businesses. Roads and highways in and around south Houston and Pasadena were flooded and therefore closed for long time periods.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water",
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720873"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720676,
+      "date": "2017-08-26",
+      "event_type": "Tornado",
+      "county_or_zone": "WALLER",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 29.78,
+      "longitude": -95.8466,
+      "narrative": "Tornado touched down near Trailer World RV and Boat Storage facility then crossed Interstate 10. It did minor damage to Bucees car wash area then ripped large air conditioning units off top of Pepperl-Fuchs building. Finally in damaged awnings near Builders First building before lifting. Tornado crossed from Fort Bend into Waller County. This entry documents Waller County segment.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720676"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720710,
+      "date": "2017-08-27",
+      "event_type": "Tornado",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": null,
+      "latitude": 29.717,
+      "longitude": -95.4151,
+      "narrative": "Windows blown out Torchy's Tacos.",
+      "mention_tags": [
+        "Building/roof mentions"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720710"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723646,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "MATAGORDA",
+      "geography_type": "Z",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Harvey made landfall as a category 4 hurricane near Rockport, Texas during the evening of August 25th then slowed and looped back tracking over SE Texas, back over the Gulf of Mexico then making a second landfall along the Louisiana coast during the early morning hours of August 30th. Matagorda and Jackson counties experienced moderate storm surge along Matagorda Bay, Tropical Storm force winds and major lowland flooding along the Palacious and Navidad Rivers.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723646"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723647,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "JACKSON",
+      "geography_type": "Z",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Harvey made landfall as a category 4 hurricane near Rockport, Texas during the evening of August 25th then slowed and looped back tracking over SE Texas, back over the Gulf of Mexico then making a second landfall along the Louisiana coast during the early morning hours of August 30th. Matagorda and Jackson counties experienced moderate storm surge along Matagorda Bay, Tropical Storm force winds and major lowland flooding along the Palacious and Navidad Rivers.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723647"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720459,
+      "date": "2017-08-25",
+      "event_type": "Tornado",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": null,
+      "latitude": 29.3104,
+      "longitude": -94.7699,
+      "narrative": "Funnel cloud sighting with fence damage near Ferry Road.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720459"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723655,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "MADISON",
+      "geography_type": "Z",
+      "source": "Local Official",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey brought heavy rains and flooding to portions of Brazos, Burleson, Austin, Grimes, Washington and Madison Counties. Moderate to major lowland flooding occurred along rivers and numerous creeks and tributaries. This includes the Brazos at San Felipe, Davison Creek, etc.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723655"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723658,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "LIBERTY",
+      "geography_type": "Z",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey produced torrential rainfall across Liberty and Chambers Counties. Major to record flooding occurred along the Trinity River and along numerous creeks and tributaries.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723658"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723653,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "GRIMES",
+      "geography_type": "Z",
+      "source": "Local Official",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey brought heavy rains and flooding to portions of Brazos, Burleson, Austin, Grimes, Washington and Madison Counties. Moderate to major lowland flooding occurred along rivers and numerous creeks and tributaries. This includes the Brazos at San Felipe, Davison Creek, etc.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723653"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723654,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "WASHINGTON",
+      "geography_type": "Z",
+      "source": "Local Official",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey brought heavy rains and flooding to portions of Brazos, Burleson, Austin, Grimes, Washington and Madison Counties. Moderate to major lowland flooding occurred along rivers and numerous creeks and tributaries. This includes the Brazos at San Felipe, Davison Creek, etc.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723654"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723657,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "WALLER",
+      "geography_type": "Z",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey brought heavy rains and flooding to portions of Waller County. Moderate to major lowland flooding occurred along rivers and numerous creeks and tributaries. This includes the Brazos at San Felipe, and the San Bernard at East Bernard.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723657"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723659,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "Z",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey produced torrential rainfall across Liberty and Chambers Counties. Major to record flooding occurred along the Trinity River and along numerous creeks and tributaries.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723659"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723650,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "BRAZOS",
+      "geography_type": "Z",
+      "source": "Local Official",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey brought heavy rains and flooding to portions of Brazos, Burleson, Austin, Grimes, Washington and Madison Counties. Moderate to major lowland flooding occurred along rivers and numerous creeks and tributaries. This includes the Brazos at San Felipe, Davison Creek, etc.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723650"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723651,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "BURLESON",
+      "geography_type": "Z",
+      "source": "Local Official",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey brought heavy rains and flooding to portions of Brazos, Burleson, Austin, Grimes, Washington and Madison Counties. Moderate to major lowland flooding occurred along rivers and numerous creeks and tributaries. This includes the Brazos at San Felipe, Davison Creek, etc.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723651"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720467,
+      "date": "2017-08-25",
+      "event_type": "Funnel Cloud",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "Law Enforcement",
+      "flood_cause": null,
+      "latitude": 29.0,
+      "longitude": -95.32,
+      "narrative": "",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720467"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723652,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "AUSTIN",
+      "geography_type": "Z",
+      "source": "Local Official",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey brought heavy rains and flooding to portions of Brazos, Burleson, Austin, Grimes, Washington and Madison Counties. Moderate to major lowland flooding occurred along rivers and numerous creeks and tributaries. This includes the Brazos at San Felipe, Davison Creek, etc.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723652"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723656,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "WHARTON",
+      "geography_type": "Z",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey produced widespread catastrophic flooding across Wharton County. Major to record flooding occurred along the Colorado and San Bernard Rivers and several other creeks and tributaries. Two tornadoes were reported.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723656"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723649,
+      "date": "2017-08-25",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "Z",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Slow moving Tropical Storm Harvey produced torrential rains and catastrophic flooding. Several tornadoes touched down. Major to record flooding occurred along the Brazos and San Bernard Rivers and several other creeks and tributaries including Oyster Creek. Flooding caused an estimated $2 billion in damage. See Flash Flood event report for more details.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723649"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720340,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.5499,
+      "longitude": -95.7579,
+      "narrative": "Sections of FM 762 were flooded around SH 69 south of Richmond.||Major record level flooding of both the Brazos and San Bernard Rivers caused significant home flooding from Richmond to Rosharon. Massive flooding occurred in Tierra Grande subdivision along the San Bernard River in southwestern Fort Bend County. Home flooding occurred at Valley Lodge in Simonton, along Edgewood and Baudet Roads in Richmond, along Bar, Barker, Cumings, Sixth Street, Avenue B and Rio Brazos Roads in Rosenberg. Sections of FM 2759 as well as the Grand River, Rivers Edge and Pecan Estates in Thompsons flooded. Many countywide roads became inundated in flood waters including, but not limited to, Highway 90A, Pitts Road, FM 1489, FM 723, FM 1093, FM 359, SH 6 feeder roads, Sienna Parkway, Carrol Road, McKeever Road, Knights Court, Miller Road, river Oaks Road, Thompsons Ferry Road, Strange Drive, Greenwood Drive, Second Street and low lying roads in Quail Valley in Missouri City.  Due to record pool levels in Barker Reservoir, homes in Cinco Ranch flooded. Big Creek flooding in Needville caused the flooding of homes on Ansel Road.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720340"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720464,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.4284,
+      "longitude": -95.509,
+      "narrative": "Water was reported over sections of I-45 northbound where TXDOT reported flooding at the FM 1097 intersection.||Record pool levels on Lake Conroe required downstream releases that flooded numerous downstream homes, businesses and vehicles. Major flooding occurred along the San Jacinto River and the east Fork of the San Jacinto and its tributaries inundated tens to hundreds of residential subdivisions. There were hundreds of flooded homes along Lake, Spring, Peach and Caney Creeks.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720464"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720344,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.5162,
+      "longitude": -95.1416,
+      "narrative": "Numerous roads were flooded and impassable across northern and western Galveston County.||Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720344"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720859,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.598,
+      "longitude": -95.316,
+      "narrative": "There were numerous water rescues and flooded homes within the Friendswood and Pearland areas. Roads and highways in and around these Houston suburbs were inundated and closed due to flash flooding. Mary's Creek and Cowart Creek overflowed their banks and exacerbated the flooding.||Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720859"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720465,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.542,
+      "longitude": -95.0988,
+      "narrative": "Low water ways were flooded along FM 270 from FM 646 to NASA Road 1.||Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720465"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720858,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.1123,
+      "longitude": -95.658,
+      "narrative": "There were numerous water rescues within Houston and the surrounding suburbs. Roads and highways in and around Houston inundated and closed due to flash flooding. Some of the reported flooded roads in Pasadena were Vista Street, Shafer Street, Fairmont Drive and Strawberry Road.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720858"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720860,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Local Official",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.9887,
+      "longitude": -95.8392,
+      "narrative": "There were numerous water rescues within Houston and the surrounding suburbs. Roads and highways in and around Houston inundated and closed due to flash flooding.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720860"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720469,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Law Enforcement",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.3872,
+      "longitude": -95.5275,
+      "narrative": "There were impassable roads due to high water at Horseshoe Circle and Painted Blvd off the Grand Parkway, 19000 block of David Memorial from Sam's Club to Shenandoah Park, the 11000 block of River Oaks Drive, the 45 northbound lanes at Highway 242 and Hines Road in Willis.||Record pool levels on Lake Conroe required downstream releases that flooded numerous downstream homes, businesses and vehicles. Major flooding occurred along the San Jacinto River and the east Fork of the San Jacinto and its tributaries inundated tens to hundreds of residential subdivisions. There were hundreds of flooded homes along Lake, Spring, Peach and Caney Creeks.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720469"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720862,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.5736,
+      "longitude": -95.2789,
+      "narrative": "There were numerous water rescues within League City, Dickinson and Santa Fe. Flash flood waters, from sheet flooding and bayous/creeks coming out of banks, completely inundated hundreds to thousands of homes and businesses. Roads and highways in and around northern and central Galveston County were flooded and therefore closed for long time periods.||Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720862"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720677,
+      "date": "2017-08-26",
+      "event_type": "Tornado",
+      "county_or_zone": "WALLER",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": 29.7756,
+      "longitude": -95.8442,
+      "narrative": "Tornado appeared to touch down at an RV and boat storage facility then cross Interstate 10. It then damaged Pepperl Fuchs facility on north side of Interstate. Tornado crossed from Fort Bend into Waller County.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720677"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720686,
+      "date": "2017-08-26",
+      "event_type": "Tornado",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Social Media",
+      "flood_cause": null,
+      "latitude": 29.9528,
+      "longitude": -95.6704,
+      "narrative": "A second tornado spotted near Hwy 290 and Barker Cypress.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720686"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720704,
+      "date": "2017-08-26",
+      "event_type": "Tornado",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "NWS Storm Survey",
+      "flood_cause": null,
+      "latitude": 29.5706,
+      "longitude": -95.5125,
+      "narrative": "Damage to 28 homes in the Woodland West subdivision. Damage path extends from Stafford into Missouri City. The worst of the damage was high end EF1.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720704"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720706,
+      "date": "2017-08-26",
+      "event_type": "Tornado",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "NWS Employee",
+      "flood_cause": null,
+      "latitude": 29.55,
+      "longitude": -95.11,
+      "narrative": "Damage to awning at gas station. Funnel cloud sighted in the area at the time.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720706"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720869,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.0886,
+      "longitude": -95.993,
+      "narrative": "There were numerous water rescues within Houston and the surrounding western suburbs. Flash flood waters, from sheet flooding and bayous/creeks coming out of banks, completely inundated hundreds to thousands of homes and businesses. Roads and highways in and around Houston were flooded and therefore closed for long time periods.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720869"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 728846,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.6943,
+      "longitude": -95.7974,
+      "narrative": "FM 1093 closed east of FM 723 due to flooding.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=728846"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720852,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "Law Enforcement",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.4493,
+      "longitude": -96.0027,
+      "narrative": "There were numerous road closures around the Rosenberg and Richmond areas. Some of these roads included Highway 90 at Highway 36 and Lane Drive, Lane Drive at Mustang Road and I-69 at FM 762 and Reading Road. Major record level flooding of both the Brazos and San Bernard Rivers caused significant home flooding from Richmond to Rosharon. Massive flooding occurred in Tierra Grande subdivision along the San Bernard River in southwestern Fort Bend County. Home flooding occurred at Valley Lodge in Simonton, along Edgewood and Baudet Roads in Richmond, along Bar, Barker, Cumings, Sixth Street, Avenue B and Rio Brazos Roads in Rosenberg. Sections of FM 2759 as well as the Grand River, Rivers Edge and Pecan Estates in Thompsons flooded. Many countywide roads became inundated in flood waters including, but not limited to, Highway 90A, Pitts Road, FM 1489, FM 723, FM 1093, FM 359, SH 6 feeder roads, Sienna Parkway, Carrol Road, McKeever Road, Knights Court, Miller Road, river Oaks Road, Thompsons Ferry Road, Strange Drive, Greenwood Drive, Second Street and low lying roads in Quail Valley in Missouri City.  Due to record pool levels in Barker Reservoir, homes in Cinco Ranch flooded. Big Creek flooding in Needville caused the flooding of homes on Ansel Road. Flooding being reported in or within homes in Missouri City with water rescues being conducted off of the Westpark Tollway in the Jeanetta Sharpstown area.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720852"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720815,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.3757,
+      "longitude": -94.7289,
+      "narrative": "Low lying sections of Highway 87 on the Bolivar Peninsula were flooded due to rain.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720815"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 728401,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.1642,
+      "longitude": -95.4726,
+      "narrative": "Heavy rain from first rain band caused flash flooding on portions of Interstate 45 between The Woodlands and Conroe with several reports of roads impassable.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=728401"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720829,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Social Media",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.0044,
+      "longitude": -95.7397,
+      "narrative": "Flash flooding was reported in and around the town of Cypress.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720829"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720865,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.5927,
+      "longitude": -95.4067,
+      "narrative": "Flash flood waters, from sheet flooding and bayous/creeks coming out of banks, completely inundated hundreds to thousands of homes and businesses. Roads and highways in and around Pearland and south into Manvel, or east of Highway 288 along Highway 6, were flooded and therefore closed for long time periods. Major record flooding of the Brazos, San Bernard and Oyster Creek caused the flooding of hundreds to thousands of vicinity homes, vehicles and businesses.  Numerous Roads and homes were inundated with flood waters on east side of Oyster Creek including the  Columbia Lakes, Mallard Lakes, Great Lakes, Riverside Estates and Bar X subdivisions as well as homes along CR 39. Other county roads that became impassable due to high flood waters include, but are not limited to, FM 1462, Highways 35 and 90, FM 950, CR 25, 380A, CR 42 and FM 521. The Phillips refinery outside of the town of Sweeny took on water from the west near Little Linville Bayou. Hanson Riverside County Park along the San Bernard River southwest of West Columbia was inundated and water over-topped the Phillips Terminal. Areas around Alvin also flooded.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720865"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720871,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.4972,
+      "longitude": -94.9164,
+      "narrative": "There were numerous water rescues across western and central Galveston County. Flood waters completely inundated hundreds to thousands of homes and businesses in League City, Dickinson and Santa Fe.  Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads. Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads. There were numerous water rescues and flooded homes within the Friendswood, Pearland and Dickinson areas.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720871"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720342,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.8889,
+      "longitude": -95.5996,
+      "narrative": "Sections of US 290 were closed due to flooding between the 610 Loop and FM 529 in Jersey Village.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720342"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720336,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "Law Enforcement",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.3763,
+      "longitude": -95.5028,
+      "narrative": "There was water over roadways FM 655 and CR 521 near the town of Rosharon.||Major record level flooding of both the Brazos and San Bernard Rivers caused significant home flooding from Richmond to Rosharon. Massive flooding occurred in Tierra Grande subdivision along the San Bernard River in southwestern Fort Bend County. Home flooding occurred at Valley Lodge in Simonton, along Edgewood and Baudet Roads in Richmond, along Bar, Barker, Cumings, Sixth Street, Avenue B and Rio Brazos Roads in Rosenberg. Sections of FM 2759 as well as the Grand River, Rivers Edge and Pecan Estates in Thompsons flooded. Many countywide roads became inundated in flood waters including, but not limited to, Highway 90A, Pitts Road, FM 1489, FM 723, FM 1093, FM 359, SH 6 feeder roads, Sienna Parkway, Carrol Road, McKeever Road, Knights Court, Miller Road, river Oaks Road, Thompsons Ferry Road, Strange Drive, Greenwood Drive, Second Street and low lying roads in Quail Valley in Missouri City.  Due to record pool levels in Barker Reservoir, homes in Cinco Ranch flooded. Big Creek flooding in Needville caused the flooding of homes on Ansel Road.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720336"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720867,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.8599,
+      "longitude": -95.4273,
+      "narrative": "There were numerous water rescues within Houston and the surrounding suburbs. Flash flood waters, from sheet flooding and bayous/creeks coming out of banks, completely inundated hundreds to thousands of homes and businesses. Roads and highways in and around Houston were flooded and therefore closed for long time periods.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720867"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723471,
+      "date": "2017-08-26",
+      "event_type": "Tropical Storm",
+      "county_or_zone": "HARRIS",
+      "geography_type": "Z",
+      "source": "Emergency Manager",
+      "flood_cause": null,
+      "latitude": null,
+      "longitude": null,
+      "narrative": "Harvey made landfall as a category 4 hurricane near Rockport, Texas during the evening of August 25th then slowed and looped back tracking over SE Texas, back over the Gulf of Mexico then made a second landfall along the Louisiana coast during the early morning hours of August 30th. Over that 5 day period over Southeast Texas TS Harvey produced catastrophic flooding with a large area of 30 to 60 inches of rain, 23 tornadoes, tropical storm force winds and a moderate storm surge near Matagorda Bay. Catastrophic flooding occurred along nearly all bayous and rivers in Harris County. 36 fatalities occurred in Harris County alone with an estimated 10 billion dollars in damage.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723471"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720857,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "WALLER",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.0858,
+      "longitude": -95.9618,
+      "narrative": "Multiple lanes of Highway 290 at the FM 2920 intersection near the town of Waller were closed due to flooding.||In the southern part of the county, sections of FM 3318 near the Brazos River flooded and became inaccessible. There was significant countywide home flooding along the various creeks/bayous and their tributaries.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720857"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720861,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.5688,
+      "longitude": -95.0139,
+      "narrative": "There were numerous water rescues within Houston and the surrounding suburbs. Flood waters completely inundated thousands of homes and businesses. Roads and highways in and around Houston were flooded and therefore closed for long time periods. Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River.|There were numerous water rescues within Houston and the surrounding suburbs. Roads and highways in and around Houston inundated and closed due to flash flooding. ||Some of the reported flooded roads in Pasadena were Vista Street, Shafer Street, Fairmont Drive and Strawberry Road.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720861"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720856,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.7143,
+      "longitude": -95.5697,
+      "narrative": "Flooding being reported in or within homes in Missouri City with water rescues being conducted off of the Westpark Tollway in the Jeanetta Sharpstown area.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720856"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720868,
+      "date": "2017-08-26",
+      "event_type": "Flash Flood",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.4853,
+      "longitude": -95.5206,
+      "narrative": "There were numerous water rescues within the county; from Pearland down to the Angleton-Lake Jackson area. Flash flood waters, from sheet flooding and bayous/creeks coming out of banks, completely inundated hundreds to thousands of homes and businesses. Roads and highways in and along the Highway 288 corridor were flooded and therefore closed for long time periods.||Major record flooding of the Brazos, San Bernard and Oyster Creek caused the flooding of hundreds to thousands of vicinity homes, vehicles and businesses.  Numerous Roads and homes were inundated with flood waters on east side of Oyster Creek including the  Columbia Lakes, Mallard Lakes, Great Lakes, Riverside Estates and Bar X subdivisions as well as homes along CR 39. Other county roads that became impassable due to high flood waters include, but are not limited to, FM 1462, Highways 35 and 90, FM 950, CR 25, 380A, CR 42 and FM 521. The Phillips refinery outside of the town of Sweeny took on water from the west near Little Linville Bayou. Hanson Riverside County Park along the San Bernard River southwest of West Columbia was inundated and water over-topped the Phillips Terminal.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720868"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 720878,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.5039,
+      "longitude": -95.1382,
+      "narrative": "There were numerous water rescues within League City and Dickinson. Flash flood waters, from sheet flooding and bayous/creeks coming out of banks, completely inundated hundreds to thousands of homes and businesses. Roads and highways such as but not limited to Calder and Walker Streets, Highway 96, FM 518, FM 517, sections of Highway 3 and FM 646 in and around  League City and Dickinson were flooded and therefore closed for long time periods.||Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=720878"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721081,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.561,
+      "longitude": -95.2535,
+      "narrative": "Numerous flooded homes, businesses and vehicles around Friendswood from run off sheet flooding and from Mary's Creek and Clear Creek coming out of banks.||Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721081"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721084,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Broadcast Media",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.8067,
+      "longitude": -95.4204,
+      "narrative": "The local media reported over 2,000 high water rescues within the warned area.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721084"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721082,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "C",
+      "source": "Social Media",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.7388,
+      "longitude": -94.9528,
+      "narrative": "Sections of I-10, FM 565 at I-10 and SH 146 at Cherry Point Drive were all flooded and therefore closed across the county.||Major lowland flooding occurred along the Trinity River. Extensive flooding was observed in the Milam Bend subdivision (Baytown) along Cedar Bayou.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721082"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721083,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "LIBERTY",
+      "geography_type": "C",
+      "source": "Social Media",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.9409,
+      "longitude": -94.6115,
+      "narrative": "Roadways SH 321 at US 90, the exit ramp at FM 1010 from the SH 105 and US 59 southbound were closed due to flooding.||There was record level, major flooding along the Trinity River with numerous flooded roads near the river including FM 787. Many homes were flooded north of the town of Liberty. Major flooding was also observed on the east fork of the San Jacinto River that caused significant flooding in Cleveland, Williams and Plum Grove. Numerous homes and businesses along the Highway 59 feeder roads, various roads in the town of Liberty, Wallace Road off of Highway 146, FM 1725, FM 2090, CR 388, CR 381, CR 3880, CR 332, CR 3664, CR 361, CR 3610, CR 3611, CR 3661, CR 349, CR 3612 and CR 3600 were flooded.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721083"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721085,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Public",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.1431,
+      "longitude": -95.7622,
+      "narrative": "There were numerous reports of flooded homes, businesses and vehicles from Tomball to Spring in northern Harris County. Streets in and around Butera Road southwest of Stagecoach were impassable due to flooding.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721085"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721089,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.8285,
+      "longitude": -94.8889,
+      "narrative": "Sections of Highway 99 the Grand Parkway were inundated with flood waters.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721089"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721091,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Local Official",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.0375,
+      "longitude": -95.4187,
+      "narrative": "Flooding was occurring at and around the FM 1960 and I-45 intersection as Cypress Creek topped banks.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721091"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 728933,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.4357,
+      "longitude": -95.7023,
+      "narrative": "Road closed due to flooding, FM 149 north of Montgomery.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=728933"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 728349,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "MONTGOMERY",
+      "geography_type": "C",
+      "source": "Emergency Manager",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.0408,
+      "longitude": -95.2487,
+      "narrative": "Tropical Storm Harvey brought heavy rains and catastrophic flooding to portions of Montgomery County. There were 5 storm related fatalities, 3 direct.  Major record flooding occurred along the San Jacinto River and tributaries. Water was reported over sections of I-45 northbound where TXDOT reported flooding at the FM 1097 intersection. Water was reported over sections of I-45 northbound where TXDOT reported flooding at the FM 1097 intersection. Record pool levels on Lake Conroe required downstream releases that flooded numerous downstream homes, businesses and vehicles. Major flooding occurred along the San Jacinto River and the east Fork of the San Jacinto and its tributaries inundated tens to hundreds of residential subdivisions. There were hundreds of flooded homes along Lake, Spring, Peach and Caney Creeks. There were impassable roads due to high water at Horseshoe Circle and Painted Blvd off the Grand Parkway, 19000 block of David Memorial from Sam's Club to Shenandoah Park, the 11000 block of River Oaks Drive, the 45 northbound lanes at Highway 242 and Hines Road in Willis. Flash flooding led to numerous road closures including FM149, FM1484, FM1485, FM1486, FM1774, FM2090 SH105 and others.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=728349"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 728921,
+      "date": "2017-08-27",
+      "event_type": "Flash Flood",
+      "county_or_zone": "AUSTIN",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.62,
+      "longitude": -96.07,
+      "narrative": "Numerous roads closed due to flooding including but not limited to FM109, FM 331, FM 2429, FM 1093 and SH 36. Moderate, yet record, flooding along the Brazos at San|Felipe caused several homes to flood along FM 1458. Inundation ranged from 4 to 7 feet of water. Minimal impacts were observed at Mill creek near Bellville. No impacts were observed from the minor flooding at the Brazos river near Hempstead.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=728921"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721098,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "AUSTIN",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.9592,
+      "longitude": -96.5211,
+      "narrative": "Portions of FM 109 between Industry and New Ulm was closed due to flooding.||Record level flooding along the Brazos River in San Felipe caused several homes to flood along FM 1458.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721098"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721099,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.5314,
+      "longitude": -95.2295,
+      "narrative": "Flooded roadways through Friendswood in and around the FM 2351 and FM 518 intersection.||Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721099"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721115,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.5111,
+      "longitude": -95.1303,
+      "narrative": "Sections of FM 518 in League City as well as parts of I-45 near the FM 518 exit were closed due to run off and Clear Creek flooding.||Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721115"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721108,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.77,
+      "longitude": -94.68,
+      "narrative": "Parts of FM 562 south of Anahuac were closed due to flooding.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721108"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721112,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "FORT BEND",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.7102,
+      "longitude": -95.8708,
+      "narrative": "Sections of FM 1463 and FM 359 between Fulshear and the Grand Parkway were closed due to flooding.||Major record level flooding of both the Brazos and San Bernard Rivers caused significant home flooding from Richmond to Rosharon. Massive flooding occurred in Tierra Grande subdivision along the San Bernard River in southwestern Fort Bend County. Home flooding occurred at Valley Lodge in Simonton, along Edgewood and Baudet Roads in Richmond, along Bar, Barker, Cumings, Sixth Street, Avenue B and Rio Brazos Roads in Rosenberg. Sections of FM 2759 as well as the Grand River, Rivers Edge and Pecan Estates in Thompsons flooded. Many countywide roads became inundated in flood waters including, but not limited to, Highway 90A, Pitts Road, FM 1489, FM 723, FM 1093, FM 359, SH 6 feeder roads, Sienna Parkway, Carrol Road, McKeever Road, Knights Court, Miller Road, river Oaks Road, Thompsons Ferry Road, Strange Drive, Greenwood Drive, Second Street and low lying roads in Quail Valley in Missouri City.  Due to record pool levels in Barker Reservoir, homes in Cinco Ranch flooded. Big Creek flooding in Needville caused the flooding of homes on Ansel Road.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721112"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721092,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.8527,
+      "longitude": -94.9013,
+      "narrative": "Sections of Interstate 10 across Chambers County were closed due to flood water inundation.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721092"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721096,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.6896,
+      "longitude": -95.2072,
+      "narrative": "Numerous roads and highways were still closed due to high flood waters including, but not limited to, the Loop 610 near Highway 225, SH 249 in northwestern Houston and FM 1960 near Highway 69.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721096"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721101,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Local Official",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.0367,
+      "longitude": -95.4209,
+      "narrative": "There was flooding through the neighborhoods between I-45 and the Hardy Tollway along FM 1960.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721101"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721102,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.8457,
+      "longitude": -94.5895,
+      "narrative": "Sections of FM 1724 south of I-10 were closed due to flooding.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721102"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721105,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.2103,
+      "longitude": -95.4787,
+      "narrative": "Sections of FM 523 near Highway 288 north of Angleton was closed due to flooding.||Major record flooding of the Brazos, San Bernard and Oyster Creek caused the flooding of hundreds to thousands of vicinity homes, vehicles and businesses.  Numerous Roads and homes were inundated with flood waters on east side of Oyster Creek including the  Columbia Lakes, Mallard Lakes, Great Lakes, Riverside Estates and Bar X subdivisions as well as homes along CR 39. Other county roads that became impassable due to high flood waters include, but are not limited to, FM 1462, Highways 35 and 90, FM 950, CR 25, 380A, CR 42 and FM 521. The Phillips refinery outside of the town of Sweeny took on water from the west near Little Linville Bayou. Hanson Riverside County Park along the San Bernard River southwest of West Columbia was inundated and water over-topped the Phillips Terminal.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721105"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721110,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.46,
+      "longitude": -95.4993,
+      "narrative": "Sections of FM 521 near FM 1462 in the Rosharon area were closed due to flooding.||Major record flooding of the Brazos, San Bernard and Oyster Creek caused the flooding of hundreds to thousands of vicinity homes, vehicles and businesses.  Numerous Roads and homes were inundated with flood waters on east side of Oyster Creek including the  Columbia Lakes, Mallard Lakes, Great Lakes, Riverside Estates and Bar X subdivisions as well as homes along CR 39. Other county roads that became impassable due to high flood waters include, but are not limited to, FM 1462, Highways 35 and 90, FM 950, CR 25, 380A, CR 42 and FM 521. The Phillips refinery outside of the town of Sweeny took on water from the west near Little Linville Bayou. Hanson Riverside County Park along the San Bernard River southwest of West Columbia was inundated and water over-topped the Phillips Terminal.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721110"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721129,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "LIBERTY",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.3163,
+      "longitude": -94.9957,
+      "narrative": "Sections of FM 163 in Tarkington Prairie were inundated with flood waters.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721129"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721113,
+      "date": "2017-08-28",
+      "event_type": "Flash Flood",
+      "county_or_zone": "BRAZORIA",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.0661,
+      "longitude": -95.5958,
+      "narrative": "Parts of SH 36 and FM 521 around the town of Brazoria were closed due to flooding.||Major record flooding of the Brazos, San Bernard and Oyster Creek caused the flooding of hundreds to thousands of vicinity homes, vehicles and businesses.  Numerous Roads and homes were inundated with flood waters on east side of Oyster Creek including the  Columbia Lakes, Mallard Lakes, Great Lakes, Riverside Estates and Bar X subdivisions as well as homes along CR 39. Other county roads that became impassable due to high flood waters include, but are not limited to, FM 1462, Highways 35 and 90, FM 950, CR 25, 380A, CR 42 and FM 521. The Phillips refinery outside of the town of Sweeny took on water from the west near Little Linville Bayou. Hanson Riverside County Park along the San Bernard River southwest of West Columbia was inundated and water over-topped the Phillips Terminal.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721113"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721130,
+      "date": "2017-08-29",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.5527,
+      "longitude": -94.3775,
+      "narrative": "Heavy rainfall exacerbated the the flooding of low lying areas along Highway 87 at Highway 124 on the eastern side of Bolivar Peninsula.||Approximately 7,000 homes and 125 businesses were impacted by flood waters across the county. Clear Creek measured record levels that lead to the widespread flooding throughout Friendswood and League City. Major flooding occurred along the Dickinson Bayou; from Cemetery Road to east of Highway 3 along FM 517. Flood waters inundated sections of Interstate 45, Bay Area Boulevard, FM 528, FM 518 and numerous primary and secondary county roads.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721130"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721131,
+      "date": "2017-08-29",
+      "event_type": "Flash Flood",
+      "county_or_zone": "LIBERTY",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.0513,
+      "longitude": -94.7959,
+      "narrative": "Portions of FM 563 were covered with high water and had become impassable.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721131"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721133,
+      "date": "2017-08-29",
+      "event_type": "Flash Flood",
+      "county_or_zone": "GALVESTON",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.3132,
+      "longitude": -94.7732,
+      "narrative": "Areas along Highway 87, or Ferry Drive south of Harborside Drive, were flooded and impassable.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721133"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721135,
+      "date": "2017-08-29",
+      "event_type": "Flash Flood",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.7551,
+      "longitude": -94.5676,
+      "narrative": "Flooding occurred over Texas Roads 61 and 65 just east of Anahuac.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721135"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721136,
+      "date": "2017-08-29",
+      "event_type": "Flash Flood",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 30.0342,
+      "longitude": -95.4334,
+      "narrative": "FM 1960 at Interstate 45 and surrounding roadways within local neighborhoods were inundated with flood waters and impassable.||Catastrophic flooding occurred on nearly every one of the 22 watersheds in Harris County. 10 out of the 19 bayous in the county reached record crests and flooding. There was widespread flooding along Buffalo Bayou and upstream and downstream of both Addicks and Barkers Reservoirs due to record level pool elevations. There was major flooding of hundreds of homes within numerous neighboring subdivisions along the San Jacinto River and the East Fork of the San Jacinto River. Lake Conroe's releases and backwater flow from Lake Houston also contributed to the widespread flooding across the northern and northeastern sectors of the county.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721136"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 721134,
+      "date": "2017-08-29",
+      "event_type": "Flash Flood",
+      "county_or_zone": "CHAMBERS",
+      "geography_type": "C",
+      "source": "Department of Highways",
+      "flood_cause": "Heavy Rain / Tropical System",
+      "latitude": 29.8598,
+      "longitude": -94.5992,
+      "narrative": "Sections of Interstate 10 west of Winnie were inundated and closed due to high flood waters.",
+      "mention_tags": [
+        "Flood/water"
+      ],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=721134"
+    },
+    {
+      "storm": "Harvey",
+      "event_id": 723476,
+      "date": "2017-09-11",
+      "event_type": "Funnel Cloud",
+      "county_or_zone": "HARRIS",
+      "geography_type": "C",
+      "source": "Social Media",
+      "flood_cause": null,
+      "latitude": 30.027,
+      "longitude": -95.3997,
+      "narrative": "There were reports of funnel clouds between Spring and Bush-Intercontinental Airport. There were also reports of funnel clouds near Richey Road and FM 1960.",
+      "mention_tags": [],
+      "source_url": "https://www.ncei.noaa.gov/stormevents/eventdetails.jsp?id=723476"
+    }
+  ],
+  "notes": [
+    "Keyword tags indicate narrative mentions only, not verified engineering causes or damage footprints.",
+    "County/forecast-zone reports may describe places outside the ZIP-point study rectangle.",
+    "Coordinates, where present, are reported event points, not exact tree or building locations.",
+    "Beryl supplement: NWS Houston/Galveston local storm reports archived by Iowa Environmental Mesonet; raw bulk NOAA extract contains no HGX July 2024 rows."
+  ]
+}

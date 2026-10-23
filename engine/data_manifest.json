@@ -1,0 +1,94 @@
+{
+  "311_2024_meta.json": {
+    "bytes": 6882,
+    "sha256": "8d6c4b42d65c5fa19cd378d6ad155d7b629c1afcca0b5507f63c3e5bd675ce36"
+  },
+  "311_2024_relevant.json": {
+    "bytes": 7274428,
+    "sha256": "5ca838bced54df9dcc5b92973e1eee3746dc2bed28cb2031cd93f576a3e6157b"
+  },
+  "311_Harvey_additional_requests.json": {
+    "bytes": 312869,
+    "sha256": "8442194a3d28cc2aba32e57dc69c2fa50218a8a65a6caf15d0df5b309c7fbfd4"
+  },
+  "311_Harvey_meta.json": {
+    "bytes": 5505,
+    "sha256": "552f2b21c1c401d4de190952c6bdd29877354c425d3bbc5a7065b34b5582d980"
+  },
+  "311_Harvey_relevant.json": {
+    "bytes": 1918298,
+    "sha256": "fdc84004d422db2aa8b255f95ba2cc39ac619f5a0e7133e49aa9bb5bee76c29d"
+  },
+  "beryl_local_storm_reports.csv": {
+    "bytes": 24182,
+    "sha256": "07518e50a07d58dff156dcb3968f435c5ce4c3ea8eda1c0b30073dac6e195391"
+  },
+  "damage_evidence.json": {
+    "bytes": 188831,
+    "sha256": "565526e439463daa50e9306584a1aab0837c68f43e033ef0234a2dafcd07f5b2"
+  },
+  "empower_zip.json": {
+    "bytes": 982108,
+    "sha256": "339a09cd23fb9cd03d9f52c82987770932ea93897d67d589cc5a8cd6fa593085"
+  },
+  "expanded_routing.json": {
+    "bytes": 155968,
+    "sha256": "41e99ef1d63715c4b35c1facac451a2bc3e8c6fec38e2e7d2ca5098078b99bbb"
+  },
+  "facilities_expanded.json": {
+    "bytes": 11005,
+    "sha256": "74fb98c6fcf6ea419f26548ad1450758f9b384c4b1bf613cfafce5050540730e"
+  },
+  "harvey_harris_household_summary.json": {
+    "bytes": 105591,
+    "sha256": "067d894b7ec94ae2b45d1d8683ccf1fefb55693988eef6a4065d5e0310c49b6a"
+  },
+  "noaa_sources.json": {
+    "bytes": 360,
+    "sha256": "f7041db2b4b05e0f463007abf68f76527d933708a2c8ce25692531ac15f40a60"
+  },
+  "population_2020.json": {
+    "bytes": 40689,
+    "sha256": "a6f85fa857a19c2381783427cd8bb70b51cfdd36ca15d1c7db7d822d852d127a"
+  },
+  "raw_outage_2024_metadata.json": {
+    "bytes": 1130,
+    "sha256": "9e305902e93a9ebfe7d25adbaf58e3a9e117e11415016ba19a7344a7c998cb48"
+  },
+  "raw_outage_harvey_metadata.json": {
+    "bytes": 548,
+    "sha256": "9d41cf49ff29cfd379cff33b2d8761642c1d4a8dfc4f2818eae349e5de897e06"
+  },
+  "regional_counties.geojson": {
+    "bytes": 1007276,
+    "sha256": "27d9e8c33542d81ac293daf2ba1317a7d50dff070caa260199d9437c62628faf"
+  },
+  "regional_raw_outages_2024.csv": {
+    "bytes": 13750860,
+    "sha256": "c650a664f3837b9bd0197019a2c7eac64dc84101b421d81e560409aeb129557b"
+  },
+  "regional_raw_outages_harvey.csv": {
+    "bytes": 286890,
+    "sha256": "a92b2c99885b773b4e88687757a4b54e660139f51e53189075ffded842889012"
+  },
+  "SOURCES.md": {
+    "bytes": 9932,
+    "sha256": "279ff352e22a29e6e52043d2ab986a6f1ff979c1f42e4800e9fe9b9761742a28"
+  },
+  "STORM_LAYER_SOURCES.md": {
+    "bytes": 11335,
+    "sha256": "f0beb19cb35bf04b4821090d75643084a03192f3e95e4c1852fabc3e9e4be210"
+  },
+  "study_areas.json": {
+    "bytes": 32992,
+    "sha256": "f4186acc778aeae889447dc0334ec9f5c7af546150ca27623e8bcd51e94e9fa8"
+  },
+  "texas_storm_events_2017_2019_2024.csv": {
+    "bytes": 12940467,
+    "sha256": "3021fbebf72a3c3fc4b8964a8fafdf83913b0ad197e6eefdcd6488625d3db39f"
+  },
+  "utility_snapshot.json": {
+    "bytes": 32726,
+    "sha256": "44c0a44ff760291846596b9dd454b0f0eb1460a17a02d298a60d7d9e549a8072"
+  }
+}

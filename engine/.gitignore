@@ -1,0 +1,5 @@
+rebuild_cache/
+__pycache__/
+scenario_results.zip
+expanded_zip_results.csv
+scenario_assumptions.json

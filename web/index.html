@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>UHAI Portal · AI Disaster Staging &amp; Resource Optimization</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23071724'/%3E%3Cpath d='M20 7l12 7v12l-12 7-12-7V14z' fill='none' stroke='%2300f5c4' stroke-width='3'/%3E%3Ccircle cx='20' cy='20' r='5' fill='%23fbbf24'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/vendor/maplibre-gl.css">
+  <link rel="stylesheet" href="/vendor/leaflet.css">
+  <link rel="stylesheet" href="/app.css">
+  <script defer src="/vendor/maplibre-gl.js"></script>
+  <script defer src="/vendor/leaflet.js"></script>
+  <script defer src="/vendor/leaflet-heat.js"></script>
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <!-- MINIMAL SLEEK HEADER -->
+  <header class="app-header">
+    <div class="brand-group">
+      <div class="brand-badge">
+        <span class="pulse-indicator"></span>
+        <span class="brand-logo">UHAI</span>
+      </div>
+      <span class="brand-divider">/</span>
+      <span class="brand-tagline">Disaster Staging AI</span>
+    </div>
+
+    <!-- PROMINENT DUAL VIEW SWITCHER -->
+    <nav class="nav-modes" role="tablist" aria-label="Views">
+      <button id="tab-btn-predictor" class="mode-tab active" role="tab" aria-selected="true" data-tab="predictor">
+        <span class="mode-icon">🎯</span>
+        <span>Staging Engine</span>
+      </button>
+
+      <button id="tab-btn-analytics" class="mode-tab" role="tab" aria-selected="false" data-tab="analytics">
+        <span class="mode-icon">📊</span>
+        <span>Regional Analytics Hub</span>
+      </button>
+    </nav>
+
+    <!-- HEADER RIGHT TOOLS -->
+    <div class="header-tools">
+      <select id="storm" class="select-styled" title="Disaster Hazard Scenario">
+        <option value="Beryl">Hurricane Beryl · Wind &amp; Outage</option>
+        <option value="Harvey">Hurricane Harvey · Flooding &amp; Surge</option>
+        <option value="Derecho">May Derecho · Flash Grid Strike</option>
+      </select>
+      <button id="sources" class="btn-ghost">Technical Guide ↗</button>
+      <a id="export" href="/api/export" class="btn-primary">Export ↗</a>
+    </div>
+  </header>
+
+  <div id="error" class="alert-banner" role="alert" hidden></div>
+
+  <!-- MAIN VIEWPORT -->
+  <main class="app-container">
+
+    <!-- VIEW 1: HERO PREDICTOR TAB (MINIMALIST) -->
+    <div id="view-predictor" class="app-view active" role="tabpanel" aria-labelledby="tab-btn-predictor">
+      
+      <!-- COMPACT MINIMAL DOCK -->
+      <aside class="control-dock">
+        <div class="dock-header">
+          <div class="dock-title-row">
+            <span class="dock-title">Resource Targets</span>
+            <span id="dates" class="dock-dates"></span>
+          </div>
+        </div>
+
+        <div class="dock-scroll">
+          <!-- MINIMAL ALLOCATION CONTROLS -->
+          <div class="dock-section">
+            <div class="role-row">
+              <div class="role-meta">
+                <span class="role-name"><i class="dot-ambulance"></i> Ambulances</span>
+                <span id="ambulance-value" class="count-pill">2</span>
+              </div>
+              <input id="ambulance" type="range" min="1" max="5" value="2" class="slider-role slider-ambulance">
+            </div>
+
+            <div class="role-row">
+              <div class="role-meta">
+                <span class="role-name"><i class="dot-cooling"></i> Cooling Hubs</span>
+                <span id="cooling-value" class="count-pill">3</span>
+              </div>
+              <input id="cooling" type="range" min="1" max="5" value="3" class="slider-role slider-cooling">
+            </div>
+
+            <div class="role-row">
+              <div class="role-meta">
+                <span class="role-name"><i class="dot-community"></i> Community Hubs</span>
+                <span id="community-value" class="count-pill">3</span>
+              </div>
+              <input id="community" type="range" min="1" max="5" value="3" class="slider-role slider-community">
+            </div>
+
+            <div class="role-row">
+              <div class="role-meta">
+                <span class="role-name"><i class="dot-dispatch"></i> Incident Outposts</span>
+                <span id="dispatch-value" class="count-pill">2</span>
+              </div>
+              <input id="dispatch" type="range" min="1" max="5" value="2" class="slider-role slider-dispatch">
+            </div>
+          </div>
+
+          <!-- MINIMAL STRESS & SIMULATION -->
+          <div class="dock-section">
+            <div class="role-row">
+              <div class="role-meta">
+                <span class="role-name">Road Slowdown</span>
+                <output id="slowdown-value" class="count-pill highlight">1.0×</output>
+              </div>
+              <input id="slowdown" type="range" min="1" max="2" step="0.1" value="1" class="slider-stress">
+            </div>
+
+            <div class="field-compact">
+              <label for="closed" class="label-sub">Simulate Flooded Site:</label>
+              <select id="closed" class="select-clean">
+                <option value="None">All 12 eligible sites active</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- PRIMARY ACTION -->
+          <button id="calculate" class="btn-optimize">
+            <span>⚡ Run Optimization</span>
+          </button>
+
+          <!-- OVERLAYS CHIPS -->
+          <div class="dock-section">
+            <div class="layer-chips-row" id="layer-list">
+              <!-- Dynamically rendered -->
+            </div>
+            <div class="switch-compact">
+              <label for="hospitals">Emergency Hospital Anchors</label>
+              <input id="hospitals" type="checkbox" checked>
+            </div>
+            <div class="legend-bar-wrap">
+              <div id="legend" class="gradient-strip"></div>
+              <div class="legend-labels"><span id="legend-low">Lower</span><span id="layer-help" class="layer-help-text"></span><span>Higher</span></div>
+            </div>
+          </div>
+
+          <div class="dock-footer-min">
+            <span id="total-records">Datasets loaded</span>
+            <button id="pitch" class="text-link">How to explain this ↗</button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- EXPANSIVE MAP WORKSPACE -->
+      <section class="map-workspace" aria-label="Disaster Staging Map">
+        
+        <!-- FLOATING TOP KPI RIBBON (MINIMAL) -->
+        <div class="kpi-ribbon">
+          <div class="kpi-pill"><span class="kpi-icon">🚑</span> <strong id="kpi-ambulances">2</strong> <small>Bases</small></div>
+          <div class="kpi-pill"><span class="kpi-icon">⏱️</span> <strong id="kpi-coverage">--%</strong> <small>10-Min Reach</small></div>
+          <div class="kpi-pill"><span class="kpi-icon">🛡️</span> <strong id="kpi-flood-safe">100%</strong> <small>Zone X Safe</small></div>
+          <div class="kpi-pill"><span class="kpi-icon">👥</span> <strong id="kpi-pop">--</strong> <small>Pop. Covered</small></div>
+          <div class="kpi-actions">
+            <button id="three-d" class="btn-kpi-tool" title="View Houston Downtown 3D Buildings">3D Downtown ◇</button>
+            <button id="region" class="btn-kpi-tool" title="Reset Camera to Region">Reset View</button>
+          </div>
+        </div>
+
+        <!-- 3D PERSPECTIVE HELPER NOTE -->
+        <div id="context-note" hidden>
+          <strong>3D Downtown Mode Active</strong> · Houston skyscrapers extruded by height (Chase Tower 305m, Wells Fargo 302m, Total Plaza 158m). Drag right-click to tilt/rotate camera.
+        </div>
+
+        <!-- THE MAP -->
+        <div id="map" role="region" aria-label="Interactive map"></div>
+
+        <!-- FLOATING MINIMAL LEGEND & PROMPT -->
+        <div class="map-minimal-legend">
+          <div class="legend-items">
+            <span class="item-amb"><i></i> Ambulance Base</span>
+            <span class="item-cool"><i></i> Cooling Hub</span>
+            <span class="item-comm"><i></i> Community Hub</span>
+            <span class="item-disp"><i></i> Incident Outpost</span>
+            <span class="item-hosp"><i></i> Hospital</span>
+          </div>
+          <div class="legend-tip">
+            <span id="map-status">Click any ambulance or site marker to inspect AI decision logic</span>
+          </div>
+        </div>
+
+        <div id="loading" role="status">Computing disaster staging optimization…</div>
+      </section>
+
+      <!-- MINIMALIST EXPLAINABILITY CARD (SLIDE-IN DRAWER) -->
+      <aside id="xai-inspector" class="xai-drawer-minimal" aria-label="AI Explainability Drawer">
+        <div class="drawer-header-min">
+          <div>
+            <div class="xai-eyebrow">AI DECISION INTELLIGENCE</div>
+            <h3 id="xai-site-name">Select an asset</h3>
+            <span id="xai-site-role" class="role-pill">Ambulance Base</span>
+          </div>
+          <button id="close-xai" class="btn-close-min" aria-label="Close drawer">✕</button>
+        </div>
+
+        <div class="drawer-body-min">
+          <!-- FLOOD STATUS BADGE -->
+          <div id="xai-flood-banner" class="status-badge-flood">
+            <span class="badge-icon">🛡️</span>
+            <div>
+              <strong id="xai-flood-title">FEMA Flood Zone X · Safe High Ground</strong>
+              <p id="xai-flood-desc">Minimal flood hazard outside 100-year bayou floodways.</p>
+            </div>
+          </div>
+
+          <!-- WHY CHOSEN -->
+          <div class="min-card">
+            <h4>💡 Why the AI Chose This Location</h4>
+            <p id="xai-why-chosen" class="min-text">Select any marker on the map to review the mathematical optimization factors.</p>
+          </div>
+
+          <!-- TACTICAL STANDBY PROTOCOL -->
+          <div class="min-card highlight">
+            <h4>🚑 Tactical Standby &amp; Waiting Strategy</h4>
+            <div class="min-subhead">When &amp; Why Ambulances Wait Here:</div>
+            <p id="xai-waiting-strategy" class="min-text">Ambulances pre-position on elevated lots before peak flooding to bypass submerged underpasses along I-10 and bayou crossings.</p>
+          </div>
+
+          <!-- FACTOR WEIGHTS -->
+          <div class="min-card">
+            <h4>⚖️ Decision Influence Factors</h4>
+            <div id="xai-factors" class="factors-stack"></div>
+          </div>
+
+          <!-- RUNNER-UP -->
+          <div class="min-card">
+            <h4>🔄 Why Not Alternatives?</h4>
+            <p id="xai-runner-up" class="min-text muted">Comparing with runner-up candidates...</p>
+          </div>
+
+          <!-- KEY METRICS -->
+          <div class="min-card">
+            <h4>📈 Local Coverage Metrics</h4>
+            <div class="metrics-row-min">
+              <div><span id="xai-m-pop" class="val">--</span><span class="lbl">Pop. Covered</span></div>
+              <div><span id="xai-m-dme" class="val">--</span><span class="lbl">Medical DME</span></div>
+              <div><span id="xai-m-time" class="val">-- min</span><span class="lbl">Avg Response</span></div>
+              <div><span id="xai-m-zips" class="val">--</span><span class="lbl">Assigned ZIPs</span></div>
+            </div>
+          </div>
+
+          <!-- STAGED ASSETS SELECTOR -->
+          <div class="min-card">
+            <h4>📍 Active Staged Placements</h4>
+            <div id="xai-staged-list" class="staged-chips"></div>
+          </div>
+
+          <!-- NEIGHBORHOOD SEARCH -->
+          <div class="min-card">
+            <h4>🔍 Inspect Neighborhood ZIP</h4>
+            <input id="zip" list="zip-list" placeholder="Enter ZIP (e.g. 77002, 77091)" inputmode="numeric" class="zip-input-min">
+            <datalist id="zip-list"></datalist>
+            <div id="area-detail" class="area-detail-min"></div>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+
+    <!-- VIEW 2: REGIONAL ANALYTICS HUB ("EVERY OTHER THING") -->
+    <div id="view-analytics" class="app-view" role="tabpanel" aria-labelledby="tab-btn-analytics" hidden>
+      <div class="analytics-subnav">
+        <div class="subnav-tabs">
+          <button class="subtab active" data-analytics="placements">📋 Placements Ledger</button>
+          <button class="subtab" data-analytics="evidence">🔍 Damage Evidence (311)</button>
+          <button class="subtab" data-analytics="supplies">📦 Disaster Supplies Calculator</button>
+          <button class="subtab" data-analytics="model">🧠 FEMA Household ML Model</button>
+        </div>
+        <span id="analytics-meta" class="meta-tag">189 Planning Areas</span>
+      </div>
+
+      <div id="analytics-content" class="analytics-body"></div>
+    </div>
+
+  </main>
+
+  <!-- MINIMAL FOOTER -->
+  <footer class="app-footer">
+    <span><strong>UHAI</strong> · Laptop Edge Architecture · Zero External Map Keys</span>
+    <span id="footer-status">Ready</span>
+  </footer>
+
+  <!-- METHODOLOGY / TECHNICAL GUIDE DIALOG -->
+  <dialog id="docs" class="styled-dialog">
+    <div class="dialog-head">
+      <h2 id="docs-title">Technical Methodology &amp; AI Staging</h2>
+      <button id="close-docs" class="btn-close-min" aria-label="Close dialog">✕</button>
+    </div>
+    <div id="docs-text" class="dialog-body"></div>
+  </dialog>
+</body>
+</html>

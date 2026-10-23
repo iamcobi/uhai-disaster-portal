@@ -1,0 +1,278 @@
+{
+  "candidate_sites": [
+    {
+      "site_id": "acres_homes",
+      "name": "Acres Homes Multi-Service Center",
+      "address": "6719 W Montgomery Rd, Houston, TX",
+      "matched_address": "6719 W MONTGOMERY RD, HOUSTON, TX, 77091",
+      "latitude": 29.857211845409,
+      "longitude": -95.420853460977,
+      "facility_type": "public multi-service center",
+      "status": "hypothetical staging candidate; suitability and availability not assessed",
+      "facility_source": "https://www.houstonhealth.org/services/multi-service-centers",
+      "coordinate_source": "US Census Geocoder current address benchmark; street-interpolated approximate location"
+    },
+    {
+      "site_id": "kashmere",
+      "name": "Kashmere Multi-Service Center",
+      "address": "4802 Lockwood Dr, Houston, TX",
+      "matched_address": "4802 LOCKWOOD DR, HOUSTON, TX, 77026",
+      "latitude": 29.804028327259,
+      "longitude": -95.316955637419,
+      "facility_type": "public multi-service center",
+      "status": "hypothetical staging candidate; suitability and availability not assessed",
+      "facility_source": "https://www.houstonhealth.org/services/multi-service-centers",
+      "coordinate_source": "US Census Geocoder current address benchmark; street-interpolated approximate location"
+    },
+    {
+      "site_id": "northeast",
+      "name": "Northeast Multi-Service Center",
+      "address": "9720 Spaulding St, Houston, TX",
+      "matched_address": "9720 SPAULDING ST, HOUSTON, TX, 77016",
+      "latitude": 29.850460563103,
+      "longitude": -95.303995363179,
+      "facility_type": "public multi-service center",
+      "status": "hypothetical staging candidate; suitability and availability not assessed",
+      "facility_source": "https://www.houstonhealth.org/services/multi-service-centers",
+      "coordinate_source": "US Census Geocoder current address benchmark; street-interpolated approximate location"
+    },
+    {
+      "site_id": "denver_harbor",
+      "name": "Denver Harbor Multi-Service Center",
+      "address": "6402 Market St, Houston, TX",
+      "matched_address": "6402 MARKET ST, HOUSTON, TX, 77020",
+      "latitude": 29.772804570939,
+      "longitude": -95.30521412821,
+      "facility_type": "public multi-service center",
+      "status": "hypothetical staging candidate; suitability and availability not assessed",
+      "facility_source": "https://www.houstonhealth.org/services/multi-service-centers",
+      "coordinate_source": "US Census Geocoder current address benchmark; street-interpolated approximate location"
+    },
+    {
+      "site_id": "sunnyside",
+      "name": "Sunnyside Health and Multi-Service Center",
+      "address": "4410 Reed Rd, Houston, TX",
+      "matched_address": "4410 REED RD, HOUSTON, TX, 77051",
+      "latitude": 29.658288500036,
+      "longitude": -95.361720888562,
+      "facility_type": "public multi-service center",
+      "status": "hypothetical staging candidate; suitability and availability not assessed",
+      "facility_source": "https://www.houstonhealth.org/services/multi-service-centers",
+      "coordinate_source": "US Census Geocoder current address benchmark; street-interpolated approximate location"
+    },
+    {
+      "site_id": "radack",
+      "name": "Radack Community Center",
+      "address": "18650 Clay Rd, Houston, TX",
+      "matched_address": "18650 CLAY RD, HOUSTON, TX, 77084",
+      "latitude": 29.831129281376,
+      "longitude": -95.689821045005,
+      "facility_type": "public community center",
+      "status": "hypothetical staging candidate; suitability and availability not assessed",
+      "facility_source": "https://ssc.harriscountytx.gov/Events/EventID/5300/Precinct-4-Townhall-Meeting-at-Radack-Community-Center",
+      "coordinate_source": "US Census Geocoder current address benchmark; street-interpolated approximate location"
+    },
+    {
+      "site_id": "el_franco_lee",
+      "name": "El Franco Lee Community Center",
+      "address": "9500 Hall Rd, Houston, TX",
+      "matched_address": "9500 HALL RD, HOUSTON, TX, 77089",
+      "latitude": 29.598812281816,
+      "longitude": -95.251005456891,
+      "facility_type": "public community center",
+      "status": "hypothetical staging candidate; suitability and availability not assessed",
+      "facility_source": "https://www.hcp1.net/EFLCommunityCenter",
+      "coordinate_source": "US Census Geocoder current address benchmark; street-interpolated approximate location"
+    },
+    {
+      "name": "Alief Neighborhood Center",
+      "address": "11903 Bellaire Blvd, Houston, TX 77072",
+      "latitude": 29.703655437262,
+      "longitude": -95.588946575336,
+      "geocoder_match": "11903 BELLAIRE BLVD, HOUSTON, TX, 77072",
+      "source_url": "https://www.houstonhealth.org/services/multi-service-centers"
+    },
+    {
+      "name": "Fifth Ward Multi-Service Center",
+      "address": "4014 Market St, Houston, TX 77020",
+      "latitude": 29.772538028037,
+      "longitude": -95.330444163419,
+      "geocoder_match": "4014 MARKET ST, HOUSTON, TX, 77020",
+      "source_url": "https://www.houstonhealth.org/services/multi-service-centers"
+    },
+    {
+      "name": "Hiram Clarke Multi-Service Center",
+      "address": "3810 W Fuqua St, Houston, TX 77045",
+      "latitude": 29.613559249185,
+      "longitude": -95.433691392782,
+      "geocoder_match": "3810 W FUQUA ST, HOUSTON, TX, 77045",
+      "source_url": "https://www.houstonhealth.org/services/multi-service-centers"
+    },
+    {
+      "name": "Magnolia Multi-Service Center",
+      "address": "7037 Capitol St, Houston, TX 77011",
+      "latitude": 29.734143341254,
+      "longitude": -95.3015469218,
+      "geocoder_match": "7037 CAPITOL ST, HOUSTON, TX, 77011",
+      "source_url": "https://www.houstonhealth.org/services/multi-service-centers"
+    },
+    {
+      "name": "Southwest Multi-Service Center",
+      "address": "6400 High Star Dr, Houston, TX 77074",
+      "latitude": 29.710721436829,
+      "longitude": -95.494875922134,
+      "geocoder_match": "6400 HIGH STAR DR, HOUSTON, TX, 77074",
+      "source_url": "https://www.houstonhealth.org/services/multi-service-centers"
+    },
+    {
+      "name": "Third Ward Multi-Service Center",
+      "address": "3611 Ennis St, Houston, TX 77004",
+      "latitude": 29.728774839079,
+      "longitude": -95.361848576283,
+      "geocoder_match": "3611 ENNIS ST, HOUSTON, TX, 77004",
+      "source_url": "https://www.houstonhealth.org/services/multi-service-centers"
+    },
+    {
+      "name": "West End Multi-Service Center",
+      "address": "170 Heights Blvd, Houston, TX 77007",
+      "latitude": 29.77315399656,
+      "longitude": -95.397278015668,
+      "geocoder_match": "170 HEIGHTS BLVD, HOUSTON, TX, 77007",
+      "source_url": "https://www.houstonhealth.org/services/multi-service-centers"
+    }
+  ],
+  "hospital_examples": [
+    {
+      "name": "Ben Taub Hospital Emergency Center",
+      "address": "1504 Taub Loop, Houston, TX 77030",
+      "latitude": 29.712578916721,
+      "longitude": -95.393750521299,
+      "geocoder_match": "1504 TAUB LOOP, HOUSTON, TX, 77030",
+      "source_url": "https://www.harrishealth.org/locations/emergency-care"
+    },
+    {
+      "name": "Lyndon B. Johnson Hospital Emergency Center",
+      "address": "5656 Kelley St, Houston, TX 77026",
+      "latitude": 29.812908823968,
+      "longitude": -95.31090751334,
+      "geocoder_match": "5656 KELLEY ST, HOUSTON, TX, 77026",
+      "source_url": "https://www.harrishealth.org/locations/emergency-care"
+    }
+  ],
+  "flood_checks": [
+    {
+      "name": "Acres Homes Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "Kashmere Multi-Service Center",
+      "flood_zone": "AE",
+      "zone_description": null,
+      "sfha": "T",
+      "excluded": true,
+      "feature_count": 1
+    },
+    {
+      "name": "Northeast Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "Denver Harbor Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "Sunnyside Health and Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "Radack Community Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "El Franco Lee Community Center",
+      "flood_zone": "X",
+      "zone_description": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "Alief Neighborhood Center",
+      "flood_zone": "AE",
+      "zone_description": null,
+      "sfha": "T",
+      "excluded": true,
+      "feature_count": 1
+    },
+    {
+      "name": "Fifth Ward Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "Hiram Clarke Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "Magnolia Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "Southwest Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "Third Ward Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    },
+    {
+      "name": "West End Multi-Service Center",
+      "flood_zone": "X",
+      "zone_description": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": "F",
+      "excluded": false,
+      "feature_count": 1
+    }
+  ],
+  "hospital_scope": "Two verified Harris Health emergency departments only; not a complete regional ER inventory.",
+  "candidate_scope": "Existing public centers considered as hypothetical staging or hub candidates; activation, capacity and permission unverified."
+}

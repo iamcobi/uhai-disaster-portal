@@ -1,0 +1,30 @@
+{
+  "task": "Post-event estimate of summed reported household members in FEMA flood-damage registration records",
+  "target": "members_in_flood_damage_records_sum",
+  "source_records": 449932,
+  "source_records_in_matched_model_zips": 449878,
+  "source_records_outside_matched_model_zips": 54,
+  "study_zip_codes": 151,
+  "train_zip_codes": 113,
+  "test_zip_codes": 38,
+  "features": [
+    "registration_records",
+    "latitude",
+    "longitude"
+  ],
+  "model": "Random forest of rates scaled by already-reported registration counts",
+  "sklearn_version": "1.9.1",
+  "baseline_mae_reported_members_per_zip": 1150.925617205677,
+  "model_mae_reported_members_per_zip": 1146.851067769648,
+  "mae_reduction_percent": 0.3540236984143047,
+  "pooled_training_rate": 0.7143869936674637,
+  "validation": "Fixed random 75/25 split of ZIP areas within Harvey; three-fold cross-fitting for map estimates",
+  "limitations": [
+    "Post-event registrations are required; this does not predict a future storm.",
+    "The target is summed household members in registration records, not verified distinct affected people or users of any service.",
+    "Households without registrations, unmatched geocodes and missing household sizes are incompletely represented.",
+    "Flood damage is an observed proxy for cleanup priority, not a cleanup request or injury label.",
+    "Nearby ZIPs may be in both train and test; this is not independent-storm or spatial holdout validation.",
+    "Cooling, community and health service participation percentages in the GUI are user assumptions, not learned labels."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "source_url": "https://ndownloader.figshare.com/files/53581661",
+  "record_url": "https://api.figshare.com/v2/articles/24237376",
+  "source_file": "eaglei_outages_2024.csv",
+  "retrieved_date": "2026-10-23",
+  "source_file_size": 1444846424,
+  "source_byte_range": [
+    1140476218,
+    1267740066
+  ],
+  "retained_rows": 267091,
+  "counties": {
+    "48015": "Austin",
+    "48039": "Brazoria",
+    "48071": "Chambers",
+    "48157": "Fort Bend",
+    "48167": "Galveston",
+    "48201": "Harris",
+    "48291": "Liberty",
+    "48339": "Montgomery",
+    "48473": "Waller"
+  },
+  "metric": "Native 15-minute source records of reported customers without power",
+  "notes": [
+    "County-level estimates, not address/ZIP/circuit-level outages.",
+    "Missing timestamps are not converted to verified no-outage observations.",
+    "Customers are electric service accounts, not numbers of people.",
+    "The total_customers field is used only as the supplied denominator; source coverage may vary.",
+    "A peak reported share is a past observed fraction, not the future probability for a household."
+  ]
+}

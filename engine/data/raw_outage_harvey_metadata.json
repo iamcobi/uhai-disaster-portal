@@ -1,0 +1,19 @@
+{
+  "source_url": "https://ndownloader.figshare.com/files/42547828",
+  "source_file": "eaglei_outages_2017.csv",
+  "retrieved_date": "2026-10-23",
+  "source_byte_range": [
+    453068596,
+    497471300
+  ],
+  "retained_rows": 6308,
+  "time_window_UTC_end_exclusive": [
+    "2017-08-25",
+    "2017-09-15"
+  ],
+  "notes": [
+    "Native source records of reported customers without power.",
+    "Missing rows are unknown, not zero.",
+    "Historical utility coverage varies; low reported peaks do not establish low true impact."
+  ]
+}

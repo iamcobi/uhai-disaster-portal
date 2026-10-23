@@ -1,0 +1,15 @@
+test_01_dataset_counts_and_missing_values (__main__.PortalTests.test_01_dataset_counts_and_missing_values) ... ok
+test_02_roles_and_targets (__main__.PortalTests.test_02_roles_and_targets) ... ok
+test_03_closed_site_is_never_selected (__main__.PortalTests.test_03_closed_site_is_never_selected) ... ok
+test_04_slowdown_does_not_improve_optimal_coverage (__main__.PortalTests.test_04_slowdown_does_not_improve_optimal_coverage) ... ok
+test_05_storms_and_quality_flags (__main__.PortalTests.test_05_storms_and_quality_flags) ... ok
+test_06_supply_assumptions_and_unknowns (__main__.PortalTests.test_06_supply_assumptions_and_unknowns) ... ok
+test_07_export_complete (__main__.PortalTests.test_07_export_complete) ... ok
+test_08_invalid_inputs_and_cross_origin_rejected (__main__.PortalTests.test_08_invalid_inputs_and_cross_origin_rejected) ... ok
+test_09_local_assets_and_documents (__main__.PortalTests.test_09_local_assets_and_documents) ... ok
+test_10_model_report_and_stale_utility (__main__.PortalTests.test_10_model_report_and_stale_utility) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.209s
+
+OK
