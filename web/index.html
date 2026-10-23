@@ -186,12 +186,25 @@
           </div>
         </div>
 
-        <!-- THE MAP -->
-        <div id="map" role="region" aria-label="Interactive map"></div>
+        <!-- FLOATING PREDICTION RESULTS POP-UP ("I WANT TO SEE WHERE BEST PLACES ARE") -->
+        <div id="prediction-popup" class="prediction-popup" hidden>
+          <div class="popup-head">
+            <div style="display:flex;align-items:center;gap:8px">
+              <span class="popup-green-badge">✖</span>
+              <div>
+                <strong style="color:#ffffff;font-size:12px;text-transform:uppercase">Best Places Predicted</strong>
+                <div style="font-size:10px;color:#a1a1aa">Optimal AI Placements · Green ✖ on map</div>
+              </div>
+            </div>
+            <button id="close-popup" class="btn-close-min" title="Dismiss">✕</button>
+          </div>
+          <div id="prediction-popup-content" class="popup-content"></div>
+        </div>
 
         <!-- FLOATING MINIMAL LEGEND & PROMPT -->
         <div class="map-minimal-legend">
           <div class="legend-items">
+            <span style="color:#22c55e;font-weight:700"><span class="marker-green-x" style="width:13px;height:13px;font-size:9px;display:inline-flex;vertical-align:middle;margin-right:2px">✖</span> Best Place</span>
             <span>🚑 Ambulance</span>
             <span>🚨 Emergency Building</span>
             <span>🏠 Community Hub</span>
@@ -199,7 +212,7 @@
             <span>🏥 Hospital</span>
           </div>
           <div class="legend-tip">
-            <span id="map-status">Click any site marker to inspect AI decision logic</span>
+            <span id="map-status">Click any green ✖ site marker to inspect AI decision logic</span>
           </div>
         </div>
 

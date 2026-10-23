@@ -1210,3 +1210,141 @@ dialog::backdrop {
     font-weight: bold !important;
   }
 }
+
+/* GREEN X PREDICTED BEST PLACEMENT BADGE ("THERE SHOULD BE A GREEN X TO SHOW WHERE BEST PLACES ARE") */
+.marker-badge.best-placement {
+  background: #000000 !important;
+  border: 2px solid #22c55e !important;
+  box-shadow: 0 0 16px rgba(34, 197, 94, 0.7), 0 4px 16px rgba(0, 0, 0, 0.9) !important;
+}
+
+.marker-badge.best-placement .marker-label {
+  color: #ffffff;
+}
+
+.marker-green-x {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 17px;
+  height: 17px;
+  background: #22c55e;
+  color: #000000;
+  font-weight: 900;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 1;
+  box-shadow: 0 0 10px rgba(34, 197, 94, 0.9);
+  animation: pulse-green-x 2s infinite ease-in-out;
+}
+
+@keyframes pulse-green-x {
+  0%, 100% { transform: scale(1); box-shadow: 0 0 8px rgba(34, 197, 94, 0.8); }
+  50% { transform: scale(1.15); box-shadow: 0 0 16px rgba(34, 197, 94, 1); }
+}
+
+.marker-pin-stem.green-stem {
+  background: #22c55e !important;
+  box-shadow: 0 0 6px rgba(34, 197, 94, 0.9);
+}
+
+/* PREDICTION POPUP OVERLAY ON MAP ("I DON'T SEE ANYTHING POP UP") */
+.prediction-popup {
+  position: absolute;
+  top: 70px;
+  left: 320px;
+  z-index: 25;
+  width: 380px;
+  background: rgba(9, 9, 11, 0.95);
+  backdrop-filter: blur(16px);
+  border: 1.5px solid #22c55e;
+  border-radius: 10px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.9), 0 0 20px rgba(34, 197, 94, 0.3);
+  overflow: hidden;
+  animation: slide-in-down 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes slide-in-down {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.popup-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: #141416;
+  border-bottom: 1px solid #27272a;
+}
+
+.popup-green-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: #22c55e;
+  color: #000000;
+  font-weight: 900;
+  font-size: 13px;
+  border-radius: 4px;
+}
+
+.popup-content {
+  padding: 10px 14px 14px 14px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.popup-site-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: #18181b;
+  border: 1px solid #27272a;
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-top: 6px;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+.popup-site-card:hover {
+  border-color: #22c55e;
+  background: #202024;
+}
+
+.popup-site-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.popup-card-name {
+  font-size: 11px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.popup-card-roles {
+  font-size: 10px;
+  color: #a1a1aa;
+}
+
+.popup-btn-inspect {
+  background: #27272a;
+  color: #ffffff;
+  border: 1px solid #3f3f46;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.popup-btn-inspect:hover {
+  background: #22c55e;
+  color: #000000;
+  border-color: #22c55e;
+}

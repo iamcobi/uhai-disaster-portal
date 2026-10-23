@@ -150,6 +150,7 @@ function initControls() {
   if ($('#close-print')) $('#close-print').onclick = () => $('#print-modal').close();
   if ($('#do-print')) $('#do-print').onclick = () => window.print();
   if ($('#print-modal')) $('#print-modal').onclick = e => { if (e.target === $('#print-modal')) $('#print-modal').close(); };
+  if ($('#close-popup')) $('#close-popup').onclick = () => { $('#prediction-popup').hidden = true; };
 
   // Outer Houston Sector Camera Navigation
   const sectorPresets = {
@@ -259,6 +260,7 @@ async function loadScenario(includeStorm) {
     renderStagedPills();
     renderLayer();
     renderMarkers();
+    showPredictionPopup(true);
 
     const firstAmbulance = state.plan.roles.find(r => r.id === 'ambulance')?.sites[0];
     if (firstAmbulance && (!state.selectedSite || !state.selectedSite.is_selected)) {
@@ -595,13 +597,14 @@ function addSiteMarker(lon, lat, iconText, name, roles) {
   const el = document.createElement('button');
   el.className = `site-marker ${cfg.markerClass}`;
   el.innerHTML = `
-    <div class="marker-badge">
+    <div class="marker-badge best-placement">
+      <span class="marker-green-x" title="AI Predicted Best Place">✖</span>
       <span class="marker-icon">${iconText}</span>
       <span class="marker-label">${safe(shortName)}</span>
     </div>
-    <div class="marker-pin-stem"></div>
+    <div class="marker-pin-stem green-stem"></div>
   `;
-  el.title = `${name}\nRoles: ${roles.map(r => r.name).join(', ')}\nClick to inspect AI placement rationale`;
+  el.title = `[BEST PLACE ✖] ${name}\nRoles: ${roles.map(r => r.name).join(', ')}\nClick to inspect AI placement rationale`;
 
   el.onclick = e => {
     e.stopPropagation();
@@ -1070,6 +1073,61 @@ function showPrintDirective() {
   `;
 
   modal.showModal();
+}
+
+function showPredictionPopup(autoOpen = false) {
+  if (!state.plan || !state.boot) return;
+  const popup = $('#prediction-popup');
+  const content = $('#prediction-popup-content');
+  if (!popup || !content) return;
+
+  const combined = new Map();
+  state.plan.roles.forEach(r => {
+    r.sites.forEach(name => {
+      if (!combined.has(name)) combined.set(name, []);
+      combined.get(name).push(r);
+    });
+  });
+
+  const cards = [];
+  for (const [name, roles] of combined) {
+    const shortName = name
+      .replace(' Multi-Service Center', ' MSC')
+      .replace(' Community Center', ' CC')
+      .replace(' Health and Multi-Service Center', ' MSC');
+    const roleIcons = roles.map(r => ({ ambulance: '🚑', cooling: '❄️', community: '🏠', dispatch: '🚨' }[r.id])).join(' ');
+    const roleNames = roles.map(r => r.name).join(', ');
+
+    cards.push(`
+      <div class="popup-site-card" data-site="${safe(name)}" data-role="${roles[0].id}">
+        <div class="popup-site-left">
+          <span class="marker-green-x" style="width:16px;height:16px;font-size:11px">✖</span>
+          <div>
+            <div class="popup-card-name">${safe(shortName)}</div>
+            <div class="popup-card-roles">${roleIcons} ${safe(roleNames)}</div>
+          </div>
+        </div>
+        <button class="popup-btn-inspect">Inspect ↗</button>
+      </div>
+    `);
+  }
+
+  content.innerHTML = `
+    <div style="font-size:10px;color:var(--text-sub);margin-bottom:6px">
+      ${combined.size} optimal locations predicted by AI model. Marked on map with <strong style="color:#22c55e">Green ✖</strong>:
+    </div>
+    ${cards.join('')}
+  `;
+
+  $$('#prediction-popup-content .popup-site-card').forEach(card => {
+    card.onclick = () => {
+      inspectSite(card.dataset.site, card.dataset.role);
+    };
+  });
+
+  if (autoOpen || !popup.hidden) {
+    popup.hidden = false;
+  }
 }
 
 // Start portal
