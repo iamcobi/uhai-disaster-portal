@@ -6,19 +6,19 @@ const fmt = (v, d = 0) => v == null ? 'Unknown' : Number(v).toLocaleString(undef
 const safe = v => String(v ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 const roleConfig = {
-  ambulance: { name: 'Ambulance Base', color: '#fbbf24', markerClass: 'marker-amb', icon: '🚑' },
-  cooling: { name: 'Cooling Hub', color: '#38bdf8', markerClass: 'marker-cool', icon: '❄️' },
-  community: { name: 'Community Hub', color: '#34d399', markerClass: 'marker-comm', icon: '🏛️' },
-  dispatch: { name: 'Incident Outpost', color: '#fb7185', markerClass: 'marker-disp', icon: '🚨' }
+  ambulance: { name: 'Ambulance Standby Base', color: '#ffffff', markerClass: 'marker-amb', icon: '🚑' },
+  cooling: { name: 'Cooling & Power Hub', color: '#ffffff', markerClass: 'marker-cool', icon: '❄️' },
+  community: { name: 'Community Relief Hub', color: '#ffffff', markerClass: 'marker-comm', icon: '🏠' },
+  dispatch: { name: 'Emergency Incident Building', color: '#ffffff', markerClass: 'marker-disp', icon: '🚨' }
 };
 
 const layerDefs = [
-  ['coverage', '10m Reach', '#00f5c4', null, 'ZIP centroids within 10 modeled minutes.'],
-  ['outages', 'Outages', '#ee796f', null, 'County peaks of reported customer power loss.'],
-  ['flood', 'Flooding', '#38bdf8', 'Flood/drainage reports', 'Density of recorded flood and drainage calls.'],
-  ['tree', 'Trees', '#d5dc79', 'Tree removal reports', 'Density of fallen tree obstructions.'],
-  ['debris', 'Debris', '#efbd69', 'Storm debris reports', 'Structural and road debris reports.'],
-  ['electrical', 'Electrical', '#fb7185', 'Electrical hazard reports', 'Downed live wires and transformer hazards.']
+  ['coverage', '10m Reach', '#ffffff', null, 'ZIP centroids within 10 modeled rapid minutes.'],
+  ['outages', 'Power Outages', '#a1a1aa', null, 'County peaks of reported customer grid outages.'],
+  ['flood', 'Flooding Calls', '#e4e4e7', 'Flood/drainage reports', 'Density of recorded flood and drainage calls.'],
+  ['tree', 'Fallen Trees', '#d4d4d8', 'Tree removal reports', 'Density of fallen tree obstructions.'],
+  ['debris', 'Road Debris', '#a1a1aa', 'Storm debris reports', 'Structural and road debris reports.'],
+  ['electrical', 'Downed Wires', '#ffffff', 'Electrical hazard reports', 'Downed live wires and transformer hazards.']
 ];
 
 const state = {
@@ -133,35 +133,8 @@ function initControls() {
   $('#hospitals').onchange = renderMarkers;
 
   $('#region').onclick = () => {
-    state.is3d = false;
-    $('#context-note').hidden = true;
-    $('#three-d').classList.remove('active');
-    $('#three-d').textContent = '3D Downtown ◇';
     if (state.gl) state.map.fitBounds([[-96.02, 29.4], [-94.9, 30.25]], { padding: 40, pitch: 0, bearing: 0 });
     else state.map.fitBounds([[29.4, -96.02], [30.25, -94.9]]);
-  };
-
-  /* 3D BUILDINGS TOGGLE */
-  $('#three-d').onclick = () => {
-    state.is3d = !state.is3d;
-    $('#context-note').hidden = !state.is3d;
-    $('#three-d').classList.toggle('active', state.is3d);
-    if (state.is3d) {
-      $('#three-d').textContent = 'Exit 3D View ✕';
-      if (state.gl) {
-        state.map.flyTo({
-          center: [-95.365, 29.757],
-          zoom: 16.0,
-          pitch: 65,
-          bearing: -30,
-          duration: 1400
-        });
-      } else {
-        state.map.setView([29.757, -95.365], 16);
-      }
-    } else {
-      $('#region').click();
-    }
   };
 
   $('#close-xai').onclick = () => {
@@ -297,7 +270,7 @@ async function initMap() {
       style: {
         version: 8,
         sources: {},
-        layers: [{ id: 'background', type: 'background', paint: { 'background-color': '#061320' } }]
+        layers: [{ id: 'background', type: 'background', paint: { 'background-color': '#000000' } }]
       }
     });
 
@@ -310,64 +283,40 @@ async function initMap() {
     const m = state.map;
     const empty = { type: 'FeatureCollection', features: [] };
 
-    // County boundaries
+    // County boundaries (Monochrome)
     m.addSource('counties', { type: 'geojson', data: empty });
-    m.addLayer({ id: 'county-fill', type: 'fill', source: 'counties', paint: { 'fill-color': '#0c2234', 'fill-opacity': 0.85 } });
-    m.addLayer({ id: 'county-line', type: 'line', source: 'counties', paint: { 'line-color': '#203d52', 'line-width': 1.2 } });
+    m.addLayer({ id: 'county-fill', type: 'fill', source: 'counties', paint: { 'fill-color': '#050505', 'fill-opacity': 0.95 } });
+    m.addLayer({ id: 'county-line', type: 'line', source: 'counties', paint: { 'line-color': '#27272a', 'line-width': 1.5 } });
 
-    // Load roads & buildings in parallel
-    const context = await Promise.allSettled([
-      fetch('/mapdata/roads.geojson').then(r => r.json()),
-      fetch('/mapdata/buildings.geojson').then(r => r.json())
-    ]);
-
-    if (context[0].status === 'fulfilled') {
-      m.addSource('roads', { type: 'geojson', data: context[0].value });
+    // Load full Greater Houston road network
+    try {
+      const roads = await fetch('/mapdata/roads.geojson').then(r => r.json());
+      m.addSource('roads', { type: 'geojson', data: roads });
       m.addLayer({
         id: 'roads',
         type: 'line',
         source: 'roads',
         paint: {
-          'line-color': '#3b556b',
-          'line-opacity': 0.65,
-          'line-width': ['interpolate', ['linear'], ['zoom'], 8, 0.75, 15, 3]
-        }
-      });
-    }
-
-    // 3D Extruded Buildings Layer
-    if (context[1].status === 'fulfilled') {
-      m.addSource('buildings', { type: 'geojson', data: context[1].value });
-      m.addLayer({
-        id: 'buildings',
-        type: 'fill-extrusion',
-        source: 'buildings',
-        minzoom: 10,
-        paint: {
-          // Color based on height: deep blue -> sky blue -> mint -> electric cyan -> white
-          'fill-extrusion-color': [
-            'interpolate', ['linear'], ['coalesce', ['get', 'height_m'], 10],
-            0, '#1e3a8a',
-            30, '#0284c7',
-            80, '#00f5c4',
-            200, '#38bdf8',
-            305, '#ffffff'
+          'line-color': [
+            'case',
+            ['==', ['get', 'tier'], 1], '#ffffff',
+            '#52525b'
           ],
-          'fill-extrusion-height': ['coalesce', ['get', 'height_m'], 15],
-          'fill-extrusion-base': 0,
-          'fill-extrusion-opacity': 0.92
+          'line-opacity': [
+            'case',
+            ['==', ['get', 'tier'], 1], 0.9,
+            0.6
+          ],
+          'line-width': [
+            'interpolate', ['linear'], ['zoom'],
+            7, ['case', ['==', ['get', 'tier'], 1], 1.8, 0.8],
+            14, ['case', ['==', ['get', 'tier'], 1], 3.8, 2.0]
+          ]
         }
       });
+    } catch (e) {}
 
-      // Directional light for 3D faces
-      m.setLight({
-        anchor: 'viewport',
-        color: '#ffffff',
-        intensity: 0.55
-      });
-    }
-
-    // Reports heatmap
+    // Reports heatmap (Monochrome)
     m.addSource('reports', { type: 'geojson', data: empty });
     m.addLayer({
       id: 'heat',
@@ -375,30 +324,41 @@ async function initMap() {
       source: 'reports',
       paint: {
         'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 7, 12, 13, 30],
-        'heatmap-intensity': 0.8,
-        'heatmap-opacity': 0.75,
+        'heatmap-intensity': 0.85,
+        'heatmap-opacity': 0.65,
         'heatmap-color': [
           'interpolate', ['linear'], ['heatmap-density'],
           0, 'rgba(0,0,0,0)',
-          0.2, '#06b6d4',
-          0.6, '#fbbf24',
-          1, '#f43f5e'
+          0.2, '#27272a',
+          0.5, '#71717a',
+          0.8, '#d4d4d8',
+          1, '#ffffff'
         ]
       }
     });
 
-    // ZIP centroids
+    // ZIP centroids across all 189 Houston areas (Monochrome)
     m.addSource('areas', { type: 'geojson', data: empty });
     m.addLayer({
       id: 'areas',
       type: 'circle',
       source: 'areas',
       paint: {
-        'circle-radius': ['interpolate', ['linear'], ['zoom'], 7, 2.5, 12, 5.5],
-        'circle-color': '#00f5c4',
-        'circle-opacity': 0.75,
-        'circle-stroke-color': '#061320',
-        'circle-stroke-width': 1
+        'circle-radius': ['interpolate', ['linear'], ['zoom'], 7, 3, 12, 6],
+        'circle-color': [
+          'case',
+          ['boolean', ['get', 'selected'], false], '#ffffff',
+          ['boolean', ['get', 'covered'], false], '#ffffff',
+          '#3f3f46'
+        ],
+        'circle-opacity': [
+          'case',
+          ['boolean', ['get', 'selected'], false], 1.0,
+          ['boolean', ['get', 'covered'], false], 0.85,
+          0.4
+        ],
+        'circle-stroke-color': '#000000',
+        'circle-stroke-width': 1.5
       }
     });
 
@@ -406,16 +366,17 @@ async function initMap() {
     m.on('mouseenter', 'areas', () => m.getCanvas().style.cursor = 'pointer');
     m.on('mouseleave', 'areas', () => m.getCanvas().style.cursor = '');
   } else {
-    // 2D Leaflet Fallback
+    // 2D Leaflet Fallback (Monochrome)
     state.gl = false;
     state.map = L.map('map', { zoomControl: true }).setView([29.80, -95.42], 9);
     try {
       const roads = await fetch('/mapdata/roads.geojson').then(r => r.json());
-      L.geoJSON(roads, { style: { color: '#3b556b', weight: 1, opacity: 0.6 } }).addTo(state.map);
-      const bldgs = await fetch('/mapdata/buildings.geojson').then(r => r.json());
-      L.geoJSON(bldgs, {
-        style: { color: '#00f5c4', weight: 1, fillColor: '#0284c7', fillOpacity: 0.5 },
-        onEachFeature: (f, l) => l.bindPopup(`<b>${safe(f.properties.name || 'Building')}</b><br>Height: ${f.properties.height_m}m`)
+      L.geoJSON(roads, {
+        style: f => ({
+          color: f.properties?.tier === 1 ? '#ffffff' : '#52525b',
+          weight: f.properties?.tier === 1 ? 2 : 1,
+          opacity: 0.8
+        })
       }).addTo(state.map);
     } catch (e) {}
   }
@@ -439,11 +400,7 @@ async function renderLayer() {
   const d = layerDefs.find(x => x[0] === state.layer) || layerDefs[0];
   $('#layer-help').textContent = d[1];
 
-  const green = ['tree', 'debris'].includes(state.layer);
-  $('#legend').style.background = green ? 'linear-gradient(90deg,#15803d,#a3e635,#fef08a)' :
-    state.layer === 'flood' ? 'linear-gradient(90deg,#0369a1,#38bdf8,#e0f2fe)' :
-    state.layer === 'coverage' ? 'linear-gradient(90deg,#00f5c4,#fbbf24)' :
-    'linear-gradient(90deg,#4c0519,#e11d48,#fecdd3)';
+  $('#legend').style.background = 'linear-gradient(90deg, #18181b, #71717a, #ffffff)';
 
   const reports = d[3] ? state.data.reports.features.filter(f => f.properties.category === d[3]) : [];
 
@@ -451,15 +408,15 @@ async function renderLayer() {
     const m = state.map;
     m.getSource('counties').setData(state.data.counties);
     m.setPaintProperty('county-fill', 'fill-color', state.layer === 'outages' ?
-      ['case', ['any', ['get', 'flagged'], ['!', ['get', 'available']]], '#334155',
-      ['interpolate', ['linear'], ['get', 'intensity'], 0, '#0c2234', 0.5, '#7f1d1d', 1, '#f43f5e']] :
-      '#0c2234'
+      ['case', ['any', ['get', 'flagged'], ['!', ['get', 'available']]], '#27272a',
+      ['interpolate', ['linear'], ['get', 'intensity'], 0, '#09090b', 0.5, '#52525b', 1, '#ffffff']] :
+      '#050505'
     );
     m.getSource('reports').setData({ type: 'FeatureCollection', features: reports });
     m.getSource('areas').setData(areaFeatures());
     m.setPaintProperty('areas', 'circle-color', state.layer === 'coverage' ?
-      ['case', ['get', 'covered'], '#00f5c4', '#fbbf24'] :
-      ['case', ['get', 'selected'], '#ffffff', '#64748b']
+      ['case', ['get', 'covered'], '#ffffff', '#3f3f46'] :
+      ['case', ['get', 'selected'], '#ffffff', '#71717a']
     );
     m.setPaintProperty('areas', 'circle-radius', ['case', ['get', 'selected'], 6.5, 3]);
   } else {
@@ -468,10 +425,10 @@ async function renderLayer() {
     }
     state.countyLayer = L.geoJSON(state.data.counties, {
       style: f => ({
-        color: '#203d52',
-        weight: 1,
-        fillColor: state.layer === 'outages' ? (f.properties.flagged || !f.properties.available ? '#334155' : `hsl(5 60% ${20 + f.properties.intensity * 35}%)`) : '#0c2234',
-        fillOpacity: 0.8
+        color: '#27272a',
+        weight: 1.5,
+        fillColor: state.layer === 'outages' ? (f.properties.flagged || !f.properties.available ? '#27272a' : `hsl(0 0% ${20 + f.properties.intensity * 60}%)`) : '#050505',
+        fillOpacity: 0.9
       })
     }).addTo(state.map);
 
@@ -481,21 +438,21 @@ async function renderLayer() {
     state.areaLayer = L.geoJSON(areaFeatures(), {
       pointToLayer: (f, ll) => L.circleMarker(ll, {
         radius: f.properties.selected ? 6 : 3,
-        color: '#ffffff',
-        weight: 1,
-        fillColor: state.layer === 'coverage' ? (f.properties.covered ? '#00f5c4' : '#fbbf24') : '#64748b',
-        fillOpacity: 0.85
+        color: '#000000',
+        weight: 1.5,
+        fillColor: state.layer === 'coverage' ? (f.properties.covered ? '#ffffff' : '#3f3f46') : '#71717a',
+        fillOpacity: 0.95
       }),
       onEachFeature: (f, l) => l.on('click', () => selectZip(f.properties.zip, false))
     }).addTo(state.map);
   }
 
-  $('#map-status').textContent = state.layer === 'coverage' ? 'Green = ≤10 min response target · Amber = Outside target' :
-    state.layer === 'outages' ? `${state.data.history.length} counties · red = peak power loss` :
-    `${fmt(reports.length)} 311 distress reports`;
+  $('#map-status').textContent = state.layer === 'coverage' ? 'White = ≤10 min rapid response target · Charcoal = Outside target' :
+    state.layer === 'outages' ? `${state.data.history.length} counties · White = Peak grid outages` :
+    `${fmt(reports.length)} 311 hurricane distress reports`;
 }
 
-/* CLICKABLE SITE MARKERS */
+/* CLICKABLE SITE MARKERS WITH REAL TACTICAL BADGE ICONS */
 function renderMarkers() {
   if (!state.plan || !state.mapReady) return;
   state.markers.forEach(m => state.gl ? m.remove() : state.map.removeLayer(m));
@@ -513,7 +470,7 @@ function renderMarkers() {
     const s = state.boot.sites.find(x => x.name === name);
     if (!s) continue;
     const primaryRole = roles[0].id;
-    const label = roles.map(r => ({ ambulance: '🚑', cooling: '❄️', community: '🏛️', dispatch: '🚨' }[r.id])).join('');
+    const label = roles.map(r => ({ ambulance: '🚑', cooling: '❄️', community: '🏠', dispatch: '🚨' }[r.id])).join(' ');
     addSiteMarker(s.lon, s.lat, label, name, roles);
   }
 
@@ -527,11 +484,21 @@ function renderMarkers() {
 function addSiteMarker(lon, lat, iconText, name, roles) {
   const primaryRoleId = roles[0].id;
   const cfg = roleConfig[primaryRoleId] || roleConfig.ambulance;
+  const shortName = name
+    .replace(' Multi-Service Center', ' MSC')
+    .replace(' Community Center', ' CC')
+    .replace(' Health and Multi-Service Center', ' MSC');
 
   const el = document.createElement('button');
   el.className = `site-marker ${cfg.markerClass}`;
-  el.innerHTML = iconText;
-  el.title = `${name}\nClick to inspect AI placement rationale`;
+  el.innerHTML = `
+    <div class="marker-badge">
+      <span class="marker-icon">${iconText}</span>
+      <span class="marker-label">${safe(shortName)}</span>
+    </div>
+    <div class="marker-pin-stem"></div>
+  `;
+  el.title = `${name}\nRoles: ${roles.map(r => r.name).join(', ')}\nClick to inspect AI placement rationale`;
 
   el.onclick = e => {
     e.stopPropagation();
@@ -539,11 +506,11 @@ function addSiteMarker(lon, lat, iconText, name, roles) {
   };
 
   if (state.gl) {
-    const marker = new maplibregl.Marker({ element: el }).setLngLat([lon, lat]).addTo(state.map);
+    const marker = new maplibregl.Marker({ element: el, anchor: 'bottom' }).setLngLat([lon, lat]).addTo(state.map);
     state.markers.push(marker);
   } else {
     const marker = L.marker([lat, lon], {
-      icon: L.divIcon({ className: '', html: el.outerHTML, iconSize: [28, 28] })
+      icon: L.divIcon({ className: '', html: el.outerHTML, iconSize: [120, 36], iconAnchor: [60, 36] })
     }).addTo(state.map);
     marker.on('click', () => inspectSite(name, primaryRoleId));
     state.markers.push(marker);
@@ -552,16 +519,23 @@ function addSiteMarker(lon, lat, iconText, name, roles) {
 
 function addHospitalMarker(lon, lat, iconText, name) {
   const el = document.createElement('div');
-  el.className = 'site-marker hospital';
-  el.innerHTML = iconText;
-  el.title = `${name}\nFixed Hospital Anchor`;
+  el.className = 'site-marker marker-hospital';
+  const shortName = name.replace(' Hospital', '').replace(' Medical Center', ' Med');
+  el.innerHTML = `
+    <div class="marker-badge hospital-badge">
+      <span class="marker-icon">🏥</span>
+      <span class="marker-label">${safe(shortName)}</span>
+    </div>
+    <div class="marker-pin-stem"></div>
+  `;
+  el.title = `${name}\nFixed Regional Hospital Anchor`;
 
   if (state.gl) {
-    const marker = new maplibregl.Marker({ element: el }).setLngLat([lon, lat]).addTo(state.map);
+    const marker = new maplibregl.Marker({ element: el, anchor: 'bottom' }).setLngLat([lon, lat]).addTo(state.map);
     state.markers.push(marker);
   } else {
     const marker = L.marker([lat, lon], {
-      icon: L.divIcon({ className: '', html: el.outerHTML, iconSize: [26, 26] })
+      icon: L.divIcon({ className: '', html: el.outerHTML, iconSize: [100, 32], iconAnchor: [50, 32] })
     }).addTo(state.map);
     state.markers.push(marker);
   }

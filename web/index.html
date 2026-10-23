@@ -62,7 +62,7 @@
       <aside class="control-dock">
         <div class="dock-header">
           <div class="dock-title-row">
-            <span class="dock-title">Resource Targets</span>
+            <span class="dock-title">Hurricane Staging Targets</span>
             <span id="dates" class="dock-dates"></span>
           </div>
         </div>
@@ -72,34 +72,34 @@
           <div class="dock-section">
             <div class="role-row">
               <div class="role-meta">
-                <span class="role-name"><i class="dot-ambulance"></i> Ambulances</span>
+                <span class="role-name">🚑 Keep Ambulances</span>
                 <span id="ambulance-value" class="count-pill">2</span>
               </div>
-              <input id="ambulance" type="range" min="1" max="5" value="2" class="slider-role slider-ambulance">
+              <input id="ambulance" type="range" min="1" max="5" value="2" class="slider-role slider-ambulance" aria-label="Ambulances to Stage">
             </div>
 
             <div class="role-row">
               <div class="role-meta">
-                <span class="role-name"><i class="dot-cooling"></i> Cooling Hubs</span>
-                <span id="cooling-value" class="count-pill">3</span>
-              </div>
-              <input id="cooling" type="range" min="1" max="5" value="3" class="slider-role slider-cooling">
-            </div>
-
-            <div class="role-row">
-              <div class="role-meta">
-                <span class="role-name"><i class="dot-community"></i> Community Hubs</span>
-                <span id="community-value" class="count-pill">3</span>
-              </div>
-              <input id="community" type="range" min="1" max="5" value="3" class="slider-role slider-community">
-            </div>
-
-            <div class="role-row">
-              <div class="role-meta">
-                <span class="role-name"><i class="dot-dispatch"></i> Incident Outposts</span>
+                <span class="role-name">🚨 Emergency Response Buildings</span>
                 <span id="dispatch-value" class="count-pill">2</span>
               </div>
-              <input id="dispatch" type="range" min="1" max="5" value="2" class="slider-role slider-dispatch">
+              <input id="dispatch" type="range" min="1" max="5" value="2" class="slider-role slider-dispatch" aria-label="Emergency Buildings">
+            </div>
+
+            <div class="role-row">
+              <div class="role-meta">
+                <span class="role-name">🏠 Community Relief Hubs</span>
+                <span id="community-value" class="count-pill">3</span>
+              </div>
+              <input id="community" type="range" min="1" max="5" value="3" class="slider-role slider-community" aria-label="Community Hubs">
+            </div>
+
+            <div class="role-row">
+              <div class="role-meta">
+                <span class="role-name">❄️ Cooling &amp; Power Hubs</span>
+                <span id="cooling-value" class="count-pill">3</span>
+              </div>
+              <input id="cooling" type="range" min="1" max="5" value="3" class="slider-role slider-cooling" aria-label="Cooling Hubs">
             </div>
           </div>
 
@@ -123,7 +123,7 @@
 
           <!-- PRIMARY ACTION -->
           <button id="calculate" class="btn-optimize">
-            <span>⚡ Run Optimization</span>
+            <span>⚡ Find Best Emergency Sites</span>
           </button>
 
           <!-- OVERLAYS CHIPS -->
@@ -158,14 +158,8 @@
           <div class="kpi-pill"><span class="kpi-icon">🛡️</span> <strong id="kpi-flood-safe">100%</strong> <small>Zone X Safe</small></div>
           <div class="kpi-pill"><span class="kpi-icon">👥</span> <strong id="kpi-pop">--</strong> <small>Pop. Covered</small></div>
           <div class="kpi-actions">
-            <button id="three-d" class="btn-kpi-tool" title="View Houston Downtown 3D Buildings">3D Downtown ◇</button>
-            <button id="region" class="btn-kpi-tool" title="Reset Camera to Region">Reset View</button>
+            <button id="region" class="btn-kpi-tool" title="Reset Camera to Houston Region">Reset View ↺</button>
           </div>
-        </div>
-
-        <!-- 3D PERSPECTIVE HELPER NOTE -->
-        <div id="context-note" hidden>
-          <strong>3D Downtown Mode Active</strong> · Houston skyscrapers extruded by height (Chase Tower 305m, Wells Fargo 302m, Total Plaza 158m). Drag right-click to tilt/rotate camera.
         </div>
 
         <!-- THE MAP -->
@@ -174,14 +168,14 @@
         <!-- FLOATING MINIMAL LEGEND & PROMPT -->
         <div class="map-minimal-legend">
           <div class="legend-items">
-            <span class="item-amb"><i></i> Ambulance Base</span>
-            <span class="item-cool"><i></i> Cooling Hub</span>
-            <span class="item-comm"><i></i> Community Hub</span>
-            <span class="item-disp"><i></i> Incident Outpost</span>
-            <span class="item-hosp"><i></i> Hospital</span>
+            <span>🚑 Ambulance</span>
+            <span>🚨 Emergency Building</span>
+            <span>🏠 Community Hub</span>
+            <span>❄️ Cooling Hub</span>
+            <span>🏥 Hospital</span>
           </div>
           <div class="legend-tip">
-            <span id="map-status">Click any ambulance or site marker to inspect AI decision logic</span>
+            <span id="map-status">Click any site marker to inspect AI decision logic</span>
           </div>
         </div>
 
